@@ -7,6 +7,11 @@
  *     ListNode(int val) { this.val = val; }
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
+ 
+ ALGORITHM
+Step 1. Init temp holder Use nextPair to store next pair's position
+Step 2. Swap, make second point to first, prev point to second, and first point to nextPair
+Step 3. Update: Update prev and current pointer to corresponding temp holde
  */
 class Solution {
     public ListNode swapPairs(ListNode head) {
