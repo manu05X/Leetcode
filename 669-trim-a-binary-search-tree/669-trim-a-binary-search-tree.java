@@ -12,6 +12,7 @@
  *         this.right = right;
  *     }
  * }
+ * Solutions Link: https://leetcode.com/problems/trim-a-binary-search-tree/discuss/107026/Java-solution-iteration-version
  */
 class Solution {
     public TreeNode trimBST(TreeNode root, int L, int R) {
