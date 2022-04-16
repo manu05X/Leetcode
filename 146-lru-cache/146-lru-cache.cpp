@@ -1,15 +1,16 @@
 // METHOD 1
 class LRUCache {
 public:
-    class node {
+    class node{
         public:
             int key;
             int val;
-            node* next;
-            node* prev;
-        node(int _key, int _val) {
-            key = _key;
-            val = _val; 
+            node *next;
+            node *prev;
+         
+        node(int k, int v){
+            key = k;
+            val = v;
         }
     };
     
@@ -17,58 +18,71 @@ public:
     node* tail = new node(-1,-1);
     
     int cap;
-    unordered_map<int, node*>m;
+    unordered_map<int,node*> mp;
     
     LRUCache(int capacity) {
-        cap = capacity;    
+        cap = capacity;
         head->next = tail;
         tail->prev = head;
     }
     
-    void addnode(node* newnode) {
+    void addNode(node* newNode)
+    {// temp is a node that head's next points previously So in between head and temp we insert newNode
         node* temp = head->next;
-        newnode->next = temp;
-        newnode->prev = head;
-        head->next = newnode;
-        temp->prev = newnode;
+	    
+        newNode->next = temp;
+        newNode->prev = head;
+	    
+        head->next = newNode;
+        temp->prev = newNode;
     }
     
-    void deletenode(node* delnode) {
-        node* delprev = delnode->prev;
-        node* delnext = delnode->next;
+    void deleteNode(node* delNode){
+        node* delprev = delNode->prev;
+        node* delnext = delNode->next;
+        
         delprev->next = delnext;
         delnext->prev = delprev;
     }
     
-    int get(int key_) {
-        if (m.find(key_) != m.end()) {
-            node* resnode = m[key_];
-            int res = resnode->val;
-            m.erase(key_);
-            deletenode(resnode);
-            addnode(resnode);
-            m[key_] = head->next;
-            return res; 
+    int get(int k) 
+    {   // searching the key in map
+        if(mp.find(k) != mp.end())
+        {
+            node* resNode = mp[k]; // taking node address
+            int temp = resNode->val; // taking node value
+            // erase the key from map as it is the old addres of node
+            mp.erase(k);
+            // now delete the old resNode form DLL as it is now LRU so new address is to be inserted
+            deleteNode(resNode); 
+            addNode(resNode);// add in DLL as it is LRU
+            
+            mp[k] = head->next; //reassign i.e add new address in map
+            return temp; // return the res for the key
         }
-    
         return -1;
     }
     
-    void put(int key_, int value) {
-        if(m.find(key_) != m.end()) {
-            node* existingnode = m[key_];
-            m.erase(key_);
-            deletenode(existingnode);
+    void put(int k, int value) 
+    {
+        // key is present in map
+        if(mp.find(k) != mp.end())
+        {
+            node* existNode = mp[k]; // get its node from map
+            mp.erase(k); //first erase it from map
+            deleteNode(existNode); // delete it from DLL
         }
-        if(m.size() == cap) {
-          m.erase(tail->prev->key);
-          deletenode(tail->prev);
+        // if capacity is full in map
+        if(cap == mp.size())
+        {
+            mp.erase(tail->prev->key); // first erase it from map
+            deleteNode(tail->prev); // delete it from DLL
         }
-        
-        addnode(new node(key_, value));
-        m[key_] = head->next; 
+        addNode(new node(k,value)); // add it to DLL
+        mp[k] = head->next; ////reassign i.e add new address in map for resently used map
     }
 };
+
 /**
  * Your LRUCache object will be instantiated and called as such:
  * LRUCache* obj = new LRUCache(capacity);
