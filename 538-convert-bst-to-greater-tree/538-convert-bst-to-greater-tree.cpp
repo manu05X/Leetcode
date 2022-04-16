@@ -28,9 +28,12 @@ public:
             cur = st.top();
             st.pop();
             
-            int temp = cur->val;
+            /*int temp = cur->val;
             cur->val += sum;
-            sum += temp;
+            sum += temp;*/
+            if(cur)
+                cur->val += sum;
+            sum = cur->val;
             cur = cur->left;
         }
         return root;
