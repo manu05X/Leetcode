@@ -9,6 +9,7 @@ public:
         
         int ans = 0;
         for(auto i : mp){
+            // cout << "First : " <<i.first <<" Second : "<<i.second <<"\n";
             int freq = i.second;
             
             if(freq == 1)
@@ -16,10 +17,12 @@ public:
             if(freq % 3 == 0)
             {
                 ans += freq/3;
+                // cout <<freq <<" freq % 3 == 0 , "<< ans <<endl;
             }
             else
             {
                 ans += freq/3 + 1;
+                // cout << ans <<endl;
             }
         }
         
