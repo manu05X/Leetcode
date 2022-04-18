@@ -13,6 +13,7 @@
  *     }
  * }
  */
+// USING INORDERED TRAVERSAL
 class Solution {
     public int ans = -1, cnt= 0;
     public void inordered(TreeNode root, int k){
@@ -35,5 +36,34 @@ class Solution {
         inordered(root,k);
         
         return ans;
+    }
+}
+
+/*<----------------ITERATIVE METHOD--------------------------------------------------------------------------------------------------------->*/
+
+class Solution {
+    public int kthSmallest(TreeNode root, int k) {
+        Stack<TreeNode> st = new Stack<>();
+        
+        TreeNode curr = root;
+        while(curr != null || st.size() > 0){
+            if(curr != null)
+            {
+                st.push(curr);
+                curr= curr.left;
+            }
+            else
+            {
+                TreeNode p = st.pop();
+                k--;
+                
+                if(k == 0)
+                    return p.val;
+                
+                curr = p.right;
+            }
+        }
+        
+        return 0;
     }
 }
