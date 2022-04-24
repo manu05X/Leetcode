@@ -30,11 +30,11 @@ class UndergroundSystem {
     
     public double getAverageTime(String startStation, String endStation) {
         String route = startStation + "-" + endStation;
-        
+        // Lookup how many times this route journey has been made, and the total time.
         Pair<Integer, Integer> checkout = journeyData.get(route);
         Integer totalTime = checkout.getKey();
         Integer totalTrips = checkout.getValue();
-        
+         // The average is simply the total divided by the number of trips.
         return (double) totalTime / totalTrips;
         
     }
