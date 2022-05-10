@@ -6,8 +6,8 @@ public:
             ans.push_back(combination);
             return;
         }
-        if(combination.size() < k)
-        {
+        // if(combination.size() < k)
+    
           for(int i = start; i <= 9; i++)
           {
                 if(target - i < 0)
@@ -16,7 +16,7 @@ public:
                 SumUntil(ans, combination, k, target-i,i+1);
                 combination.pop_back();
             }  
-        }
+        
     }
     
     vector<vector<int>> combinationSum3(int k, int n) {
