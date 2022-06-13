@@ -7,7 +7,7 @@ public:
         vector<int> ans;
         for(auto x: nums1)
         {
-            if(mp.find(x) != mp.end() && mp[x] != 0)
+            if(mp.count(x) && mp[x] != 0)
             {
                 ans.push_back(x);
                 mp[x]--;
