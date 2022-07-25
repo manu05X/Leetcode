@@ -1,23 +1,31 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        int idx1 = lower_bound(nums, target);
-    int idx2 = lower_bound(nums, target+1)-1;
-    if (idx1 < nums.size() && nums[idx1] == target)
-        return {idx1, idx2};
-    else
-        return {-1, -1};
-}
-
-int lower_bound(vector<int>& nums, int target) {
-    int l = 0, r = nums.size()-1;
-    while (l <= r) {
-        int mid = (r-l)/2+l;
-        if (nums[mid] < target)
-            l = mid+1;
+        if(nums.size() < 1)
+            return {-1,-1};
+        int st = lower_bound(nums, target);
+        int end = lower_bound(nums, target+1)-1;
+        
+        if(st < nums.size() && nums[st] == target)
+            return {st,end};
         else
-            r = mid-1;
+            return {-1,-1};
     }
-    return l;
+    
+    int lower_bound(vector<int>& nums, int target)
+    {
+        int l = 0;
+        int h = nums.size()-1;
+        
+        while(l<=h)
+        {
+            int m = l+(h-l)/2;
+            if(nums[m] < target)
+                l = m+1;
+            else
+                h = m-1;
+        }
+        
+        return l;
     }
 };
