@@ -4,8 +4,14 @@ public:
         int res = 0, l = INT_MAX;
         for(int x : prices)
         {
-            l = min(l,x);
-            res = max(res, x-l);
+            if(x < l)
+            {
+                l = x;
+            }
+            else if(x-l > res)
+            {
+                res = x-l;
+            }
         }
         return res;
     }
