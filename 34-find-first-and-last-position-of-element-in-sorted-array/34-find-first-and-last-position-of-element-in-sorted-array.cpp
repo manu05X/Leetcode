@@ -1,31 +1,54 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        if(nums.size() < 1)
+        int firstOccurrance = findBound(nums, target, true);
+        if(firstOccurrance == -1)
+        {
             return {-1,-1};
-        int st = lower_bound(nums, target);
-        int end = lower_bound(nums, target+1)-1;
+        }
+        int lastOccurance = findBound(nums, target, false);
         
-        if(st < nums.size() && nums[st] == target)
-            return {st,end};
-        else
-            return {-1,-1};
+        return {firstOccurrance,lastOccurance};
     }
     
-    int lower_bound(vector<int>& nums, int target)
+    int findBound(vector<int> nums, int target, bool isFirst)
     {
-        int l = 0;
-        int h = nums.size()-1;
+        int n = nums.size();
+        int l = 0, h = n-1;
         
-        while(l<=h)
+        while(l <= h)
         {
-            int m = l+(h-l)/2;
-            if(nums[m] < target)
-                l = m+1;
+            int m = (l+h)/2;
+            if(nums[m] == target)
+            {
+                if(isFirst)
+                {
+                    // condition for lower bound
+                    if(m == l || nums[m-1] != target)
+                    {
+                        return m;
+                    }
+                    h = m - 1;
+                }
+                else
+                {
+                    // condition for upper bound
+                    if(m == h || nums[m+1] != target)
+                    {
+                        return m;
+                    }
+                    l = m + 1;
+                }
+            }
+            else if(nums[m] > target)
+            {
+                h = m - 1;
+            }
             else
-                h = m-1;
+            {
+                l = m + 1;
+            }
         }
-        
-        return l;
+        return -1;
     }
 };
