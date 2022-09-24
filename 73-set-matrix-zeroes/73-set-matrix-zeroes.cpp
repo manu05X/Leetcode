@@ -1,47 +1,35 @@
 class Solution {
 public:
-    void setZeroes(vector<vector<int>>& matrix) {
-        int m = matrix.size();
-        int n = matrix[0].size();
+    void setZeroes(vector<vector<int>>& mat) 
+    {
+        int n = mat.size();
+        int m = mat[0].size();
         
-        bool row0 = false, col0 = false; // for case matrix[0][0] = 0;
-        
-        for(int i = 0; i < m; i++)
+        bool col0 = true;
+        for(int i = 0; i < n; i++)
         {
-            for(int j = 0; j < n; j++)
+            if(mat[i][0] == 0)
+            { 
+                col0 = false;
+            }
+            for(int j = 1; j < m; j++)
             {
-                if(matrix[i][j] == 0)
-                {
-                    if(i == 0)
-                        row0 = true;
-                    if(j == 0)
-                        col0 = true;
-                    matrix[i][0] = 0;
-                    matrix[0][j] = 0;
-                }
+                if(mat[i][j] == 0)
+                    mat[i][0] = mat[0][j] = 0;
             }
         }
         
-        for(int i = 1; i < m; i++)
+        for(int i = n-1; i >= 0; i--)
         {
-            for(int j = 1; j < n; j++)
+            for(int j = m-1; j >= 1; j--)
             {
-                if(matrix[i][0] == 0 || matrix[0][j] == 0)
+                if(mat[i][0] == 0 || mat[0][j] == 0)
                 {
-                    matrix[i][j] = 0;
+                    mat[i][j] = 0;
                 }
             }
-        }
-        
-        if(row0)
-        {
-            for(int j = 0; j < n; j++)
-                matrix[0][j] = 0;
-        }
-        if(col0)
-        {
-            for(int i = 0; i < m; i++)
-                matrix[i][0] = 0;
+            if(col0 == false)
+                mat[i][0] = 0;
         }
         
     }
