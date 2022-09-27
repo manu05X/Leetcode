@@ -1,45 +1,32 @@
 class Solution {
 public:
-    int trap(vector<int>& height) 
-    {
-        int n = height.size();
-        if(n == 0)
-            return 0;
+    int trap(vector<int>& height) {
+        int left = 0, right = height.size()-1;
+        int left_max = 0, right_max = 0;
+        int ans = 0;
         
-        int leftArr[n];
-        int rightArr[n];
-        
-        leftArr[0] = height[0];
-        
-        cout << leftArr[0]<<" "<<"\n";
-        for(int i = 1; i < n; i++)
+        while(left < right)
         {
-           leftArr[i] = max(leftArr[i-1], height[i]);
-            cout << leftArr[i] <<" ";
-        }
-        cout << "\n";
-        rightArr[n-1] = height[n-1];
-         cout << rightArr[n-1]<<" ";
-        cout << "\n";
-        for(int i = n-2; i>=0; i--)
-        {
-           rightArr[i] = max(rightArr[i+1], height[i]);
-            cout <<rightArr[i] <<" ";
-        }
-        cout << "\n";
-        for(int i = 0; i < n; i++)
-        {
-            cout << rightArr[i] <<" ";
-        }
-         cout << "\n";
-        
-        int water = 0;
-        for(int i = 0; i < n; i++)
-        {
-            water += min(leftArr[i], rightArr[i]) - height[i];
-           cout << water <<" ";
+            if(height[left] <= height[right])
+            {
+                if(height[left] >= left_max)
+                    left_max = height[left];
+                else
+                    ans += left_max-height[left];
+                
+                left++;
+            }
+            else
+            {
+                if(height[right] >= right_max)
+                    right_max = height[right];
+                else
+                    ans += right_max-height[right];
+                
+                right--;
+            }
         }
         
-        return water;
+        return ans;
     }
 };
