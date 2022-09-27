@@ -14,12 +14,13 @@ class Solution {
         ListNode slow = head;
         ListNode prev, temp;
         
+        // finding the middle of List
         while(fast.next != null && fast.next.next != null)
         {
             slow = slow.next;
             fast = fast.next.next;
         }
-        
+        // reverse half of the list
         prev = slow; slow = slow.next; prev.next = null;
         
         while(slow != null)
@@ -29,7 +30,7 @@ class Solution {
             prev = slow;
             slow = temp;
         }
-        
+        // make fast point at start and slow at end i.e prev and iterate
         fast = head; slow = prev;
         
         while(slow.next != null)
