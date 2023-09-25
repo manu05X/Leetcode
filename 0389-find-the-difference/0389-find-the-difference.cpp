@@ -4,10 +4,21 @@ public:
         int ans=0;
         for(int i=0;i<s.size();i++)
         {
-            ans-=s[i];
+           
             ans+=t[i];
+            ans-=s[i];
         }
+        
         ans+=t[s.size()];  
         return ans;
     }
 };
+//t-s
+
+/*
+abcde
+abcd
+
+e
+
+*/
