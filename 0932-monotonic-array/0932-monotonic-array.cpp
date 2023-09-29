@@ -1,5 +1,6 @@
 class Solution {
 public:
+/*
 bool isDecrease(vector<int>& nums)
     {
         for(int i = 1; i < nums.size(); i++)
@@ -23,16 +24,24 @@ bool isDecrease(vector<int>& nums)
         }
         return true;
     }
+    */
     bool isMonotonic(vector<int>& nums) {
         int n = nums.size();
 
+        bool increasing = true;
+        bool decreasing = true;
 
-            if(isDecrease(nums) || isIncrease(nums)){
-                return true;
-            }
-            else
+        for(int i = 0; i < n-1; i++)
+        {
+            if(nums[i] > nums[i+1])
             {
-                return false;
+                increasing = false;
             }
+            if(nums[i] < nums[i+1])
+            {
+                decreasing = false;
+            }
+        }
+        return decreasing || increasing;
     }
 };
