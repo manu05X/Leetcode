@@ -2,32 +2,24 @@
  * @param {integer} init
  * @return { increment: Function, decrement: Function, reset: Function }
  */
-
-class counter {
-    constructor(init){
-        this.init = init;
-        this.currCounter = init;
-    }
-
-    increment(init){
-        this.currCounter+=1;
-        return this.currCounter;
-    }
-
-    reset(init){
-        this.currCounter = this.init;
-        return this.currCounter;
-    }
-
-    decrement(init){
-        this.currCounter -=1;
-        return this.currCounter;
-    }
-
-}
-
 var createCounter = function(init) {
-    return new counter(init);
+    let currCounter = init;
+    return {
+        increment : function() {
+            currCounter += 1;
+            return currCounter;
+        },
+
+        decrement : function(){
+            currCounter -= 1;
+            return currCounter;
+        },
+
+        reset : function(){
+            currCounter = init;
+            return currCounter;
+        }
+    }
 };
 
 /**
@@ -36,10 +28,3 @@ var createCounter = function(init) {
  * counter.reset(); // 5
  * counter.decrement(); // 4
  */
-
-//  toBe(val2){
-//         if(this.val !== val2){
-//             throw new Error("Not Equal");
-//         }
-//         return true;
-//     }
