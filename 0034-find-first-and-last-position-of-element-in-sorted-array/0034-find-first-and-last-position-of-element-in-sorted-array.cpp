@@ -1,42 +1,58 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        vector<int> ans(2,-1);
         int n = nums.size();
+        int l = 0; // start ptr
+        int h = n-1; // end ptr
         
-        int l = 0;
-        int h = n - 1;
+        vector<int> ans(2,-1); // ans vector
+        if(n < 1)
+            return ans;
 
-        while(l <= h){
-            int mid = l + (h-l)/2;
-
-            if(nums[mid] < target){
-                l = mid+1;
+        while(l < h)
+        {
+            // finding middle
+            int m = (l+h)/2; 
+            // if element at mid index is less than target
+            if(nums[m] < target)
+            {
+                // change low ptr to mid +1
+                l = m+1;
             }
-            else{
-                if(nums[mid] == target){
-                    ans[0] = mid;
-                }
-                h = mid - 1;
-            }
-        }
-
-        l = 0, h = n-1;
-        while(l <= h){
-            int mid = l + (h-l)/2;
-
-            if(nums[mid] > target){
-                h = mid-1;
-            }
-            else{
-                if(nums[mid] == target){
-                    ans[1] = mid;
-                }
-                l = mid + 1;
+            else
+            {
+                // change high ptr to mid
+                h = m;
             }
         }
-
+        
+        if(nums[l] != target)
+        {
+            return ans;
+        }
+        else
+        {
+            ans[0] = l;
+        }
+        
+        h = n-1;
+        while(l < h)
+        {
+            // finding middle
+            int m = (l+h)/2 + 1;
+            // if element at mid index is greter than target
+            if(nums[m] > target)
+            {
+                //change the high to mid-1
+                h = m-1;
+            }
+            else
+            {
+               l = m;
+            }
+        }
+        ans[1] = h;
+        
         return ans;
-
     }
 };
