@@ -1,6 +1,10 @@
 class Solution {
 public:
     bool wordPattern(string pattern, string s) {
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+        cout.tie(NULL);
+        
         int ns = s.size();
         int np = pattern.size();
         unordered_map<char, string> map_char;
