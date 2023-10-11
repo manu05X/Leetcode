@@ -1,6 +1,10 @@
 class Solution {
 public:
     vector<int> fullBloomFlowers(vector<vector<int>>& flowers, vector<int>& people) {
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+        cout.tie(NULL);
+        
         vector<int> starts;
         vector<int> ends;
         
@@ -27,6 +31,7 @@ public:
 
 
 /*
+
 upper_bound (ForwardIterator first, ForwardIterator last, const T& val);
 upper_bound= function returns an iterator that points to the first value that is greater than the specified value, or returns the iterator pointing to the (end + 1) index if no such element is found.
 
