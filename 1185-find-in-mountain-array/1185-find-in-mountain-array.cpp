@@ -11,6 +11,10 @@
 class Solution {
 public:
     int findInMountainArray(int target, MountainArray &mountainArr) {
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+        cout.tie(NULL);
+        
         // Save the length of the mountain array
         int length = mountainArr.length();
 
