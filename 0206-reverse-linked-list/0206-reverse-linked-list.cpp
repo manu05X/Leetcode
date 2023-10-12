@@ -8,6 +8,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -20,12 +21,12 @@ public:
         // Current ptr
         ListNode* curr = head;
         //next ptr
-        ListNode* nex;
+        //ListNode* nex;
 
         //continue curr till it is not null
         while(curr)
         {
-            nex = curr->next;
+            ListNode* nex = curr->next;
             curr->next = prev;
 
             prev = curr;
