@@ -1,42 +1,33 @@
 class Solution {
 public:
-    bool isValid(string s) {
-        ios_base::sync_with_stdio(false);
-        cin.tie(NULL);
-        cout.tie(NULL);
-        
-        stack<int> st;
+    bool isValid(string s) 
+    {
         int n = s.size();
+        stack<char> st;
+        
+        for(int i = 0; i < n; i++)
+        {
+            char c = s[i];
 
-        if(n == 1){
-            return false;
-        }
-        if(n == 0){
-            return true;
-        }
-
-        for(int i = 0; i < n; i++){
-            char ch = s[i];
-
-            if(ch == ')' || ch == '}' || ch == ']'){
-                if(st.empty()){
-                    return false;
-                }
-                if(ch == '}' && st.top() != '{')
-                    return false;
-                if(ch == ')' && st.top() != '(')
-                    return false;
-                if(ch == ']' && st.top() != '[')
-                    return false;
-                //else it must be a valid conndition | () or {} or [] |
-                st.pop();
+            if(c == '(' || c == '{' || c == '[')
+            {
+                st.push(c);
             }
             else
             {
-                st.push(ch);
+                if(st.empty())
+                {
+                    return false;
+                }
+                else if((c == ')' &&   st.top() == '(') || (c == '}' &&   st.top() == '{') || (c == ']' &&   st.top() == '['))
+                {
+                        st.pop();
+                }
+                else
+                    return false;
             }
         }
 
-        return st.empty()?true : false;
+        return st.empty()? true : false;
     }
 };
