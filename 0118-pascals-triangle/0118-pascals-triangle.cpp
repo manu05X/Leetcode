@@ -10,7 +10,7 @@ public:
             // defining its first and last element as 1
             ans[i][0] = ans[i][i] = 1;
 
-            // filling column sum 
+            // filling curr row sum by adding previous row elements 
             for(int j = 1; j < i; j++){
                 ans[i][j] = ans[i-1][j-1] + ans[i-1][j];
             }
