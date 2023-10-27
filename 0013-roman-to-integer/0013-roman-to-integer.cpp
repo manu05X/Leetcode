@@ -1,24 +1,23 @@
+using namespace std;
 class Solution {
 public:
-    int romanToInt(string input_str) {
-        map<char, int> values = { {'I', 1}, {'V', 5}, {'X', 10}, {'L', 50}, {'C', 100}, {'D', 500}, {'M', 1000} };
-
-	int total = 0;
-	int i = 0;
-	while (i < input_str.length()) {
-		// If this is the subtractive case.
-		if (i + 1 < input_str.length() && (values.find(input_str.at(i))->second < values.find(input_str.at(i + 1))->second)) {
-			total += values.find(input_str.at(i + 1))->second - values.find(input_str.at(i))->second;
-			i += 2;
-		}
-
-		// Else this is NOT the subtractive case.
-		else {
-			total += values.find(input_str.at(i))->second;
-			i += 1;
-		}
-	}
-	return total;
-        
+    int romanToInt(string s) {
+        unordered_map<char, int> m;
+        m['I'] = 1;
+        m['V'] = 5;
+        m['X'] = 10;
+        m['L'] = 50;
+        m['C'] = 100;
+        m['D'] = 500;
+        m['M'] = 1000;
+        int result = 0;
+        for (int i = 0; i < s.length(); i ++) {
+            if (m[s[i]] < m[s[i + 1]]) {
+                result -= m[s[i]];
+                continue;
+            }
+            result += m[s[i]];
+        }
+        return result;
     }
 };
