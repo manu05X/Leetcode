@@ -45,3 +45,21 @@ public:
         return ans;
     }
 };
+
+/*
+Algorithm
+
+1. Initialize a hash map counter and a queue queue that     contains root.
+
+2   Perform a BFS. While queue is not empty:
+        Pop node from the front of queue.
+        Increment the frequency of node.val in counter.
+        If node.left is not null, push it to queue.
+        If node.right is not null, push it to queue.
+
+3. Find the maximum value in counter as maxFreq.
+4. Initialize the answer list ans.
+5. Iterate over all key-value pairs in counter. If the value is equal to maxFreq, add the key to ans.
+6. Return ans.
+
+*/
