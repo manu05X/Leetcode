@@ -3,6 +3,7 @@ public:
     void rotate(vector<vector<int>>& mat) {
         int n = mat.size();
 
+        //Diagnol swap
         for(int i = 0; i < n; i++)
         {
             for(int j = i+1; j < n; j++)
@@ -11,6 +12,7 @@ public:
             }
         }
         
+        //each row reverse
         for(int i =0; i < n; i++)
         {
             int l = 0;
