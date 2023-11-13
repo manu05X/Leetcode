@@ -2,12 +2,10 @@ class Solution {
 public:
     int rob(vector<int>& nums) {
         int n = nums.size();
-        if(n == 1){
+        if(n < 2){
             return nums[0];
         }
-        if(n == 2){
-            return max(nums[0],nums[1]);
-        }
+        
         vector<int> ans(n+1,0);
 
         ans[0] = nums[0];
@@ -26,6 +24,6 @@ public:
 
 2,1,1,2
 
-2,1,3,
+2,2,3,4
 
 */
