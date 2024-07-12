@@ -1,5 +1,6 @@
 
 func reverseString(s string) string {
+    //Rune literals are indeed just 32-bit integers. The Unicode codepoints are represented by them. The rune literal 'a', for example, is number 97.
     runes := []rune(s)
     for i, j := 0, len(runes)-1; i < j; i,j = i+1, j-1 {
         runes[i], runes[j] = runes[j], runes[i]
