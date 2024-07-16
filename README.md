@@ -29,6 +29,7 @@
 | [0001-two-sum](https://github.com/manu05X/Leetcode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/manu05X/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/manu05X/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1293-three-consecutive-odds](https://github.com/manu05X/Leetcode/tree/master/1293-three-consecutive-odds) |
@@ -47,16 +48,19 @@
 | ------- |
 | [0015-3sum](https://github.com/manu05X/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/manu05X/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 ## Binary Search
 |  |
 | ------- |
+| [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Sorting
 |  |
 | ------- |
 | [0015-3sum](https://github.com/manu05X/Leetcode/tree/master/0015-3sum) |
+| [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/manu05X/Leetcode/tree/master/0726-number-of-atoms) |
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
