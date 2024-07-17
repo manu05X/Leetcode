@@ -29,6 +29,7 @@
 | [0001-two-sum](https://github.com/manu05X/Leetcode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/manu05X/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/manu05X/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/manu05X/Leetcode/tree/master/0075-sort-colors) |
 | [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0713-subarray-product-less-than-k](https://github.com/manu05X/Leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -51,6 +52,7 @@
 | ------- |
 | [0015-3sum](https://github.com/manu05X/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/manu05X/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/manu05X/Leetcode/tree/master/0075-sort-colors) |
 | [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
@@ -63,6 +65,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/manu05X/Leetcode/tree/master/0015-3sum) |
+| [0075-sort-colors](https://github.com/manu05X/Leetcode/tree/master/0075-sort-colors) |
 | [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/manu05X/Leetcode/tree/master/0726-number-of-atoms) |
