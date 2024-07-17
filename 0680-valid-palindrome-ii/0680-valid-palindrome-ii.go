@@ -1,4 +1,4 @@
-func isPalindrome(s string, left, right int) bool {
+func isPalindrome(s string, left int, right int) bool {
     for left < right {
         if s[left] != s[right] {
             return false
