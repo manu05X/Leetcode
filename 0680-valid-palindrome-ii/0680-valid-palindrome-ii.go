@@ -1,3 +1,16 @@
+func isPalindrome(s string, left, right int) bool {
+    for left < right {
+        if s[left] != s[right] {
+            return false
+        }
+
+        left++
+        right--
+    }
+
+    return true
+}
+
 func validPalindrome(s string) bool {
     left, right := 0, len(s)-1
 
@@ -11,15 +24,3 @@ func validPalindrome(s string) bool {
     return true
 }
 
-func isPalindrome(s string, left, right int) bool {
-    for left < right {
-        if s[left] != s[right] {
-            return false
-        }
-
-        left++
-        right--
-    }
-
-    return true
-}
