@@ -182,4 +182,8 @@
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
+## Database
+|  |
+| ------- |
+| [2516-sort-the-olympic-table](https://github.com/manu05X/Leetcode/tree/master/2516-sort-the-olympic-table) |
 <!---LeetCode Topics End-->
