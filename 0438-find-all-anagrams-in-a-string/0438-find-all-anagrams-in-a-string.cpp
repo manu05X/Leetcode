@@ -1,36 +1,38 @@
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
-        int sLength = s.size();
-        int pLength = p.size();
-        vector<int> startingIndices;
+        int ns = s.size();
+        int np = p.size();
+        vector<int> ans;
 
-        if (sLength < pLength) {
-            return startingIndices;
+        if(ns < np){
+            return ans;
         }
-      
-        vector<int> pCharCount(26, 0); 
-        vector<int> windowCharCount(26, 0);
-      
-        for (char c : p) {
-            ++pCharCount[c - 'a']; 
-        }
-       
-        for (int i = 0; i < pLength - 1; ++i) {
-            ++windowCharCount[s[i] - 'a'];
-        }
-        
-        for (int i = pLength - 1; i < sLength; ++i) {
-            ++windowCharCount[s[i] - 'a']; 
 
+        vector<int> windowCharCount(26,0);
+        vector<int> pCharCount(26,0);
+
+        for(int i = 0; i < np; i++){
+            pCharCount[p[i]-'a']++;
+        }
+
+        for(int i = 0; i < np-1; i++){
+            windowCharCount[s[i]-'a']++;
+        }
+
+        // Slide the window over string s and compare with character counts of p.
+        for (int i = np - 1; i < ns; ++i) {
+            windowCharCount[s[i] - 'a']++; // Add the current character to the window count.
+          
+            // If the window has the same character counts as p, it's an anagram starting at (i - pLength + 1).
             if (pCharCount == windowCharCount) {
-                startingIndices.push_back(i - pLength + 1);
+                ans.push_back(i - np + 1);
             }
-
-            --windowCharCount[s[i - pLength + 1] - 'a'];
+          
+            // Move the window forward by one: decrease the count of the character leaving the window.
+            windowCharCount[s[i - np + 1] - 'a']--;
         }
       
-        return startingIndices; // Return the collected starting indices of anagrams.
-   
+        return ans;
     }
 };
