@@ -54,6 +54,7 @@
 | [0001-two-sum](https://github.com/manu05X/Leetcode/tree/master/0001-two-sum) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0567-permutation-in-string](https://github.com/manu05X/Leetcode/tree/master/0567-permutation-in-string) |
 | [0726-number-of-atoms](https://github.com/manu05X/Leetcode/tree/master/0726-number-of-atoms) |
 | [0940-fruit-into-baskets](https://github.com/manu05X/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -68,6 +69,7 @@
 | [0125-valid-palindrome](https://github.com/manu05X/Leetcode/tree/master/0125-valid-palindrome) |
 | [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0567-permutation-in-string](https://github.com/manu05X/Leetcode/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0680-valid-palindrome-ii](https://github.com/manu05X/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0874-backspace-string-compare](https://github.com/manu05X/Leetcode/tree/master/0874-backspace-string-compare) |
@@ -104,6 +106,7 @@
 | ------- |
 | [0125-valid-palindrome](https://github.com/manu05X/Leetcode/tree/master/0125-valid-palindrome) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
+| [0567-permutation-in-string](https://github.com/manu05X/Leetcode/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/manu05X/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0726-number-of-atoms](https://github.com/manu05X/Leetcode/tree/master/0726-number-of-atoms) |
 | [0874-backspace-string-compare](https://github.com/manu05X/Leetcode/tree/master/0874-backspace-string-compare) |
@@ -150,6 +153,7 @@
 | ------- |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0487-max-consecutive-ones-ii](https://github.com/manu05X/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
+| [0567-permutation-in-string](https://github.com/manu05X/Leetcode/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/manu05X/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/manu05X/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
