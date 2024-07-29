@@ -31,6 +31,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/manu05X/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/manu05X/Leetcode/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/manu05X/Leetcode/tree/master/0075-sort-colors) |
+| [0209-minimum-size-subarray-sum](https://github.com/manu05X/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -82,6 +83,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/manu05X/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
@@ -162,6 +164,7 @@
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/manu05X/Leetcode/tree/master/0076-minimum-window-substring) |
+| [0209-minimum-size-subarray-sum](https://github.com/manu05X/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -240,6 +243,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/manu05X/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Queue
 |  |
