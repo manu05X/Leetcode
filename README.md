@@ -52,6 +52,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/manu05X/Leetcode/tree/master/0001-two-sum) |
+| [0076-minimum-window-substring](https://github.com/manu05X/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -105,6 +106,7 @@
 ## String
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/manu05X/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/manu05X/Leetcode/tree/master/0125-valid-palindrome) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -153,6 +155,7 @@
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/manu05X/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0487-max-consecutive-ones-ii](https://github.com/manu05X/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
