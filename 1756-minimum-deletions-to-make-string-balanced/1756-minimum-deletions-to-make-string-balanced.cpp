@@ -1,7 +1,10 @@
 class Solution {
 public:
     int minimumDeletions(string s) {
-        stack<char> st;
+        ios_base::sync_with_stdio(false);
+        cin.tie(nullptr);
+        cout.tie(nullptr);
+        
         int n = s.size(), bCount = 0;
         int deletCount = 0;
 
