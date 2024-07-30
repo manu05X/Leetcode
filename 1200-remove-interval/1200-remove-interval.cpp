@@ -1,6 +1,10 @@
 class Solution {
 public:
     vector<vector<int>> removeInterval(vector<vector<int>>& intervals, vector<int>& toBeRemoved) {
+        std::ios::sync_with_stdio(false);
+        std::cin.tie(nullptr);
+        std::cout.tie(nullptr);
+        
         vector<vector<int>> ans;
          // toBeRemoved[0] is the start of the interval to be removed, toBeRemoved[1] is the end
         int removeStart = toBeRemoved[0];
