@@ -36,6 +36,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manu05X/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0209-minimum-size-subarray-sum](https://github.com/manu05X/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/manu05X/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0487-max-consecutive-ones-ii](https://github.com/manu05X/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
@@ -77,6 +78,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/manu05X/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/manu05X/Leetcode/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/manu05X/Leetcode/tree/master/0125-valid-palindrome) |
+| [0253-meeting-rooms-ii](https://github.com/manu05X/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/manu05X/Leetcode/tree/master/0567-permutation-in-string) |
@@ -98,6 +100,7 @@
 | [0049-group-anagrams](https://github.com/manu05X/Leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/manu05X/Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/manu05X/Leetcode/tree/master/0075-sort-colors) |
+| [0253-meeting-rooms-ii](https://github.com/manu05X/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -110,6 +113,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/manu05X/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0680-valid-palindrome-ii](https://github.com/manu05X/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/manu05X/Leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -204,6 +208,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/manu05X/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Quickselect
@@ -253,6 +258,7 @@
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/manu05X/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0253-meeting-rooms-ii](https://github.com/manu05X/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Queue
 |  |
