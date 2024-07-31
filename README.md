@@ -33,6 +33,7 @@
 | [0049-group-anagrams](https://github.com/manu05X/Leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/manu05X/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/manu05X/Leetcode/tree/master/0057-insert-interval) |
+| [0073-set-matrix-zeroes](https://github.com/manu05X/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/manu05X/Leetcode/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manu05X/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0209-minimum-size-subarray-sum](https://github.com/manu05X/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
@@ -68,6 +69,7 @@
 | [0001-two-sum](https://github.com/manu05X/Leetcode/tree/master/0001-two-sum) |
 | [0041-first-missing-positive](https://github.com/manu05X/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/manu05X/Leetcode/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/manu05X/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/manu05X/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -291,4 +293,8 @@
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/manu05X/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0645-set-mismatch](https://github.com/manu05X/Leetcode/tree/master/0645-set-mismatch) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/manu05X/Leetcode/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
