@@ -51,6 +51,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1196-filling-bookcase-shelves](https://github.com/manu05X/Leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1200-remove-interval](https://github.com/manu05X/Leetcode/tree/master/1200-remove-interval) |
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/manu05X/Leetcode/tree/master/1293-three-consecutive-odds) |
@@ -255,6 +256,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manu05X/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0487-max-consecutive-ones-ii](https://github.com/manu05X/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0727-minimum-window-subsequence](https://github.com/manu05X/Leetcode/tree/master/0727-minimum-window-subsequence) |
+| [1196-filling-bookcase-shelves](https://github.com/manu05X/Leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/manu05X/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/manu05X/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/manu05X/Leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
