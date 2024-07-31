@@ -29,6 +29,7 @@
 | [0001-two-sum](https://github.com/manu05X/Leetcode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/manu05X/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/manu05X/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0041-first-missing-positive](https://github.com/manu05X/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/manu05X/Leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/manu05X/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/manu05X/Leetcode/tree/master/0057-insert-interval) |
@@ -65,6 +66,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/manu05X/Leetcode/tree/master/0001-two-sum) |
+| [0041-first-missing-positive](https://github.com/manu05X/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/manu05X/Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/manu05X/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
