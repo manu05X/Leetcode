@@ -11,20 +11,40 @@
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-        if(!head || !head->next) return head;
-        ListNode *curr=head->next->next;
-        ListNode *prev=head;
-        head=head->next;
-        head->next=prev;
-        while(curr!=NULL && curr->next!=NULL)
-        {
-            prev->next=curr->next;
-            prev=curr;
-            ListNode *next=curr->next->next;
-            curr->next->next=curr;
-            curr=next;
+         // Create a dummy node to anchor the modified list and simplify edge cases
+        ListNode* dummyNode = new ListNode(0);
+        dummyNode->next = head;
+
+        // Use 'previousNode' to keep track of the last node of the previous pair
+        ListNode* prev = dummyNode;
+
+        // 'currentNode' will be used to iterate through the original list
+        ListNode* curr = head;
+
+        // Proceed with swapping pairs while there are at least two nodes left to process
+        while (curr && curr->next) {
+            // Identify the node to be swapped with the current node
+            ListNode* temp = curr->next;
+
+            // Swap the pair by reassigning pointers
+            curr->next = temp->next;
+            temp->next = curr;
+            prev->next = temp;
+
+            // Move 'previousNode' pointer forward to the current node after swap
+            prev = curr;
+
+            // Move 'currentNode' pointer forward to the next pair
+            curr = curr->next;
         }
-        prev->next=curr;
-        return head;
+
+        // The 'dummyNode.next' now points to the head of the modified list
+        ListNode* swappedHead = dummyNode->next;
+
+        // Clean up memory by deleting the dummy node
+        delete dummyNode;
+
+        // Return the head of the modified list with pairs swapped
+        return swappedHead;
     }
 };
