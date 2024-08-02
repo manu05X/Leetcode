@@ -1,39 +1,33 @@
 class Solution {
     public int findUnsortedSubarray(int[] nums) {
-        int n = nums.length;
+        // Initialize variables
+        final int MAX_INT = Integer.MAX_VALUE; // Use MAX_VALUE constant for clarity
+        int n = nums.length; // Length of the input array
+        int leftIndex = -1, rightIndex = -1; // Track the left and right boundaries of the subarray
+        int minUnsorted = MAX_INT, maxUnsorted = Integer.MIN_VALUE; // Set initial values for min and max of the unsorted subarray
 
-        // Find the leftmost and rightmost elements that are out of order
-        int left = 0, right = n - 1;
-        while (left < n - 1 && nums[left] <= nums[left + 1]) {
-            left++;
+        // Loop through the array to find the unsorted subarray's boundaries
+        for (int i = 0; i < n; ++i) 
+        {
+            int lcurrElm = nums[i]; // elment from LHS
+            int rcurrElm = nums[n - i - 1]; // elment from RHS
+            // If current max is greater than the current element, it might belong to the unsorted part
+            if (maxUnsorted > lcurrElm) {
+                rightIndex = i; // Update the right boundary
+            } else {
+                maxUnsorted = lcurrElm; // Update the current max for the sorted part
+            }
+          
+            // Simultaneously, check the unsorted subarray from the end of the array
+            if (minUnsorted < rcurrElm) {
+                leftIndex = n - i - 1; // Update the left boundary
+            } else {
+                minUnsorted = rcurrElm; // Update the current min for the sorted part
+            }
         }
-        while (right > 0 && nums[right] >= nums[right - 1]) {
-            right--;
-        }
-
-        // If the array is already sorted, return 0
-        if (left >= right) {
-            return 0;
-        }
-
-        // Find the minimum and maximum values within the subarray [left, right]
-        int minVal = Integer.MAX_VALUE, maxVal = Integer.MIN_VALUE;
-        for (int i = left; i <= right; i++) {
-            minVal = Math.min(minVal, nums[i]);
-            maxVal = Math.max(maxVal, nums[i]);
-        }
-
-        // Expand the subarray to include elements that are greater than minVal
-        while (left > 0 && nums[left - 1] > minVal) {
-            left--;
-        }
-
-        // Expand the subarray to include elements that are less than maxVal
-        while (right < n - 1 && nums[right + 1] < maxVal) {
-            right++;
-        }
-
-        // Return the length of the unsorted subarray
-        return right - left + 1;
+      
+        // If rightIndex is not updated, the array is fully sorted, return 0
+        // Otherwise, return the length of the subarray that must be sorted
+        return rightIndex == -1 ? 0 : rightIndex - leftIndex + 1;
     }
 }
