@@ -10,12 +10,15 @@ class Solution {
             if (nums[current] == 0) {
                 // When a 0 is found, swap it with the element at 'left' position,
                 // then move both 'left' and 'current' one step right.
-                swap(nums, ++left, current++);
+                ++left;
+                swap(nums, left, current);
+                current++;
             } else if (nums[current] == 2) {
                 // When a 2 is found, swap it with the element just before 'right' position,
                 // then decrement 'right' to move it leftward.
                 // Note 'current' is not incremented because the swapped element needs to be checked.
-                swap(nums, --right, current);
+                --right;
+                swap(nums, right, current);
             } else {
                 // If the element is 1, just move 'current' one step to the right.
                 ++current;
