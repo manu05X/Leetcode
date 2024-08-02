@@ -61,6 +61,7 @@
 | [1293-three-consecutive-odds](https://github.com/manu05X/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/manu05X/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/manu05X/Leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/manu05X/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/manu05X/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/manu05X/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2727-number-of-senior-citizens](https://github.com/manu05X/Leetcode/tree/master/2727-number-of-senior-citizens) |
@@ -212,6 +213,7 @@
 | [0940-fruit-into-baskets](https://github.com/manu05X/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/manu05X/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/manu05X/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/manu05X/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Monotonic Stack
 |  |
