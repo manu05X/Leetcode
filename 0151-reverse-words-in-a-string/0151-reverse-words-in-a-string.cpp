@@ -1,31 +1,25 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        int h = s.size()-1;
-        int i = 0;
-        string ans = "";
+        // Use a stringstream to extract words
+        stringstream ss(s);
+        vector<string> words;
 
-        while(h >= 0){
-            while(h >= 0 && s[h] == ' '){
-                h--;
-            }
-            
-            i = h;
-            string temp = "";
-            while(i>=0 && s[i] != ' '){
-                temp += s[i];
-                i--;
-            }
-
-            reverse(temp.begin(), temp.end());
-
-            if(temp.size()){
-                ans += ans.size() == 0 ? temp : " "+temp;
-            }
-            h = i;
+        // Extract words and store them in a vector
+        string word;
+        while (ss >> word) {
+            words.push_back(word);
         }
-        ans = ans.substr(0, ans.size());
-        return ans;
-        
+
+        // Reverse the order of words in the vector
+        reverse(words.begin(), words.end());
+
+        // Build the result string by concatenating the reversed words
+        string result;
+        for (const string& w : words) {
+            result += result.empty() ? w : " " + w;
+        }
+
+        return result;
     }
 };
