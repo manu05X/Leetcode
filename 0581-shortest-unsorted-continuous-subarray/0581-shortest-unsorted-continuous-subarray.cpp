@@ -9,6 +9,7 @@ public:
         int maxValue = nums[0]; // Initialize to the first element to handle the case when the entire array is sorted
 
         // Iterate from left to right to find the end position of the unsorted subarray
+        //For the i-th element nums[i], we compare it with the maximum value seen so far maxValue. If nums[i] is smaller than maxValue, it means nums[i] is out of place
         for (int i = 1; i < n; ++i) {
             maxValue = max(maxValue, nums[i]);
             if (nums[i] < maxValue) {
@@ -17,6 +18,7 @@ public:
         }
 
         // Iterate from right to left to find the start position of the unsorted subarray
+        //For the i-th element nums[i], we compare it with the min value seen so far mixValue. If nums[i] is greater than mixValue, it means nums[i] is out of place
         for (int i = n - 2; i >= 0; --i) {
             minValue = min(minValue, nums[i]);
             if (nums[i] > minValue) {
