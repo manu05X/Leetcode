@@ -62,6 +62,7 @@
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/manu05X/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/manu05X/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/manu05X/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/manu05X/Leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/manu05X/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/manu05X/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -110,6 +111,7 @@
 | [0680-valid-palindrome-ii](https://github.com/manu05X/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0874-backspace-string-compare](https://github.com/manu05X/Leetcode/tree/master/0874-backspace-string-compare) |
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/manu05X/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Binary Search
 |  |
 | ------- |
@@ -118,6 +120,7 @@
 | [0287-find-the-duplicate-number](https://github.com/manu05X/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/manu05X/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Sorting
 |  |
 | ------- |
@@ -135,6 +138,7 @@
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/manu05X/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/manu05X/Leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
 ## Greedy
