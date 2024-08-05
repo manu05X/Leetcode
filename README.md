@@ -52,6 +52,7 @@
 | [0621-task-scheduler](https://github.com/manu05X/Leetcode/tree/master/0621-task-scheduler) |
 | [0645-set-mismatch](https://github.com/manu05X/Leetcode/tree/master/0645-set-mismatch) |
 | [0713-subarray-product-less-than-k](https://github.com/manu05X/Leetcode/tree/master/0713-subarray-product-less-than-k) |
+| [0739-daily-temperatures](https://github.com/manu05X/Leetcode/tree/master/0739-daily-temperatures) |
 | [0940-fruit-into-baskets](https://github.com/manu05X/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -181,6 +182,7 @@
 | [0503-next-greater-element-ii](https://github.com/manu05X/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0726-number-of-atoms](https://github.com/manu05X/Leetcode/tree/master/0726-number-of-atoms) |
+| [0739-daily-temperatures](https://github.com/manu05X/Leetcode/tree/master/0739-daily-temperatures) |
 | [0874-backspace-string-compare](https://github.com/manu05X/Leetcode/tree/master/0874-backspace-string-compare) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/manu05X/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/manu05X/Leetcode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -236,6 +238,7 @@
 | [0496-next-greater-element-i](https://github.com/manu05X/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/manu05X/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0739-daily-temperatures](https://github.com/manu05X/Leetcode/tree/master/0739-daily-temperatures) |
 ## Math
 |  |
 | ------- |
