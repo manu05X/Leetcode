@@ -31,15 +31,6 @@ public:
         {
             ans = string(st.top().second, st.top().first)+ans;
             st.pop();
-            // if(st.top().second == 0)
-            // {
-            //     st.pop();
-            // }
-            // else
-            // {
-            //     ans = st.top().first+ans;
-            //     st.top().second--;
-            // }
         }
 
         return ans;
