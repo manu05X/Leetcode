@@ -4,21 +4,26 @@ public:
         ios_base::sync_with_stdio(false);
         cin.tie(NULL);
         cout.tie(NULL);
+
         int n = t.size();
-        vector<int>ans(n,0);
+        vector<int> ans(n, 0);
 
-        for(int i=n-2;i>=0;i--){
-            int top = i+1;
+        for (int currDay = n - 2; currDay >= 0; currDay--) {
+            int futureDay = currDay + 1;
 
-            for( ;top<n && t[i] >= t[top];top += ans[top]){
-                if(ans[top] == 0){
-                    top = n;
+            while (futureDay < n && t[currDay] >= t[futureDay]) {
+                if (ans[futureDay] == 0) {
+                    futureDay = n;
                     break;
                 }
+                futureDay += ans[futureDay];
             }
-            if(top<n)
-                ans[i] = top-i;
+
+            if (futureDay < n) {
+                ans[currDay] = futureDay - currDay;
+            }
         }
+
         return ans;
     }
 };
