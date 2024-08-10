@@ -1,6 +1,9 @@
 class Solution {
 public:
     vector<int> leftRightDifference(vector<int>& nums) {
+        ios_base::sync_with_stdio(false);  
+        cin.tie(NULL);
+        
         int n = nums.size();
         vector<int> leftSum(n,0), rightSum(n,0), ans(n,0);
         leftSum[0] = nums[0];
