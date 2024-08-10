@@ -49,6 +49,7 @@
 | [0487-max-consecutive-ones-ii](https://github.com/manu05X/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0496-next-greater-element-i](https://github.com/manu05X/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/manu05X/Leetcode/tree/master/0503-next-greater-element-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/manu05X/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/manu05X/Leetcode/tree/master/0621-task-scheduler) |
 | [0645-set-mismatch](https://github.com/manu05X/Leetcode/tree/master/0645-set-mismatch) |
@@ -89,6 +90,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/manu05X/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/manu05X/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0560-subarray-sum-equals-k](https://github.com/manu05X/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/manu05X/Leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/manu05X/Leetcode/tree/master/0621-task-scheduler) |
 | [0645-set-mismatch](https://github.com/manu05X/Leetcode/tree/master/0645-set-mismatch) |
@@ -336,6 +338,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/manu05X/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0253-meeting-rooms-ii](https://github.com/manu05X/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/manu05X/Leetcode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0560-subarray-sum-equals-k](https://github.com/manu05X/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/manu05X/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [2102-find-the-middle-index-in-array](https://github.com/manu05X/Leetcode/tree/master/2102-find-the-middle-index-in-array) |
