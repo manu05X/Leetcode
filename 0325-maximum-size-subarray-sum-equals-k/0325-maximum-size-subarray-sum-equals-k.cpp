@@ -1,6 +1,9 @@
 class Solution {
 public:
     int maxSubArrayLen(vector<int>& nums, int k) {
+        ios_base::sync_with_stdio(false);  
+        cin.tie(NULL);
+        
         int n = nums.size();
         int maxLength = 0;
         unordered_map<long long,int> mp;
