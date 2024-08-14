@@ -1,18 +1,17 @@
 class Solution {
     public int largestUniqueNumber(int[] nums) {
-        int n = nums.length;
-        Map<Integer,Integer> mp = new HashMap<>();
+        short[] count = new short[1001];
 
-        for(int i = 0; i < n; i++){
-            mp.put(nums[i], mp.getOrDefault(nums[i],0)+1);
+        for (int x : nums) {
+            count[x]++;
         }
-        int ans = -1;
-        for(int i = 0; i < n; i++){
-            if(mp.get(nums[i]) == 1){
-                ans = Math.max(nums[i], ans);
+
+        for (int i = 1000 ; i >= 0; i --) {
+            if(count[i] == 1) {
+                return i;
             }
         }
 
-        return ans;
+        return -1;
     }
 }
