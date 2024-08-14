@@ -7,12 +7,12 @@ class Solution {
             mp.put(nums[i], mp.getOrDefault(nums[i],0)+1);
         }
         int ans = -1;
-        for(int i = 0; i < n; i++){
-            if(mp.get(nums[i]) == 1){
-                ans = Math.max(nums[i], ans);
+        for(Map.Entry<Integer, Integer> x : mp.entrySet()){
+            if(x.getValue() == 1){
+                ans = Math.max(x.getKey(), ans);
             }
         }
 
         return ans;
     }
-}
+};
