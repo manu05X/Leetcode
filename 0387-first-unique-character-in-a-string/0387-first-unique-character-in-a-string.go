@@ -1,12 +1,11 @@
 func firstUniqChar(s string) int {
-    n := len(s);
-    hm := make([]int, 26);
+    var hm [26]int;
 
-    for i := 0; i < n; i++ {
+    for i:= range s {
         hm[s[i]-'a']++;
     }
 
-    for i := 0; i < n; i++{
+    for  i:= range s {
         if hm[s[i]-'a'] == 1{
             return i;
         }
