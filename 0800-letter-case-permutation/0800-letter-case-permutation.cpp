@@ -1,28 +1,26 @@
 class Solution {
 public:
-    void solve(string S, vector<string>&ans,int i) {
-        int n = S.size();
-        if(i == S.size()) { // base condition
-            ans.push_back(S);
-            return;
-        }
-        
-        if(isalpha(S[i])) 
-        { 
-            // if the scanned character is alphabet
-            S[i] = toupper(S[i]);
-            solve(S,ans,i+1);
-            S[i] = tolower(S[i]);
-            solve(S,ans,i+1);
-        }
-        else { // if the scanned character is number
-            solve(S,ans,i+1);
-        }
-    }
-    vector<string> letterCasePermutation(string S) {
-        vector<string>ans;
-        solve(S,ans,0);
+    vector<string> letterCasePermutation(string s) {
+        vector<string> ans;
+        dfs(s,0, ans);
         return ans;
     }
 
+    void dfs(string s,int idx, vector<string>& ans) {
+        // Base case: If the end of the array is reached, add the current permutation to the list
+        if (idx >= s.size()) {
+            ans.push_back(s);
+            return;
+        }
+        
+        // Recursively call the method to handle the next character without modification
+        dfs(s,idx + 1,ans);
+
+        // If the current character is a letter, toggle its case and recurse
+        if (isalpha(s[idx])) {
+            s[idx] ^= ' ';
+           dfs(s,idx + 1,ans);
+            s[idx] ^= ' '; // Revert the change for backtracking
+        }
+    }
 };
