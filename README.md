@@ -32,6 +32,7 @@
 | [0031-next-permutation](https://github.com/manu05X/Leetcode/tree/master/0031-next-permutation) |
 | [0041-first-missing-positive](https://github.com/manu05X/Leetcode/tree/master/0041-first-missing-positive) |
 | [0046-permutations](https://github.com/manu05X/Leetcode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/manu05X/Leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/manu05X/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/manu05X/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/manu05X/Leetcode/tree/master/0056-merge-intervals) |
@@ -397,5 +398,6 @@
 |  |
 | ------- |
 | [0046-permutations](https://github.com/manu05X/Leetcode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/manu05X/Leetcode/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/manu05X/Leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
