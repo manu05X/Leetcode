@@ -170,6 +170,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/manu05X/Leetcode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/manu05X/Leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/manu05X/Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/manu05X/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/manu05X/Leetcode/tree/master/0125-valid-palindrome) |
@@ -324,6 +325,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/manu05X/Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/manu05X/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manu05X/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0487-max-consecutive-ones-ii](https://github.com/manu05X/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
@@ -399,6 +401,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/manu05X/Leetcode/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/manu05X/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/manu05X/Leetcode/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/manu05X/Leetcode/tree/master/0078-subsets) |
