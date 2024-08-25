@@ -2,7 +2,12 @@ class Solution {
     List<List<Integer>> ans = new ArrayList<>();
 
     public void dfs(int[] nums, int idx){
-        
+        //The ArrayList constructor that takes a Collection as an argument expects a collection of Integer objects, not a primitive int[] array.
+        // if(idx == nums.length){
+        //     List<Integer> temp = new ArrayList<>(nums);
+        //     ans.add(temp);
+        //     return;
+        // }
         if(idx == nums.length){
             List<Integer> curr = new ArrayList<>();
             for(int x : nums){
