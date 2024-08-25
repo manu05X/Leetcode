@@ -31,6 +31,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/manu05X/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/manu05X/Leetcode/tree/master/0031-next-permutation) |
 | [0039-combination-sum](https://github.com/manu05X/Leetcode/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/manu05X/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/manu05X/Leetcode/tree/master/0041-first-missing-positive) |
 | [0046-permutations](https://github.com/manu05X/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/manu05X/Leetcode/tree/master/0047-permutations-ii) |
@@ -421,6 +422,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/manu05X/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/manu05X/Leetcode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/manu05X/Leetcode/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/manu05X/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/manu05X/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/manu05X/Leetcode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/manu05X/Leetcode/tree/master/0051-n-queens) |
