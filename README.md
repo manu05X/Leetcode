@@ -68,6 +68,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1098-largest-unique-number](https://github.com/manu05X/Leetcode/tree/master/1098-largest-unique-number) |
 | [1196-filling-bookcase-shelves](https://github.com/manu05X/Leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1200-remove-interval](https://github.com/manu05X/Leetcode/tree/master/1200-remove-interval) |
@@ -219,6 +220,7 @@
 | [0739-daily-temperatures](https://github.com/manu05X/Leetcode/tree/master/0739-daily-temperatures) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0874-backspace-string-compare](https://github.com/manu05X/Leetcode/tree/master/0874-backspace-string-compare) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/manu05X/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/manu05X/Leetcode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/manu05X/Leetcode/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
@@ -241,6 +243,7 @@
 | [0111-minimum-depth-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/manu05X/Leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/manu05X/Leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -253,6 +256,7 @@
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/manu05X/Leetcode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/manu05X/Leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/manu05X/Leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -292,6 +296,7 @@
 | [0503-next-greater-element-ii](https://github.com/manu05X/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/manu05X/Leetcode/tree/master/0739-daily-temperatures) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2573-remove-nodes-from-linked-list](https://github.com/manu05X/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 ## Math
 |  |
@@ -444,4 +449,5 @@
 |  |
 | ------- |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 <!---LeetCode Topics End-->
