@@ -11,6 +11,18 @@ public:
         // PREPROCESSING
         // longest_border array
         vector<int> longest_border(m);
+        int j = 0;
+        for(int i = 1; i < m; i++){
+            if(needle[i] == needle[j]){
+                j++;
+                longest_border[i] = j;
+            } else if(j > 0){
+                j = longest_border[j-1];
+                --i;
+            }
+        }
+
+        /*
         // Length of Longest Border for prefix before it.
         int prev = 0;
         // Iterating from index-1. longest_border[0] will always be 0
@@ -33,8 +45,9 @@ public:
                     prev = longest_border[prev - 1];
                 }
             }
-        }
+        }*/
 
+        
         // SEARCHING
         // Pointer for haystack
         int haystackPointer = 0;
