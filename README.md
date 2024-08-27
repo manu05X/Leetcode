@@ -46,6 +46,7 @@
 | [0079-word-search](https://github.com/manu05X/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/manu05X/Leetcode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manu05X/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/manu05X/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0216-combination-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
@@ -283,6 +284,7 @@
 | [0110-balanced-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
+| [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -426,6 +428,7 @@
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/manu05X/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/manu05X/Leetcode/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 ## Linked List
 |  |
@@ -453,6 +456,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/manu05X/Leetcode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 ## Backtracking
 |  |
@@ -484,4 +488,8 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
