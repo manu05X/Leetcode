@@ -24,10 +24,10 @@ class Solution {
             return;
         }
         grid[i][j] = 'X';
-        dfs(grid, m, n, i - 1, j);
-        dfs(grid, m, n, i + 1, j);
-        dfs(grid, m, n, i, j - 1);
-        dfs(grid, m, n, i, j + 1);
+        dfs(grid, m, n, i - 1, j);// up |
+        dfs(grid, m, n, i + 1, j);// down
+        dfs(grid, m, n, i, j - 1);// <- west
+        dfs(grid, m, n, i, j + 1); // east ->
 
     }
 }
