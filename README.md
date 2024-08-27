@@ -190,6 +190,7 @@
 | [0076-minimum-window-substring](https://github.com/manu05X/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/manu05X/Leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0132-palindrome-partitioning-ii](https://github.com/manu05X/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -372,6 +373,7 @@
 | [0053-maximum-subarray](https://github.com/manu05X/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manu05X/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0132-palindrome-partitioning-ii](https://github.com/manu05X/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0487-max-consecutive-ones-ii](https://github.com/manu05X/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0727-minimum-window-subsequence](https://github.com/manu05X/Leetcode/tree/master/0727-minimum-window-subsequence) |
