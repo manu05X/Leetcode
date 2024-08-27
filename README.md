@@ -43,6 +43,7 @@
 | [0073-set-matrix-zeroes](https://github.com/manu05X/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/manu05X/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/manu05X/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/manu05X/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/manu05X/Leetcode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manu05X/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0209-minimum-size-subarray-sum](https://github.com/manu05X/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
@@ -188,6 +189,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/manu05X/Leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/manu05X/Leetcode/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/manu05X/Leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/manu05X/Leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/manu05X/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
@@ -423,6 +425,7 @@
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/manu05X/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/manu05X/Leetcode/tree/master/0079-word-search) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 ## Linked List
 |  |
@@ -463,6 +466,7 @@
 | [0051-n-queens](https://github.com/manu05X/Leetcode/tree/master/0051-n-queens) |
 | [0077-combinations](https://github.com/manu05X/Leetcode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/manu05X/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/manu05X/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/manu05X/Leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0216-combination-sum-iii) |
