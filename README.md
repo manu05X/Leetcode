@@ -67,6 +67,7 @@
 | [0713-subarray-product-less-than-k](https://github.com/manu05X/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/manu05X/Leetcode/tree/master/0739-daily-temperatures) |
+| [0740-delete-and-earn](https://github.com/manu05X/Leetcode/tree/master/0740-delete-and-earn) |
 | [0940-fruit-into-baskets](https://github.com/manu05X/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/manu05X/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
@@ -112,6 +113,7 @@
 | [0621-task-scheduler](https://github.com/manu05X/Leetcode/tree/master/0621-task-scheduler) |
 | [0645-set-mismatch](https://github.com/manu05X/Leetcode/tree/master/0645-set-mismatch) |
 | [0726-number-of-atoms](https://github.com/manu05X/Leetcode/tree/master/0726-number-of-atoms) |
+| [0740-delete-and-earn](https://github.com/manu05X/Leetcode/tree/master/0740-delete-and-earn) |
 | [0940-fruit-into-baskets](https://github.com/manu05X/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/manu05X/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1098-largest-unique-number](https://github.com/manu05X/Leetcode/tree/master/1098-largest-unique-number) |
@@ -386,6 +388,7 @@
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0487-max-consecutive-ones-ii](https://github.com/manu05X/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0727-minimum-window-subsequence](https://github.com/manu05X/Leetcode/tree/master/0727-minimum-window-subsequence) |
+| [0740-delete-and-earn](https://github.com/manu05X/Leetcode/tree/master/0740-delete-and-earn) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
 | [1196-filling-bookcase-shelves](https://github.com/manu05X/Leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/manu05X/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
