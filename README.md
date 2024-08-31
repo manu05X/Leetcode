@@ -326,6 +326,7 @@
 |  |
 | ------- |
 | [0060-permutation-sequence](https://github.com/manu05X/Leetcode/tree/master/0060-permutation-sequence) |
+| [0062-unique-paths](https://github.com/manu05X/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/manu05X/Leetcode/tree/master/0070-climbing-stairs) |
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -380,6 +381,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/manu05X/Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/manu05X/Leetcode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/manu05X/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/manu05X/Leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manu05X/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
@@ -504,4 +506,8 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/manu05X/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
