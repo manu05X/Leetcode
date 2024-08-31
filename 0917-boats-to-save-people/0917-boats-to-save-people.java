@@ -13,8 +13,9 @@ class Solution {
             if(currWeight <= limit){
                 lo++;
             }
-    
+            
             hi--;
+
             boat++;
         }
 
@@ -25,8 +26,15 @@ class Solution {
 /*
 [3,2,2,1], limit = 3
 
-[1,2,2,3]
+[1,2,2,3] hi--
+boat = 1
 
+[1,2,2] lo++, hi--
+boat = 2
 
+[2] -> lo++ -> []
+boat = 3
+
+return 3
 
 */
