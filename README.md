@@ -74,6 +74,7 @@
 | [0940-fruit-into-baskets](https://github.com/manu05X/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/manu05X/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
+| [0967-minimum-falling-path-sum](https://github.com/manu05X/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
@@ -397,6 +398,7 @@
 | [0487-max-consecutive-ones-ii](https://github.com/manu05X/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0727-minimum-window-subsequence](https://github.com/manu05X/Leetcode/tree/master/0727-minimum-window-subsequence) |
 | [0740-delete-and-earn](https://github.com/manu05X/Leetcode/tree/master/0740-delete-and-earn) |
+| [0967-minimum-falling-path-sum](https://github.com/manu05X/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
 | [1196-filling-bookcase-shelves](https://github.com/manu05X/Leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/manu05X/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -449,6 +451,7 @@
 | [0079-word-search](https://github.com/manu05X/Leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
+| [0967-minimum-falling-path-sum](https://github.com/manu05X/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 ## Linked List
 |  |
 | ------- |
