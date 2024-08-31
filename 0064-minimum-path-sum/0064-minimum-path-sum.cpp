@@ -17,10 +17,11 @@ public:
 
         for(int i = 1; i < row; i++){
             for(int j = 1; j < col; j++){
+                // Calculate the minimum path sum for the current cell by adding the current grid value to the minimum of the top and left cells in the dp vector
                 dp[i][j] = grid[i][j]+ min(dp[i-1][j], dp[i][j-1]);
             }
         }
-
+         // Return the minimum path sum for the bottom-right corner of the grid
         return dp[row-1][col-1];
 
     }
