@@ -52,6 +52,7 @@
 | [0120-triangle](https://github.com/manu05X/Leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manu05X/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0134-gas-station](https://github.com/manu05X/Leetcode/tree/master/0134-gas-station) |
+| [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/manu05X/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/manu05X/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
@@ -112,6 +113,7 @@
 | [0049-group-anagrams](https://github.com/manu05X/Leetcode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/manu05X/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/manu05X/Leetcode/tree/master/0076-minimum-window-substring) |
+| [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/manu05X/Leetcode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -218,6 +220,7 @@
 | [0125-valid-palindrome](https://github.com/manu05X/Leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/manu05X/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -413,6 +416,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manu05X/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/manu05X/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/manu05X/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/manu05X/Leetcode/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/manu05X/Leetcode/tree/master/0221-maximal-square) |
@@ -525,6 +529,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/manu05X/Leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
 ## Binary Search Tree
@@ -544,4 +549,8 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/manu05X/Leetcode/tree/master/0062-unique-paths) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
