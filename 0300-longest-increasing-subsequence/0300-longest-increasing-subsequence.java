@@ -34,7 +34,12 @@ class Solution {
             LIS[i] = 1;
             for(int j = 0; j < i; j++){
                 if(nums[j] < nums[i]){
-                    LIS[i] = Math.max(LIS[i], LIS[j]+1);
+                    int currLIS = LIS[j]+1;
+                    if(currLIS > LIS[i])
+                    {
+                        LIS[i] = currLIS;
+                    }
+                    //LIS[i] = Math.max(LIS[i], LIS[j]+1);
                 }
             }
         }
