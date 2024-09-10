@@ -5,6 +5,7 @@ public:
 
         vector<vector<int>> dp(n, vector<int>(n));
 
+        /*
         for(int gap = 0; gap < n; gap++){
             //every word start from 0 go till gap
             for(int i = 0, j = gap; j < n; i++, j++){
@@ -22,6 +23,17 @@ public:
                         //if extream char is not same
                         dp[i][j] = max(dp[i][j-1],dp[i+1][j]); // max(prefix, suffix)
                     }
+                }
+            }
+        }
+        */
+        for(int i = n-1; i >= 0; i--){
+            dp[i][i] = 1;
+            for(int j = i+1; j < n; j++){
+                if(s[i] == s[j]){
+                    dp[i][j] = dp[i+1][j-1]+2;
+                } else {
+                    dp[i][j] = max(dp[i+1][j], dp[i][j-1]);
                 }
             }
         }
