@@ -1,28 +1,29 @@
 class Solution {
 public:
-int longestCommonSubsequence(string text1, string text2) {
-        int n = text1.length();
-        int m = text2.length();
+    int longestPalindromeSubseq(string s) {
+        int n = s.size();
 
-        vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
-        for(int i = 1; i <= n; i++){
-            for(int j = 1; j <= m; j++){
-                if(text1[i-1] == text2[j-1])
-                {
-                    dp[i][j] = dp[i-1][j-1] + 1;
+        vector<vector<int>> dp(n, vector<int>(n));
+
+        for(int gap = 0; gap < n; gap++){
+            for(int i = 0, j = gap; j < n; i++, j++){
+                if(gap == 0){
+                    dp[i][j] = 1;
                 }
-                else{
-                    dp[i][j] = max(dp[i-1][j], dp[i][j-1]);
+                else if(gap == 1){
+                    dp[i][j] = s[i] == s[j]? 2:1;
+                } else {
+                    //if extream char is same
+                    if(s[i] == s[j]){
+                        dp[i][j] = dp[i+1][j-1]+2;
+                    } else {
+                        //if extream char is not same
+                        dp[i][j] = max(dp[i][j-1],dp[i+1][j]); // max(prefix, suffix)
+                    }
                 }
             }
         }
 
-        return dp[n][m];
-    }
-    int longestPalindromeSubseq(string s) {
-       string t = s;
-       reverse(t.begin(), t.end());
-
-       return longestCommonSubsequence(s,t);
+        return dp[0][n-1];
     }
 };
