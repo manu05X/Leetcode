@@ -31,3 +31,17 @@ class Solution {
         return minVal;
     }
 }
+
+/*
+we can deduce the following rules for obtaining the cells above a cell with coordinate (row, col).
+
+img
+
+
+If row == 0: This is the top of the triangle: it stays the same.
+If col == 0: There is only one cell above, located at (row - 1, col).
+If col == row: There is only one cell above, located at (row - 1, col - 1).
+In all other cases: There are two cells above, located at (row - 1, col - 1) and (row - 1, col) .
+
+
+*/
