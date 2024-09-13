@@ -378,6 +378,7 @@
 | [0129-sum-root-to-leaf-numbers](https://github.com/manu05X/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/manu05X/Leetcode/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
@@ -520,6 +521,7 @@
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/manu05X/Leetcode/tree/master/0207-course-schedule) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/manu05X/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/manu05X/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Shortest Path
@@ -601,6 +603,7 @@
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/manu05X/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0127-word-ladder](https://github.com/manu05X/Leetcode/tree/master/0127-word-ladder) |
 | [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/manu05X/Leetcode/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/manu05X/Leetcode/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 ## Backtracking
@@ -666,4 +669,8 @@
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/manu05X/Leetcode/tree/master/0295-find-median-from-data-stream) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/manu05X/Leetcode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
