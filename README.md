@@ -155,6 +155,7 @@
 | [0253-meeting-rooms-ii](https://github.com/manu05X/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
 | [0287-find-the-duplicate-number](https://github.com/manu05X/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0295-find-median-from-data-stream](https://github.com/manu05X/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/manu05X/Leetcode/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -184,6 +185,7 @@
 | [0075-sort-colors](https://github.com/manu05X/Leetcode/tree/master/0075-sort-colors) |
 | [0253-meeting-rooms-ii](https://github.com/manu05X/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
+| [0295-find-median-from-data-stream](https://github.com/manu05X/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/manu05X/Leetcode/tree/master/0621-task-scheduler) |
@@ -383,6 +385,7 @@
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0253-meeting-rooms-ii](https://github.com/manu05X/Leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0295-find-median-from-data-stream](https://github.com/manu05X/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0621-task-scheduler](https://github.com/manu05X/Leetcode/tree/master/0621-task-scheduler) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -581,4 +584,12 @@
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/manu05X/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Design
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/manu05X/Leetcode/tree/master/0295-find-median-from-data-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/manu05X/Leetcode/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
