@@ -161,6 +161,7 @@
 | [0031-next-permutation](https://github.com/manu05X/Leetcode/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/manu05X/Leetcode/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/manu05X/Leetcode/tree/master/0075-sort-colors) |
+| [0086-partition-list](https://github.com/manu05X/Leetcode/tree/master/0086-partition-list) |
 | [0125-valid-palindrome](https://github.com/manu05X/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0253-meeting-rooms-ii](https://github.com/manu05X/Leetcode/tree/master/0253-meeting-rooms-ii) |
@@ -567,6 +568,7 @@
 | [0024-swap-nodes-in-pairs](https://github.com/manu05X/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/manu05X/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/manu05X/Leetcode/tree/master/0061-rotate-list) |
+| [0086-partition-list](https://github.com/manu05X/Leetcode/tree/master/0086-partition-list) |
 | [0092-reverse-linked-list-ii](https://github.com/manu05X/Leetcode/tree/master/0092-reverse-linked-list-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/manu05X/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/manu05X/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
