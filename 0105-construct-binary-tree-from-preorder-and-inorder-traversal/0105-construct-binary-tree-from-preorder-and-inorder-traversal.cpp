@@ -63,3 +63,56 @@ public:
         return node;
     }
 };
+
+/*
+Example:
+Preorder traversal: [3, 9, 20, 15, 7]
+Inorder traversal: [9, 3, 15, 20, 7]
+
+Step-by-Step Process:
+Preorder and Inorder Traversal:
+
+Preorder gives the root first: 3 is the root.
+Inorder gives the left and right subtrees with the root in the middle: [9, 3, 15, 20, 7]. We find that 3 splits the left subtree [9] and right subtree [15, 20, 7].
+
+We build a hash map from the inorder traversal to quickly find the index of any element:
+Hash Map mp: mp = {9: 0, 
+                   3: 1, 
+                   15: 2, 
+                   20: 3, 
+                   7: 4}
+
+Recursive Tree Construction:
+Start with rootIdx = 0 (which points to 3 in preorder).
+Root:
+
+The root is 3, and we split the inorder array based on the position of 3.
+Left subtree: [9]
+Right subtree: [15, 20, 7]
+Left Subtree:
+
+Move to rootIdx = 1 (preorder value 9). Since 9 is a leaf node (no left or right in inorder), create a node with 9 and return.
+Right Subtree:
+
+Move to rootIdx = 2 (preorder value 20).
+Left subtree of 20: [15]
+Right subtree of 20: [7]
+Left Subtree of 20:
+
+Move to rootIdx = 3 (preorder value 15). Create the node for 15 (leaf node).
+Right Subtree of 20:
+
+Move to rootIdx = 4 (preorder value 7). Create the node for 7 (leaf node).
+Final Tree Structure: The final tree looks like this:
+    3
+   / \
+  9  20
+     /  \
+    15   7
+
+Key Points:
+Preorder gives the root nodes.
+Inorder helps in splitting the left and right subtrees.
+A hash map (mp) speeds up searching the root index in the inorder array, making the construction efficient.
+
+*/
