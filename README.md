@@ -94,6 +94,7 @@
 | [0917-boats-to-save-people](https://github.com/manu05X/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0940-fruit-into-baskets](https://github.com/manu05X/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
+| [0954-maximum-sum-circular-subarray](https://github.com/manu05X/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/manu05X/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/manu05X/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -440,6 +441,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0215-kth-largest-element-in-an-array](https://github.com/manu05X/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
+| [0954-maximum-sum-circular-subarray](https://github.com/manu05X/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
 |  |
@@ -513,6 +515,7 @@
 | [0673-number-of-longest-increasing-subsequence](https://github.com/manu05X/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0727-minimum-window-subsequence](https://github.com/manu05X/Leetcode/tree/master/0727-minimum-window-subsequence) |
 | [0740-delete-and-earn](https://github.com/manu05X/Leetcode/tree/master/0740-delete-and-earn) |
+| [0954-maximum-sum-circular-subarray](https://github.com/manu05X/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0967-minimum-falling-path-sum](https://github.com/manu05X/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
 | [1105-uncrossed-lines](https://github.com/manu05X/Leetcode/tree/master/1105-uncrossed-lines) |
@@ -550,10 +553,12 @@
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0954-maximum-sum-circular-subarray](https://github.com/manu05X/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0954-maximum-sum-circular-subarray](https://github.com/manu05X/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Bit Manipulation
 |  |
 | ------- |
