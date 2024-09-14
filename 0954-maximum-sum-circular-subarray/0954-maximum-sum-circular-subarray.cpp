@@ -37,3 +37,25 @@ public:
     }
 
 };
+
+/*
+1.Calculate the Total Sum of the Array:
+The total sum is simply the sum of all elements in the array.
+
+2. Find the Maximum Subarray Sum without Wrapping:
+Use Kadane’s Algorithm to find the maximum sum subarray in the normal (non-circular) case.
+
+3. Find the Minimum Subarray Sum:
+Use a modified version of Kadane’s Algorithm to find the minimum sum subarray. This helps us in the wrapped case.
+
+4. Compute the Wrapped Subarray Sum:
+The sum of the wrapped subarray is calculated by subtracting the minimum subarray sum from the total sum: Wrapped sum=Total sum−Minimum subarray sum
+
+5.Final Result:
+The final result is the maximum of:
+The maximum subarray sum (non-wrapped).
+The wrapped subarray sum:-  Result=max(maxSum,Total sum−minSum)
+
+However, if the maximum subarray sum is less than or equal to 0 (i.e., all elements are negative), we return the non-wrapped maximum sum, because wrapping wouldn't help in such cases.
+
+*/
