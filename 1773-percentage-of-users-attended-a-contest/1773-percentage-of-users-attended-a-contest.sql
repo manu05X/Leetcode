@@ -1,8 +1,8 @@
 # Write your MySQL query statement below
 SELECT 
     contest_id, -- The ID of the contest
-    ROUND(
-        COUNT(DISTINCT user_id) * 100 /( -- Calculate the percentage of users
+    ROUND( -- Calculate the percentage of users
+        COUNT(DISTINCT user_id) * 100 /( -- Count of distinct users
             SELECT
                 COUNT(user_id)  -- Total number of unique users
             FROM
