@@ -41,3 +41,9 @@ HAVING
   reports_count > 0 -- Filter to only include managers who have more than 0 direct reports
 ORDER BY 
   employee_id; -- Sort the result by employee_id (which is the manager's employee_id)
+
+
+-- Summary of Key Differences:
+-- Subquery vs. JOIN: The current query uses a subquery to fetch the manager's name, while the previous query uses a JOIN, which is more efficient.
+-- HAVING clause: The current query explicitly filters out managers with reports_count > 0, while the previous query relies on the natural behavior of the grouping and counting.
+-- Efficiency: The current query may be slower due to the subquery being executed for every row, while the previous query with a JOIN would typically be faster in retrieving the manager's details.
