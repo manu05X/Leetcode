@@ -47,3 +47,25 @@ ORDER BY
 -- Subquery vs. JOIN: The current query uses a subquery to fetch the manager's name, while the previous query uses a JOIN, which is more efficient.
 -- HAVING clause: The current query explicitly filters out managers with reports_count > 0, while the previous query relies on the natural behavior of the grouping and counting.
 -- Efficiency: The current query may be slower due to the subquery being executed for every row, while the previous query with a JOIN would typically be faster in retrieving the manager's details.
+
+
+
+
+
+-- The outer query is processing each employee:
+-- Row 1: For Alice (employee_id = 2):
+-- e.reports_to = 1
+-- SELECT name 
+-- FROM employees e1 
+-- WHERE 1 = e1.employee_id
+-- This subquery returns the name John, which is used in the outer query's result set.
+
+-- Row 2: For Bob (employee_id = 3):
+-- e.reports_to = 1
+-- The subquery again finds John as the manager's name.
+
+-- Row 3: For Charlie (employee_id = 4):
+-- e.reports_to = 2
+-- The subquery returns Alice as the manager's name.
+
+-- The subquery works because it correlates with the outer query by referencing e.reports_to. For each row in the outer query, the subquery is evaluated with that specific row’s reports_to value, allowing the subquery to look up the manager's name for that particular employee. This is how the subquery is able to execute and reference the outer query alias e.
