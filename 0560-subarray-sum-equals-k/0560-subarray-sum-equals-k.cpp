@@ -24,3 +24,7 @@ public:
         return count;
     }
 };
+
+/*
+nums[3,4,7,2,-3,1,4,2] k=7
+*/
