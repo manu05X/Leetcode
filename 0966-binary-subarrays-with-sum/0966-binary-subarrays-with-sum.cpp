@@ -9,18 +9,19 @@ public:
 
         for(int i = 0; i < n; i++)
         {
-            currSum += nums[i];
+            currSum += nums[i]; //1, 1, 2, 2, 3
             if(currSum == goal)
             {
-                totalCount++;
+                totalCount++; //0, 0, 1, 2 
             }
-
+            //1-2= -1, 1-2= -1, 2-2=0, 2-2=0 -> all these are not in map, now for i = 4 => 3-2=1, now 1 is in map
             if(preSum_freq_map.find(currSum-goal) != preSum_freq_map.end())
             {
-                totalCount += preSum_freq_map[currSum-goal];
+                totalCount += preSum_freq_map[currSum-goal]; 
+                // preSum_freq_map[3-2],preSum_freq_map[1] = 2,    totalCount= 2+2 = 4
             }
 
-            preSum_freq_map[currSum]++;
+            preSum_freq_map[currSum]++;//[{1:1}], /\ [{1:2}],/\ [{1:2},{2:1}],/\ [{1:2},{2:2}]
         }
         return totalCount;
     }
@@ -34,19 +35,18 @@ Key Concepts:
     - This keeps track of the cumulative sum of elements as we iterate through the array.
 
 2. Prefix Sum Frequency Map (preSum_freq_map):
-This map stores the frequency of each prefix sum encountered so far. It helps in checking how many previous subarrays have contributed to the target sum.
+    - This map stores the frequency of each prefix sum encountered so far. It helps in checking how many previous subarrays have contributed to the target sum.
 
 Example:
-Input: nums = [1, 0, 1, 0, 1]
-Goal: goal = 2
+    - Input: nums = [1, 0, 1, 0, 1]
+    - Goal: goal = 2
 
 Explanation:
-Variables Initialization:
-n = 5 (length of the array).
-preSum_freq_map: This is an empty unordered map that will store the frequency of each prefix sum encountered during the iteration.
-totalCount = 0: This keeps track of how many subarrays have been found that sum to goal.
-currSum = 0: This is used to accumulate the running prefix sum as we iterate through the array.
-
+    Variables Initialization:
+    - n = 5 (length of the array).
+    - preSum_freq_map: This is an empty unordered map that will store the frequency of each prefix sum encountered during the iteration.
+    - totalCount = 0: This keeps track of how many subarrays have been found that sum to goal.
+    - currSum = 0: This is used to accumulate the running prefix sum as we iterate through the array.
 
 
 Iteration through the array:
@@ -90,7 +90,7 @@ Iteration through the array:
 
 
 
-Index 4:
+5. Index 4:
 
     - nums[4] = 1
     - Update currSum: currSum=2+1=3
