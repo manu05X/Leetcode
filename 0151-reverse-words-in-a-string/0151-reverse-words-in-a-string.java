@@ -1,4 +1,39 @@
 class Solution {
+    // A function that reverses characters from startRev to endRev in place
+    private static void strRev(char[] str, int startRev, int endRev) {
+        while (startRev < endRev) {
+            char temp = str[startRev];
+            str[startRev] = str[endRev];
+            str[endRev] = temp;
+            startRev++;
+            endRev--;
+        }
+    }
+
+    public String reverseWords(String s) {
+        s = s.replaceAll("\\s+", " ").trim();
+        
+        char[] charArray = s.toCharArray();
+        int strLen = charArray.length - 1;
+
+        strRev(charArray, 0, strLen);
+
+        for (int start = 0, end = 0; end <= strLen; ++end) {
+            if (end == strLen || charArray[end] == ' ') {
+                int endIdx = (end == strLen ) ? end : end - 1;
+                strRev(charArray, start, endIdx);
+                start = end + 1;
+            }
+        }
+        return new String(charArray);
+    }
+}
+
+
+
+
+/*
+class Solution {
     public String reverseWords(String s) {
         String[] str = s.trim().split("\\s+");
 
@@ -17,8 +52,7 @@ class Solution {
         return out + str[0];
     }
 }
-
-
+*/
 
 /*
 class Solution {
