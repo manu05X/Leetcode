@@ -1,4 +1,4 @@
-/*
+
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int n = nums.length;
@@ -30,7 +30,7 @@ class Solution {
     }
 }
 
-*/
+/*
 
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
@@ -82,3 +82,4 @@ class Solution {
         return result.stream().mapToInt(i -> i).toArray();
     }
 }
+*/
