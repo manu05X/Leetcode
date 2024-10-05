@@ -102,7 +102,7 @@ public:
                         maxFruits = max(maxFruits, currentFruits); // Update maxFruits if current window is bigger
                         
                         if (fruits[i-1] == fruitType1) {
-                            // If the previous fruit was fruitType1, adjust to count fruitType2 as the new one
+                            // If the previous fruit was fruitType1, adjust to count fruitType2 as the new one i.e current one
                             fruitType2 = fruits[i];
                             countFruit2 = 1;
                             currentFruits = countFruit1 + countFruit2;
