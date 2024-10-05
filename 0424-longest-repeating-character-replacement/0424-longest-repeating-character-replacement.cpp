@@ -34,9 +34,45 @@ public:
 };
 
 /*
+we can say that by currWindowSize - maxCharCount we get the count of number of less frequent character. Count of less frequent character must be less than or equal to k.
+
+- currWindowSize - maxCharCount gives you the count of less frequent characters (or characters that are not the most frequent one) in the current window.
+- For the current window to be valid (meaning it can be transformed into a window where all characters are the same), the count of these less frequent characters must be less than or equal to k, which is the maximum number of character replacements allowed.
+
+
 s = "ABAB", k = 2
 r = 0, l = 0 
 
+
+Let's go through an example:
+Consider the string s = "AABABBA" and k = 1.
+
+1> Initial window (right = 0):
+
+    Window: "A", currWindowSize = 1, maxCharCount = 1 (for A)
+    currWindowSize - maxCharCount = 1 - 1 = 0, which is <= k. This is valid, so longestSubstringLength = 1.
+
+2> Second window (right = 1):
+
+    Window: "AA", currWindowSize = 2, maxCharCount = 2 (for A)
+    currWindowSize - maxCharCount = 2 - 2 = 0, which is <= k. This is valid, so longestSubstringLength = 2.
+
+3> Third window (right = 2):
+
+Window: "AAB", currWindowSize = 3, maxCharCount = 2 (for A)
+currWindowSize - maxCharCount = 3 - 2 = 1, which is <= k. This is valid, so longestSubstringLength = 3.
+
+4> Fourth window (right = 3):
+
+Window: "AABA", currWindowSize = 4, maxCharCount = 3 (for A)
+currWindowSize - maxCharCount = 4 - 3 = 1, which is <= k. This is valid, so longestSubstringLength = 4.
+
+5> Fifth window (right = 4):
+
+    Window: "AABAB", currWindowSize = 5, maxCharCount = 3 (for A)
+    currWindowSize - maxCharCount = 5 - 3 = 2, which is greater than k. This window is invalid, so we shrink it by moving left to 1.
+
+After shrinking, the window becomes "ABAB", and the process continues until the valid window size is maximized.
 
 
 */
