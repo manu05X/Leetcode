@@ -40,22 +40,22 @@ public:
     int lengthOfLongestSubstringKDistinct(string s, int k) {
         int n = s.length();
         int maxSize = 0;
-        unordered_map<char, int> counter; // Map to store frequency of distinct characters
+        unordered_map<char, int> mp; // Map to store frequency of distinct characters
         
         for (int right = 0; right < n; right++) {
             // Add the current character to the map
-            counter[s[right]]++;
+            mp[s[right]]++;
             
             // If the number of distinct characters is less than or equal to k, increase maxSize
-            if (counter.size() <= k) {
+            if (mp.size() <= k) {
                 maxSize++;
             } else {
                 // Decrement the frequency of the character at the left end (right - maxSize)
-                counter[s[right - maxSize]]--;
+                mp[s[right - maxSize]]--;
                 
                 // If the frequency becomes 0, remove the character from the map
-                if (counter[s[right - maxSize]] == 0) {
-                    counter.erase(s[right - maxSize]);
+                if (mp[s[right - maxSize]] == 0) {
+                    mp.erase(s[right - maxSize]);
                 }
             }
         }
@@ -63,3 +63,5 @@ public:
         return maxSize;
     }
 };
+
+//ecebaqyee
