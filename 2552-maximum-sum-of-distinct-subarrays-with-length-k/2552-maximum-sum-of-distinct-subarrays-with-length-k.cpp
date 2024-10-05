@@ -1,3 +1,4 @@
+/*
 class Solution {
 public:
     long long maximumSubarraySum(vector<int>& nums, int k) {
@@ -37,6 +38,82 @@ public:
         return maxSum;
     }
 };
+
+*/
+
+/*
+class Solution {
+public:
+    long long maximumSubarraySum(vector<int>& nums, int k) {
+        int n = nums.size();
+        long long maxSum = 0, windowSum = 0;
+        unordered_map<int, int> freqMap; // Map to store frequency of elements
+
+        for (int right = 0; right < n; right++) {
+            // Add the current element to the map and update the window sum
+            freqMap[nums[right]]++;
+            windowSum += nums[right];
+
+            int lefptr = right-k+1; // sometime this may be negative
+
+            // If the window size exceeds k, adjust the left side of the window
+            if (freqMap.size() <= k && leftptr >= 0) {
+                // We have a window of exactly size k, check if it's valid and update maxSum
+                if (freqMap.size() == k) {
+                    maxSum = max(maxSum, windowSum);
+                }
+            } else {
+                // Remove the leftmost element (like in lengthOfLongestSubstringKDistinct)
+                freqMap[nums[leftptr]]--;
+                windowSum -= nums[leftptr];
+                
+                // If the frequency of the leftmost element becomes 0, remove it from the map
+                if (freqMap[nums[leftptr]] == 0) {
+                    freqMap.erase(nums[leftptr]);
+                }
+            }
+        }
+
+        return maxSum;
+    }
+};
+*/
+
+class Solution {
+public:
+    long long maximumSubarraySum(vector<int>& nums, int k) {
+        int n = nums.size();
+        long long maxSum = 0, windowSum = 0;
+        unordered_map<int, int> freqMap; // Map to store frequency of elements
+
+        for (int right = 0; right < n; right++) {
+            // Add the current element to the map and update the window sum
+            freqMap[nums[right]]++;
+            windowSum += nums[right];
+
+            // If we have a window size of exactly k, check if it meets the conditions
+            if (right - k + 1 >= 0) {  // This ensures the left pointer is valid
+                // Check if the window is valid (i.e., all elements are distinct)
+                if (freqMap.size() == k) {
+                    maxSum = max(maxSum, windowSum);  // Update maxSum if valid
+                }
+
+                // Slide the window by removing the leftmost element
+                int lefptr = right - k + 1;
+                windowSum -= nums[lefptr];
+                freqMap[nums[lefptr]]--;
+                
+                // Remove the element from the map if its frequency becomes zero
+                if (freqMap[nums[lefptr]] == 0) {
+                    freqMap.erase(nums[lefptr]);
+                }
+            }
+        }
+
+        return maxSum;
+    }
+};
+
 
 /*
 nums = [1,5,4,2,9,9,9], k = 3
