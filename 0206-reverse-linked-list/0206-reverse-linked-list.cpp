@@ -12,27 +12,40 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ios_base::sync_with_stdio(false);
+        ios_base::sync_with_stdio(false);         
         cin.tie(NULL);
-        cout.tie(NULL);
 
-        // Previous ptr
         ListNode* prev = NULL;
-        // Current ptr
         ListNode* curr = head;
-        //next ptr
-        //ListNode* nex;
 
-        //continue curr till it is not null
-        while(curr)
-        {
-            ListNode* nex = curr->next;
+        while(curr != NULL){
+            ListNode* temp = curr->next;
             curr->next = prev;
-
+            
             prev = curr;
-            curr = nex;
+            curr = temp;
         }
+
         head = prev;
         return head;
     }
 };
+
+
+// class Solution {
+// public:
+//     ListNode* reverseList(ListNode* head) {
+//         ios_base::sync_with_stdio(false);         
+//         cin.tie(NULL);
+
+//         if(head == NULL || head->next == NULL){
+//             return head;
+//         }
+
+//         ListNode* p = reverseList(head->next);
+//         head->next->next = head;
+//         head->next = NULL;
+
+//         return p;
+//     }
+// };
