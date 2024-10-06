@@ -24,6 +24,15 @@ class Solution {
     }
 }
 
+/*
+i = 0 => pq = [30]
+i = 1 => 5 > 30 false , pq = [10,30]
+i = 2 => 15 > 10 true, i.e previous meeting end before curr start, so pop from top of minheap then insert curr endTime in the heap, pr = [20,30]
+
+now interval end, so the size of hinHeap determine the no of room required
+
+*/
+
 
 
 
