@@ -653,6 +653,7 @@
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/manu05X/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0141-linked-list-cycle](https://github.com/manu05X/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/manu05X/Leetcode/tree/master/0143-reorder-list) |
+| [0206-reverse-linked-list](https://github.com/manu05X/Leetcode/tree/master/0206-reverse-linked-list) |
 | [2573-remove-nodes-from-linked-list](https://github.com/manu05X/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 ## Recursion
 |  |
@@ -661,6 +662,7 @@
 | [0025-reverse-nodes-in-k-group](https://github.com/manu05X/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0060-permutation-sequence](https://github.com/manu05X/Leetcode/tree/master/0060-permutation-sequence) |
 | [0143-reorder-list](https://github.com/manu05X/Leetcode/tree/master/0143-reorder-list) |
+| [0206-reverse-linked-list](https://github.com/manu05X/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
