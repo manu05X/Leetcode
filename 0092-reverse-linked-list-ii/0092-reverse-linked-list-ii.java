@@ -8,6 +8,98 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+
+class Solution {
+    public ListNode reverseBetween(ListNode head, int left, int right) {
+        if(head == null){
+            return head;
+        }
+        /*  c  l     r
+            1->2->3->4->5
+        */
+        ListNode curr = head;
+        ListNode prev = null;
+        while(left > 1){
+            prev = curr;
+            curr = curr.next;
+            left--;
+            right--;
+        }
+         /* l  c  r    
+            1->2->3->4->5
+            p
+        */
+
+        ListNode start = prev; // storing the prev as start next is the begning of left pointer for reversing the linked list
+        ListNode end = curr; // curr would become the tail of reverse group;
+        /*  l     r    
+            1->2->3->4->5
+            st end
+        */
+
+        while(right > 0){
+            ListNode tmp = curr.next;
+            curr.next = prev;
+            
+            prev = curr;
+            curr = tmp;
+
+            right--;
+        }
+        /*  l  e  r  p  c
+            1<-2<-3<-4  5
+            s
+
+                ________
+            l  |  r  p  |
+            1  2<-3<-4  5
+            s  e        c
+        */
+
+        if(start != null){
+            start.next = prev;
+        }
+        /*
+                ________
+            l  |  r  p  |
+            1  2<-3<-4  5
+            s  e        c
+         */
+        else{
+            head = prev;
+        }
+
+        /*
+                ________
+            s  |  r  p  |
+            1  2<-3<-4  5
+            |  e     |  c
+            ----------
+
+        */
+        end.next = curr;
+
+        /*   
+            s        p  
+            1->4->3->2->5
+               e        c
+         */
+        return head;
+    }
+}
+
+/*
+1->2->3->4->5
+
+ */
+
+
+
+
+
+/*
+
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
         // If there is only one node or no need to reverse, return the original list.
@@ -46,3 +138,4 @@ class Solution {
         return dummyNode.next;
     }
 }
+*/
