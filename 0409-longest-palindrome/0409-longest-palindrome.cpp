@@ -14,11 +14,11 @@ public:
 
         for(auto i = mp.begin(); i != mp.end(); i++){
             if(i->second % 2 ==0){
-                evenlength += i->second;
+                evenlength += i->second;  // Add even frequencies fully
             }
             else{
-                hasOdd = true;
-                oddlength += i->second - 1;
+                hasOdd = true; // Mark that there is an odd frequency
+                oddlength += i->second - 1;  // Add the largest even part of odd frequencies
 
             }
         }
