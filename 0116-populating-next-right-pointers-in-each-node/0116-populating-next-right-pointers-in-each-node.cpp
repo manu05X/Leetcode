@@ -19,6 +19,9 @@ public:
 class Solution {
 public:
     Node* connect(Node* root) {
+        ios::sync_with_stdio(false);
+        cin.tie(NULL);
+
         if(root == NULL)
             return root;
 
