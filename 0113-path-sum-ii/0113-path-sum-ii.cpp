@@ -11,25 +11,26 @@
  */
 class Solution {
 public:
-    vector<vector<int>> ans;
+    vector<vector<int>> ans; // Initialize ans list
 
     void dfs(TreeNode* root, int targetSum, vector<int>& temp){
         if(root == NULL)
             return;
         
-        temp.push_back(root->val);
-        targetSum -= root->val;
+        temp.push_back(root->val); // Add current node to temp
+        targetSum -= root->val; // Subtract current node's value from targetSum
 
         if(root->left == NULL && root->right== NULL){
             if(targetSum == 0){
-                ans.push_back(temp);
+                ans.push_back(temp); // Add a copy of temp to ans
             }
         } else {
+            // Recur for left and right children
             dfs(root->left, targetSum, temp);
             dfs(root->right, targetSum, temp);
         }
 
-        temp.pop_back();
+        temp.pop_back(); // Backtrack to explore other paths
     }
 
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
