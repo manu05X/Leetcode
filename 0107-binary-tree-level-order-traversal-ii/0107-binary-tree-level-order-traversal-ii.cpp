@@ -29,6 +29,9 @@ public:
 
     }
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
+        ios::sync_with_stdio(false);
+        cin.tie(NULL);
+
         if(root==NULL){
             return {};
         }
