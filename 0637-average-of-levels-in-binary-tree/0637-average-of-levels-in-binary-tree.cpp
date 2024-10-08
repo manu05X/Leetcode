@@ -14,8 +14,7 @@ public:
     vector<double> averageOfLevels(TreeNode* root) {
         ios::sync_with_stdio(false);
         cin.tie(NULL);
-        cout.tie(NULL);
-        
+
         vector<double> ans; // Resultant vector to store the zigzag level order traversal
         
         // If the tree is empty, return the empty result
