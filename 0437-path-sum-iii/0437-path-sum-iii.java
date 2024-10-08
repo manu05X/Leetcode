@@ -50,30 +50,37 @@
 
 
 class Solution {
-    public int pathSum(TreeNode root, int targetSum) 
-    {
+    // Main method to find the number of paths summing to targetSum
+    public int pathSum(TreeNode root, int targetSum) {
+        // If the tree is empty, return 0 as there are no paths
         if (root == null)
             return 0;
         
+        // Call helper function getSum to calculate the number of valid paths starting from the current root,
+        // and recursively call pathSum on the left and right children to cover all possible subtrees.
         return getSum(root, targetSum, 0) + pathSum(root.left, targetSum) + pathSum(root.right, targetSum);
     }
     
-    public int getSum(TreeNode root, int targetSum, long sum) 
-    {
-        int res = 0;
+    // Helper function to calculate the number of valid paths with a given starting root node
+    public int getSum(TreeNode root, int targetSum, long sum) {
+        int res = 0;  // Initialize the result (count of valid paths) to 0
         if (root == null)
-            return res;
-        
+            return res;  // If the current node is null, return 0 (no path)
+
+        // Add the value of the current node to the running sum
         sum += root.val;
-        
+
+        // If the running sum equals the targetSum, increment the result (valid path found)
         if (sum == targetSum)
             res++;
-        
+
+        // Recur for the left and right subtrees with the updated sum, accumulating the count of valid paths
         res += getSum(root.left, targetSum, sum);
         res += getSum(root.right, targetSum, sum);
         
+        // (This is unnecessary as it's not modifying the actual sum in place. It's not used afterward.)
         sum -= root.val;
         
-        return res;
-    } 
+        return res;  // Return the total number of valid paths found for this branch
+    }
 }
