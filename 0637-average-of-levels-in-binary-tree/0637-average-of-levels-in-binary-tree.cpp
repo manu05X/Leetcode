@@ -28,29 +28,29 @@ public:
             double sum = 0;
             double count = 0;
             
-            queue<TreeNode*> level; // Temporary q to store nodes at the current level
+            queue<TreeNode*> level; // Temporary queue to store nodes at the current level
             int n = q.size(); // Number of nodes at the current level
             
             // Traverse all nodes at the current level
             for (int i = 0; i < n; i++) {
                 TreeNode* curr = q.front(); // Get the front node from the queue
-                q.pop(); // Remove the processed node from the queue
+                q.pop(); // Remove the processed node from the original queue
                 sum += curr->val;
                 count++;
                 
-                // Push left child to the queue if it exists
+                // Push left child to the level queue if it exists
                 if (curr->left) {
                     level.push(curr->left);
                 }
                 
-                // Push right child to the queue if it exists
+                // Push right child to the level queue if it exists
                 if (curr->right) {
                     level.push(curr->right);
                 }
             }
-            q = level;
+            q = level; // adding the level queue to original queue
             
-            // Add the current level nodes (temp) to the result (ans)
+            // Add the current level avg (temp) to the result (ans)
             ans.push_back(sum * 1.0/ count);
         }
         
