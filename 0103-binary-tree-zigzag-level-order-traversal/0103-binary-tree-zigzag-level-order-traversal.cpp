@@ -13,6 +13,9 @@ class Solution {
 public:
     // Function to perform zigzag level order traversal of a binary tree
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        ios::sync_with_stdio(false);
+        cin.tie(NULL);
+
         int c = 1; // Counter to keep track of the level (odd/even) for zigzag traversal
         vector<vector<int>> ans; // Resultant vector to store the zigzag level order traversal
         
