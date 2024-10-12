@@ -104,6 +104,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/manu05X/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
+| [1036-rotting-oranges](https://github.com/manu05X/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1095-two-city-scheduling](https://github.com/manu05X/Leetcode/tree/master/1095-two-city-scheduling) |
@@ -676,6 +677,7 @@
 | [0221-maximal-square](https://github.com/manu05X/Leetcode/tree/master/0221-maximal-square) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/manu05X/Leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [1036-rotting-oranges](https://github.com/manu05X/Leetcode/tree/master/1036-rotting-oranges) |
 ## Linked List
 |  |
 | ------- |
@@ -728,6 +730,7 @@
 | [0322-coin-change](https://github.com/manu05X/Leetcode/tree/master/0322-coin-change) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
+| [1036-rotting-oranges](https://github.com/manu05X/Leetcode/tree/master/1036-rotting-oranges) |
 ## Backtracking
 |  |
 | ------- |
