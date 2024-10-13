@@ -1,8 +1,52 @@
 class MedianFinder {
+private:
+    // Max-heap to store the smaller half of numbers
+    priority_queue<int> small;
+    // Min-heap to store the larger half of numbers
+    priority_queue<int, vector<int>, greater<int>> large;
+    // Flag to keep track of whether the total number of elements is even or odd
+    bool even = true;
+
+public:
+    // Function to add a number to the data structure
+    void addNum(int num) {
+        // If the total number of elements is even, we add the element to the larger half after filtering it
+        if (even) {
+            large.push(num); // Push into large first
+            small.push(large.top()); // Move the smallest element from large to small
+            large.pop();
+        } 
+        // If the total number of elements is odd, we add the element to the smaller half after filtering it
+        else {
+            small.push(num); // Push into small first
+            large.push(small.top()); // Move the largest element from small to large
+            small.pop();
+        }
+        // Toggle the flag since we've added a number
+        even = !even;
+    }
+
+    // Function to find the median
+    double findMedian() {
+        // If even, return the average of the top elements of both heaps
+        if (even) {
+            return (small.top() + large.top()) / 2.0;
+        } 
+        // If odd, return the top of the smaller half
+        else {
+            return small.top();
+        }
+    }
+};
+
+
+
+/*
+class MedianFinder {
 public:
     priority_queue<int> maxheap; //1st half (left half)
     priority_queue<int,vector<int>,greater<int>> minheap; //2nd half (Right half)
-    /** initialize your data structure here. */
+    // initialize your data structure here. 
     MedianFinder() {
         
     }
@@ -66,7 +110,7 @@ public:
             return (double(maxheap.top())+double(minheap.top()))/2;
     }
 };
-
+*/
 /**
  * Your MedianFinder object will be instantiated and called as such:
  * MedianFinder* obj = new MedianFinder();
