@@ -12,6 +12,9 @@ class Solution {
             for (int j = 0; j < nums.get(i).size(); j++) {
                 int key = i + j;
                 maxKey = Math.max(key, maxKey); // Update maxKey
+
+                //mp.putIfAbsent(key, new ArrayList<>());
+
                 // Alternative to putIfAbsent
                 if (!mp.containsKey(key)) {
                     mp.put(key, new ArrayList<>());
