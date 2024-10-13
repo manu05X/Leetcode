@@ -24,3 +24,13 @@ public:
         return ans;
     }
 };
+
+/*
+
+This line is checking if the number of elements currently in the priority queue (i.e., pq.size()) exceeds the total number of elements that should not be part of the final result (mp.size() - k).
+
+In other words, since we want the top k frequent elements, we are ensuring that once the priority queue contains the k most frequent elements, we start processing them for our result.
+
+// if(pq.size() > (int)mp.size() - k)
+
+*/
