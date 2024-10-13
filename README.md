@@ -86,6 +86,7 @@
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/manu05X/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0487-max-consecutive-ones-ii](https://github.com/manu05X/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0496-next-greater-element-i](https://github.com/manu05X/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0498-diagonal-traverse](https://github.com/manu05X/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/manu05X/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/manu05X/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -347,6 +348,7 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/manu05X/Leetcode/tree/master/0054-spiral-matrix) |
+| [0498-diagonal-traverse](https://github.com/manu05X/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0874-backspace-string-compare](https://github.com/manu05X/Leetcode/tree/master/0874-backspace-string-compare) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
 ## Tree
@@ -683,6 +685,7 @@
 | [0130-surrounded-regions](https://github.com/manu05X/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/manu05X/Leetcode/tree/master/0221-maximal-square) |
+| [0498-diagonal-traverse](https://github.com/manu05X/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0695-max-area-of-island](https://github.com/manu05X/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/manu05X/Leetcode/tree/master/0967-minimum-falling-path-sum) |
