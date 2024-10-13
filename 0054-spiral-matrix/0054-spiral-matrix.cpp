@@ -19,6 +19,7 @@ public:
                 ans.push_back(matrix[i][right]);
             }
             right--;
+
             /*
             //right to left
             for(int i = right; i >=left; i--){
@@ -26,6 +27,7 @@ public:
             }
             bottom--;
             */
+            
             // For moving right to left.
             if (top <= bottom) 
             {
