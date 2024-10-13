@@ -40,28 +40,40 @@ node in the priority queue, do priority queue becomes empty, at last return the 
             
             //cout << lists[i]->val <<"\n";
         }
-        ListNode* dummyhead=NULL;
-        ListNode* temp;
+        // ListNode* dummyhead=NULL;
+        ListNode* dummyhead = new ListNode(0);
+        ListNode* tail = dummyhead;
         
         while(!pq.empty())
         { 
-            ListNode* curr=pq.top();
+            //M1
+            tail->next = pq.top();
             pq.pop();
-            if(curr->next)
-            {
-                pq.push(curr->next);
+            tail = tail->next;
+
+            if(tail->next != NULL){
+                pq.push(tail->next);
             }
-            if(dummyhead==NULL)
-            {
-              dummyhead=curr;
-              temp=curr;
-            }
-            else
-            {
-              temp->next=curr;
-              temp=temp->next;
-            }
+
+            //M2
+            // ListNode* curr=pq.top();
+            // pq.pop();
+            // if(curr->next)
+            // {
+            //     pq.push(curr->next);
+            // }
+            // if(dummyhead==NULL)
+            // {
+            //   dummyhead=curr;
+            //   temp=curr;
+            // }
+            // else
+            // {
+            //   temp->next=curr;
+            //   temp=temp->next;
+            // }
       }
-      return dummyhead;
+      //return dummyhead;
+      return dummyhead->next;
     }
 };
