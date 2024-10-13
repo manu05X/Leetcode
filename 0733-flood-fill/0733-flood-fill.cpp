@@ -4,6 +4,9 @@ public:
     int dy[4] = {0, 0, -1, 1};
 
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
+        ios_base::sync_with_stdio(false);  
+        cin.tie(NULL);
+        
         // If the color to change is the same as the new color, no operation needed
         if(image[sr][sc] == newColor) {
             return image;
