@@ -8,22 +8,22 @@ public:
             return nums[0];
         }
       
-        int left = 0; 
-        int right = size - 1; 
+        int lo = 0; 
+        int hi = size - 1; 
       
         // Binary search to find the pivot, the smallest element
-        while (left < right) {
-            int mid = left + (right - left) / 2; 
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2; 
 
             if (nums[0] <= nums[mid]) {
-                left = mid + 1;
+                lo = mid + 1;
             } 
             else 
             { 
-                right = mid;
+                hi = mid;
             }
         }
 
-        return nums[left];
+        return nums[lo];
     }
 };
