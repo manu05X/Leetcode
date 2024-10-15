@@ -101,6 +101,7 @@
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/manu05X/Leetcode/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/manu05X/Leetcode/tree/master/0740-delete-and-earn) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/manu05X/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/manu05X/Leetcode/tree/master/0792-binary-search) |
 | [0917-boats-to-save-people](https://github.com/manu05X/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0940-fruit-into-baskets](https://github.com/manu05X/Leetcode/tree/master/0940-fruit-into-baskets) |
@@ -228,6 +229,7 @@
 | [0287-find-the-duplicate-number](https://github.com/manu05X/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/manu05X/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/manu05X/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/manu05X/Leetcode/tree/master/0792-binary-search) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/manu05X/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
