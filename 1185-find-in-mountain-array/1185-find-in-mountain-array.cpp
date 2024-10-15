@@ -11,75 +11,54 @@
 class Solution {
 public:
     int findInMountainArray(int target, MountainArray &mountainArr) {
-        ios_base::sync_with_stdio(false);
-        cin.tie(NULL);
-        cout.tie(NULL);
+        int n = mountainArr.length();
+        int lo = 0, hi = n - 1;
         
-        // Save the length of the mountain array
-        int length = mountainArr.length();
-
-        // 1. Find the index of the peak element
-        int low = 1;
-        int high = length - 2;
-        while (low != high) {
-            int testIndex = (low + high) >> 1;
-            int curr = mountainArr.get(testIndex);
-            int next = mountainArr.get(testIndex + 1);
-            
-            if (curr < next) 
-            {
-                if (curr == target) {
-                    return testIndex;
-                }
-                if (next == target) {
-                    return testIndex + 1;
-                }
-                low = testIndex + 1;
+        // Binary search to find the peak element
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (mountainArr.get(mid) < mountainArr.get(mid + 1)) {
+                lo = mid + 1;
             } else {
-                high = testIndex;
-            }
-        }
-
-        int peakIndex = low;
-
-        // 2. Search in the strictly increasing part of the array
-        // If found, will be returned in the loop itself.
-        low = 0;
-        high = peakIndex;
-        while (low <= high) {
-            int testIndex = (low + high) >> 1;
-            int curr = mountainArr.get(testIndex);
-                
-            if (curr == target) 
-            {
-                return testIndex;
-            } 
-            else if (curr < target) 
-            {
-                low = testIndex + 1;
-            } else {
-                high = testIndex - 1;
-            }
-        }
-
-        // 3. Search in the strictly decreasing part of the array
-        // If found, will be returned in the loop itself.
-        low = peakIndex + 1;
-        high = length - 1;
-        while (low <= high) {
-            int testIndex = (low + high) >> 1;
-            int curr = mountainArr.get(testIndex);
-                
-            if (curr == target) {
-                return testIndex;
-            } else if (curr > target) {
-                low = testIndex + 1;
-            } else {
-                high = testIndex - 1;
+                hi = mid;
             }
         }
         
-        // Target is not present in the mountain array
+        int peakIndex = lo;
+        
+        // If the target is the peak element, return its index
+        if (mountainArr.get(peakIndex) == target) {
+            return peakIndex;
+        }
+        
+        // Binary search on the left half i.e increasing half
+        lo = 0, hi = peakIndex;
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+            int midVal = mountainArr.get(mid);
+            if (midVal == target) {
+                return mid;
+            } else if (midVal < target) {
+                lo = mid + 1;
+            } else {
+                hi = mid - 1;
+            }
+        }
+        
+        // Binary search on the right half decreasing half
+        lo = peakIndex, hi = n - 1;
+        while (lo <= hi) {
+            int mid = lo + (hi - lo) / 2;
+            int midVal = mountainArr.get(mid);
+            if (midVal == target) {
+                return mid;
+            } else if (midVal < target) {
+                hi = mid - 1;
+            } else {
+                lo = mid + 1;
+            }
+        }
+        
         return -1;
     }
 };
