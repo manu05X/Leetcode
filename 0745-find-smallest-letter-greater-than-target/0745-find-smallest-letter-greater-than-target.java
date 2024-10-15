@@ -9,7 +9,7 @@ class Solution {
             int mid = lo+(hi-lo)/2;
 
             if(letters[mid] > target){
-                //if mid is idex 0, so return it
+                //if mid is idex 0 OR if mid-1 elem is target, so return it
                 if(mid == 0 || letters[mid-1] == target){
                     return letters[mid];
                 }
