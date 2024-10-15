@@ -15,12 +15,20 @@ public:
         while (lo < hi) {
             int mid = lo + (hi - lo) / 2; 
 
-            if (nums[0] <= nums[mid]) {
-                lo = mid + 1;
+            // if (nums[0] <= nums[mid]) {
+            //     lo = mid + 1;
+            // } 
+            // else 
+            // { 
+            //     hi = mid;
+            // }
+            if (nums[mid] < nums[hi]) 
+            {
+                hi = mid;
             } 
             else 
-            { 
-                hi = mid;
+            {
+                lo = mid+1;
             }
         }
 
