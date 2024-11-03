@@ -6,6 +6,33 @@ public:
         for(int x : nums){
             mp[x]++;
         }
+        vector<pair<int,int>> sortArray;
+        // Create a vector of pairs v, where each pair consists of the frequency and the corresponding element.
+        for(auto it : mp){
+            sortArray.push_back(make_pair(it.second, it.first));
+        }
+        //Sort the vector v in descending order based on the frequency.
+        sort(sortArray.rbegin(), sortArray.rend());
+
+        vector<int>ans;
+        // Iterate through the sorted vector v and insert the elements into the result vector ans until k elements are inserted.
+        for(int i = 0; i < k; i++){
+            ans.push_back(sortArray[i].second);
+            
+        }
+        return ans;
+    }
+};
+
+/*
+class Solution {
+public:
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+         // Create a frequency map to store the count of each element
+        unordered_map<int,int> mp;
+        for(int x : nums){
+            mp[x]++;
+        }
         vector<int> ans;
         // Create a priority queue (max heap) to store pairs of frequencies and corresponding elements
         priority_queue<pair<int,int>> pq;
@@ -24,6 +51,7 @@ public:
         return ans;
     }
 };
+*/
 
 /*
 
