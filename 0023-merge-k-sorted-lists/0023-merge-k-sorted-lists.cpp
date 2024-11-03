@@ -31,6 +31,7 @@ node in the priority queue, do priority queue becomes empty, at last return the 
       };
     
     ListNode* mergeKLists(vector<ListNode*>& lists) {
+        // maxHeap by default so write compare function to make it minHeap
         priority_queue<ListNode*, vector<ListNode*>,compare> pq;
         
         for(int i = 0; i < lists.size(); i++)
