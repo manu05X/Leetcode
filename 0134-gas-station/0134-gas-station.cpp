@@ -45,6 +45,12 @@ public:
     }
 };
 /*
+
+remaning = gas[i] - cost[i];
+
+gas =           [1, 2, 3, 4, 5]
+cost =          [3, 4, 5, 1, 2]
+
 i           = _, 0, 1, 2, 3, 4
 remaning    = 0, -2,-2,-2,3, 3
 sumRemaning = 0, -2,-2,-2,3, 6
