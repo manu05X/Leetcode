@@ -10,7 +10,8 @@ public:
         for (int num : nums) {
             // Add current number to cumulative sum and do mod by k.
             // The double mod ensures that cumulativeSum is positive.
-            cumulativeSum = ((cumulativeSum + num) % k + k) % k;
+            int x = cumulativeSum + num;
+            cumulativeSum = (x % k + k) % k;
 
             // If a subarray has cumulativeSum mod k equals to some previous subarray's cumulativeSum mod k,
             // then the subarray in between is divisible by k.
