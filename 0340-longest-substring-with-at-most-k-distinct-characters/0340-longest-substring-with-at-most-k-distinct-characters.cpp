@@ -1,4 +1,4 @@
-/*
+
 class Solution {
 public:
     int lengthOfLongestSubstringKDistinct(string s, int k) {
@@ -33,8 +33,9 @@ public:
         return maxLength;
     }
 };
-*/
 
+
+/*
 class Solution {
 public:
     int lengthOfLongestSubstringKDistinct(string s, int k) {
@@ -63,5 +64,7 @@ public:
         return maxSize;
     }
 };
+*/
+
 
 //ecebaqyee
