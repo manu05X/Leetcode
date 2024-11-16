@@ -560,6 +560,7 @@
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/manu05X/Leetcode/tree/master/0268-missing-number) |
+| [0866-rectangle-overlap](https://github.com/manu05X/Leetcode/tree/master/0866-rectangle-overlap) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/manu05X/Leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
@@ -580,6 +581,7 @@
 ## Geometry
 |  |
 | ------- |
+| [0866-rectangle-overlap](https://github.com/manu05X/Leetcode/tree/master/0866-rectangle-overlap) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
 |  |
