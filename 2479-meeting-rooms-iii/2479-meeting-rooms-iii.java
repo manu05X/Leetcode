@@ -1,5 +1,54 @@
 class Solution {
     public int mostBooked(int n, int[][] meetings) {
+        int roomTotalMeetings[] = new int[n];
+        long roomFreeTime[] = new long[n];
+        
+        Arrays.sort(meetings, (a, b) -> a[0] - b[0]);
+
+        for (int i = 0; i < meetings.length; i++) {
+            int meetStartTime = meetings[i][0];
+            int meetEndTime = meetings[i][1];
+
+            int minIdx = -1;
+            long minEndTime = Long.MAX_VALUE;
+            boolean foundFree = false;
+
+            for (int j = 0; j < n; j++) {
+                if (roomFreeTime[j] <= meetStartTime) {
+                    minIdx = j;
+                    foundFree = true;
+                    break;
+                } else if (roomFreeTime[j] < minEndTime) {
+                    minEndTime = roomFreeTime[j];
+                    minIdx = j;
+                }
+            }
+
+            roomTotalMeetings[minIdx]++;
+            if (foundFree) {
+                roomFreeTime[minIdx] = meetEndTime;
+            } else {
+                roomFreeTime[minIdx] += (meetEndTime - meetStartTime);
+            }
+        }
+
+        int maxMeetings = 0, roomWithMaxMeet = -1;
+
+        for (int i = 0; i < roomTotalMeetings.length; i++) {
+            if (roomTotalMeetings[i] > maxMeetings) {
+                maxMeetings = roomTotalMeetings[i];
+                roomWithMaxMeet = i;
+            }
+        }
+
+        return roomWithMaxMeet;
+    }
+}
+
+/*
+
+class Solution {
+    public int mostBooked(int n, int[][] meetings) {
         var meetingCount = new int[n];
         var usedRooms = new PriorityQueue<long[]>((a, b) -> a[0] != b[0] ? Long.compare(a[0], b[0]) : Long.compare(a[1], b[1]));
         var unusedRooms = new PriorityQueue<Integer>();
@@ -41,7 +90,7 @@ class Solution {
         return maxMeetingCountRoom;
     }
 }
-
+*/
 
 /*
 class Solution {
