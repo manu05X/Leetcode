@@ -11,10 +11,10 @@ public:
         int xOverlap = endPoint - startPoint;
 
         // calculate y overlap
-        int leftPoint = max(ay1, by1); // max of start/left point
-        int rightPoint = min(ay2, by2); // min end/right point
+        int bottomPoint = max(ay1, by1); // max of start/bottom point
+        int topPoint = min(ay2, by2); // min end/top point
 
-        int yOverlap = rightPoint - leftPoint;
+        int yOverlap = topPoint - bottomPoint;
 
         if(xOverlap > 0 && yOverlap > 0){
             areaOverlap = xOverlap * yOverlap;
@@ -94,5 +94,6 @@ public:
         return totalArea;
     }
 };
+
 
 */
