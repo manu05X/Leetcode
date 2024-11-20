@@ -14,11 +14,14 @@ public:
     vector<int> ans;
     void printLeft(TreeNode* root)
     {
+        // If the current node root is NULL, Or (it has no left or right child)
         if(!root || (!root->left && !root->right))
         {
             return;
         }
+        // The value of the current node is added to the ans vector because it is part of the left boundary.
         ans.push_back(root->val);
+        // If the current node does not have a left child, the function moves to the right child.
         if(!root->left)
             printLeft(root->right);
         else
@@ -39,11 +42,12 @@ public:
 
     void printRight(TreeNode* root)
     {
+        // If the current node root is NULL, Or (it has no left or right child)
         if(!root || (!root->left && !root->right))
         {
             return;
         }
-        
+        // // If the current node does not have a right child, the function moves to the left child.
         if(!root->right)
             printRight(root->left);
         else
