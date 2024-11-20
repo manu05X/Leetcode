@@ -1,11 +1,20 @@
 // Node structure for Trie
-struct Node {
+class Node {
     // Array to store links to child nodes,
     // each index represents a letter
     Node* links[26];
     // Flag indicating if the node
     // marks the end of a word
-    bool flag = false;
+    bool isEnd = false;
+
+    public:
+    Node() {
+        // Initialize all links to null
+        for (int i = 0; i < 26; i++) {
+            links[i] = NULL;
+        }
+        isEnd = false;
+    }
 
     // Check if the node contains
     // a specific key (letter)
@@ -28,13 +37,13 @@ struct Node {
     // Set the current node
     // as the end of a word
     void setEnd() {
-        flag = true;
+        isEnd = true;
     }
 
     // Check if the current node
     // marks the end of a word
-    bool isEnd() {
-        return flag;
+    bool isEndOfWord() {
+        return isEnd;
     }
 };
 
@@ -74,7 +83,7 @@ public:
         }
         // Check if the last node
         // marks the end of a word
-        return node->isEnd();
+        return node->isEndOfWord();
     }
     
     bool startsWith(string prefix) {
