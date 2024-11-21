@@ -172,6 +172,7 @@
 | [0133-clone-graph](https://github.com/manu05X/Leetcode/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/manu05X/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0166-fraction-to-recurring-decimal](https://github.com/manu05X/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0202-happy-number](https://github.com/manu05X/Leetcode/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/manu05X/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0268-missing-number](https://github.com/manu05X/Leetcode/tree/master/0268-missing-number) |
@@ -343,6 +344,7 @@
 | [0132-palindrome-partitioning-ii](https://github.com/manu05X/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0166-fraction-to-recurring-decimal](https://github.com/manu05X/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0208-implement-trie-prefix-tree](https://github.com/manu05X/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -564,6 +566,7 @@
 | [0070-climbing-stairs](https://github.com/manu05X/Leetcode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/manu05X/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/manu05X/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0166-fraction-to-recurring-decimal](https://github.com/manu05X/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0202-happy-number](https://github.com/manu05X/Leetcode/tree/master/0202-happy-number) |
 | [0223-rectangle-area](https://github.com/manu05X/Leetcode/tree/master/0223-rectangle-area) |
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
