@@ -556,6 +556,7 @@
 ## Math
 |  |
 | ------- |
+| [0009-palindrome-number](https://github.com/manu05X/Leetcode/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/manu05X/Leetcode/tree/master/0048-rotate-image) |
 | [0060-permutation-sequence](https://github.com/manu05X/Leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/manu05X/Leetcode/tree/master/0062-unique-paths) |
