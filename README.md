@@ -357,6 +357,7 @@
 | [0383-ransom-note](https://github.com/manu05X/Leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/manu05X/Leetcode/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/manu05X/Leetcode/tree/master/0394-decode-string) |
 | [0409-longest-palindrome](https://github.com/manu05X/Leetcode/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/manu05X/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -392,6 +393,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/manu05X/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
 | [0316-remove-duplicate-letters](https://github.com/manu05X/Leetcode/tree/master/0316-remove-duplicate-letters) |
+| [0394-decode-string](https://github.com/manu05X/Leetcode/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/manu05X/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/manu05X/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -824,6 +826,7 @@
 | [0206-reverse-linked-list](https://github.com/manu05X/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0394-decode-string](https://github.com/manu05X/Leetcode/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
 | [2573-remove-nodes-from-linked-list](https://github.com/manu05X/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 ## Breadth-First Search
