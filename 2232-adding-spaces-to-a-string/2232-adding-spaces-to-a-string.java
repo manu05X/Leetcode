@@ -3,6 +3,38 @@ class Solution {
         int n = s.length();
         int m = spaces.length;
 
+        char[] sChar = s.toCharArray();
+        char[] ansChar = new char[m+n];
+
+        int ansP = 0, sP = 0;
+        for(int spaceP : spaces){
+            while(sP < spaceP){
+                ansChar[ansP] = sChar[sP];
+                sP++;
+                ansP++;
+            }
+            ansChar[ansP] = ' ';
+            ansP++;
+        }
+
+        while(sP < n)
+        {
+            ansChar[ansP]=sChar[sP];
+            sP++;
+            ansP++;
+        }
+
+        return new String(ansChar);
+    }
+}
+
+
+/*
+class Solution {
+    public String addSpaces(String s, int[] spaces) {
+        int n = s.length();
+        int m = spaces.length;
+
         StringBuilder str = new StringBuilder();
         int spaceCount = 0;
         int p2 = 0;
@@ -28,3 +60,5 @@ class Solution {
          return str.toString();
     }
 }
+
+*/
