@@ -148,6 +148,7 @@
 | [1833-find-the-highest-altitude](https://github.com/manu05X/Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [2089-maximum-matrix-sum](https://github.com/manu05X/Leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2102-find-the-middle-index-in-array](https://github.com/manu05X/Leetcode/tree/master/2102-find-the-middle-index-in-array) |
+| [2232-adding-spaces-to-a-string](https://github.com/manu05X/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/manu05X/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/manu05X/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
@@ -243,6 +244,7 @@
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/manu05X/Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/manu05X/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [2232-adding-spaces-to-a-string](https://github.com/manu05X/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [3248-count-the-number-of-incremovable-subarrays-ii](https://github.com/manu05X/Leetcode/tree/master/3248-count-the-number-of-incremovable-subarrays-ii) |
 ## Binary Search
 |  |
@@ -381,6 +383,7 @@
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/manu05X/Leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/manu05X/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/manu05X/Leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2232-adding-spaces-to-a-string](https://github.com/manu05X/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2727-number-of-senior-citizens](https://github.com/manu05X/Leetcode/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/manu05X/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Stack
@@ -416,6 +419,7 @@
 | [0054-spiral-matrix](https://github.com/manu05X/Leetcode/tree/master/0054-spiral-matrix) |
 | [0498-diagonal-traverse](https://github.com/manu05X/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0874-backspace-string-compare](https://github.com/manu05X/Leetcode/tree/master/0874-backspace-string-compare) |
+| [2232-adding-spaces-to-a-string](https://github.com/manu05X/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2479-meeting-rooms-iii](https://github.com/manu05X/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
 ## Tree
