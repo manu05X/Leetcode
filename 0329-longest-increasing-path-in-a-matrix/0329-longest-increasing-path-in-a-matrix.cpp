@@ -1,6 +1,57 @@
 class Solution {
 public:
     int longestIncreasingPath(vector<vector<int>>& matrix) {
+        int n = matrix.size();
+        int m = matrix[0].size();
+
+        // Initialize a DP table to store the length of the longest path for each cell
+        vector<vector<int>> dp(n, vector<int>(m, -1));
+
+        // Lambda function for the DFS helper
+        auto dfs = [&](auto&& dfs, int i, int j, int prevValue) -> int {
+            // Base cases: boundary check and increasing path condition
+            if (i < 0 || i >= n || j < 0 || j >= m || matrix[i][j] <= prevValue) {
+                return 0;
+            }
+
+            // Return memoized value if the cell has already been processed
+            if (dp[i][j] != -1) {
+                return dp[i][j];
+            }
+
+            int currentValue = matrix[i][j];
+
+            // Explore all four directions
+            int down = dfs(dfs, i + 1, j, currentValue);
+            int up = dfs(dfs, i - 1, j, currentValue);
+            int right = dfs(dfs, i, j + 1, currentValue);
+            int left = dfs(dfs, i, j - 1, currentValue);
+
+            // Calculate the longest path from the current cell
+            dp[i][j] = 1 + max(max(down, up), max(left, right));
+
+            return dp[i][j];
+        };
+
+        int maxLength = 0; // Variable to track the maximum path length
+
+        // Iterate over all cells and calculate the longest increasing path
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) {
+                maxLength = max(maxLength, dfs(dfs, i, j, INT_MIN));
+            }
+        }
+
+        return maxLength; // Return the maximum path length
+    }
+};
+
+
+
+/*
+class Solution {
+public:
+    int longestIncreasingPath(vector<vector<int>>& matrix) {
         int n = matrix.size(); // Number of rows in the matrix
         int m = matrix[0].size(); // Number of columns in the matrix
 
@@ -54,3 +105,5 @@ public:
         return maxPath; // Return the computed maximum path length for the current cell
     }
 };
+
+*/
