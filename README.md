@@ -83,6 +83,7 @@
 | [0287-find-the-duplicate-number](https://github.com/manu05X/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/manu05X/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/manu05X/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/manu05X/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/manu05X/Leetcode/tree/master/0322-coin-change) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/manu05X/Leetcode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -262,6 +263,7 @@
 | [0268-missing-number](https://github.com/manu05X/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/manu05X/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/manu05X/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/manu05X/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/manu05X/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0786-search-in-a-sorted-array-of-unknown-size](https://github.com/manu05X/Leetcode/tree/master/0786-search-in-a-sorted-array-of-unknown-size) |
@@ -600,6 +602,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0215-kth-largest-element-in-an-array](https://github.com/manu05X/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/manu05X/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0347-top-k-frequent-elements](https://github.com/manu05X/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/manu05X/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
@@ -636,6 +639,7 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/manu05X/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/manu05X/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
 ## Bucket Sort
 |  |
@@ -931,10 +935,12 @@
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/manu05X/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/manu05X/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Segment Tree
 |  |
 | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/manu05X/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/manu05X/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Design
 |  |
@@ -961,4 +967,8 @@
 | ------- |
 | [0786-search-in-a-sorted-array-of-unknown-size](https://github.com/manu05X/Leetcode/tree/master/0786-search-in-a-sorted-array-of-unknown-size) |
 | [1185-find-in-mountain-array](https://github.com/manu05X/Leetcode/tree/master/1185-find-in-mountain-array) |
+## Ordered Set
+|  |
+| ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/manu05X/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 <!---LeetCode Topics End-->
