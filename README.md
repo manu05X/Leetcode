@@ -85,6 +85,7 @@
 | [0303-range-sum-query-immutable](https://github.com/manu05X/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/manu05X/Leetcode/tree/master/0322-coin-change) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/manu05X/Leetcode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0347-top-k-frequent-elements](https://github.com/manu05X/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manu05X/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/manu05X/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -525,6 +526,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0437-path-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0437-path-sum-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0545-boundary-of-binary-tree) |
@@ -712,6 +714,7 @@
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0300-longest-increasing-subsequence](https://github.com/manu05X/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/manu05X/Leetcode/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0392-is-subsequence](https://github.com/manu05X/Leetcode/tree/master/0392-is-subsequence) |
 | [0487-max-consecutive-ones-ii](https://github.com/manu05X/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0516-longest-palindromic-subsequence](https://github.com/manu05X/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
@@ -737,6 +740,7 @@
 | [0133-clone-graph](https://github.com/manu05X/Leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/manu05X/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/manu05X/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/manu05X/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/manu05X/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Shortest Path
@@ -798,6 +802,7 @@
 | [0130-surrounded-regions](https://github.com/manu05X/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/manu05X/Leetcode/tree/master/0221-maximal-square) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0498-diagonal-traverse](https://github.com/manu05X/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0695-max-area-of-island](https://github.com/manu05X/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
@@ -856,6 +861,7 @@
 | [0210-course-schedule-ii](https://github.com/manu05X/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/manu05X/Leetcode/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/manu05X/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
@@ -887,6 +893,7 @@
 | [0070-climbing-stairs](https://github.com/manu05X/Leetcode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/manu05X/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
 ## Binary Search Tree
@@ -944,6 +951,7 @@
 | ------- |
 | [0207-course-schedule](https://github.com/manu05X/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/manu05X/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Bitmask
 |  |
 | ------- |
