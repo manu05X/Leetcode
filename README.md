@@ -76,6 +76,7 @@
 | [0221-maximal-square](https://github.com/manu05X/Leetcode/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/manu05X/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0247-strobogrammatic-number-ii](https://github.com/manu05X/Leetcode/tree/master/0247-strobogrammatic-number-ii) |
 | [0252-meeting-rooms](https://github.com/manu05X/Leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/manu05X/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0259-3sum-smaller](https://github.com/manu05X/Leetcode/tree/master/0259-3sum-smaller) |
@@ -366,6 +367,7 @@
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0246-strobogrammatic-number](https://github.com/manu05X/Leetcode/tree/master/0246-strobogrammatic-number) |
+| [0247-strobogrammatic-number-ii](https://github.com/manu05X/Leetcode/tree/master/0247-strobogrammatic-number-ii) |
 | [0316-remove-duplicate-letters](https://github.com/manu05X/Leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0320-generalized-abbreviation](https://github.com/manu05X/Leetcode/tree/master/0320-generalized-abbreviation) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
@@ -851,6 +853,7 @@
 | [0206-reverse-linked-list](https://github.com/manu05X/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0247-strobogrammatic-number-ii](https://github.com/manu05X/Leetcode/tree/master/0247-strobogrammatic-number-ii) |
 | [0394-decode-string](https://github.com/manu05X/Leetcode/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
 | [2573-remove-nodes-from-linked-list](https://github.com/manu05X/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
