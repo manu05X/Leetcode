@@ -140,6 +140,7 @@
 | [1306-minimum-absolute-difference](https://github.com/manu05X/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1330-longest-arithmetic-subsequence-of-given-difference](https://github.com/manu05X/Leetcode/tree/master/1330-longest-arithmetic-subsequence-of-given-difference) |
 | [1380-number-of-closed-islands](https://github.com/manu05X/Leetcode/tree/master/1380-number-of-closed-islands) |
+| [1428-jump-game-iii](https://github.com/manu05X/Leetcode/tree/master/1428-jump-game-iii) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/manu05X/Leetcode/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1539-diagonal-traverse-ii](https://github.com/manu05X/Leetcode/tree/master/1539-diagonal-traverse-ii) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/manu05X/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -555,6 +556,7 @@
 | [0776-n-ary-tree-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1380-number-of-closed-islands](https://github.com/manu05X/Leetcode/tree/master/1380-number-of-closed-islands) |
+| [1428-jump-game-iii](https://github.com/manu05X/Leetcode/tree/master/1428-jump-game-iii) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/manu05X/Leetcode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/manu05X/Leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Sliding Window
@@ -889,6 +891,7 @@
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/manu05X/Leetcode/tree/master/1036-rotting-oranges) |
 | [1380-number-of-closed-islands](https://github.com/manu05X/Leetcode/tree/master/1380-number-of-closed-islands) |
+| [1428-jump-game-iii](https://github.com/manu05X/Leetcode/tree/master/1428-jump-game-iii) |
 ## Backtracking
 |  |
 | ------- |
