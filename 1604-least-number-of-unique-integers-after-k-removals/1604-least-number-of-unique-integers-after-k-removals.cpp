@@ -5,26 +5,29 @@ public:
         for (int num: arr) {
             counts[num]++;
         }
-        
+
+        // Store the frequencies of elements
         vector<int> ordered;
         for (auto [key, val]: counts) {
             ordered.push_back(val);
         }
-        
-        sort(ordered.begin(), ordered.end(), greater<int>());
-        while (k > 0) {
-            int val = ordered.back();
-            if (val <= k) {
-                k -= val;
-                ordered.pop_back();
-            } else {
-                break;
-            }
+
+        // Sort the frequencies in ascending order
+        sort(ordered.begin(), ordered.end());
+
+        int n = ordered.size();
+        int l = 0;
+        // Remove elements based on their frequency until k is 0 or less
+        while (l < n && k >=  ordered[l]) {
+            k -= ordered[l];
+            l++;
         }
-        
-        return ordered.size();
+
+        // Return the number of unique elements left
+        return n-l;
     }
 };
+
 
 /*
 class Solution {
