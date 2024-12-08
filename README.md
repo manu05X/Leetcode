@@ -135,6 +135,7 @@
 | [1095-two-city-scheduling](https://github.com/manu05X/Leetcode/tree/master/1095-two-city-scheduling) |
 | [1098-largest-unique-number](https://github.com/manu05X/Leetcode/tree/master/1098-largest-unique-number) |
 | [1105-uncrossed-lines](https://github.com/manu05X/Leetcode/tree/master/1105-uncrossed-lines) |
+| [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/manu05X/Leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1185-find-in-mountain-array](https://github.com/manu05X/Leetcode/tree/master/1185-find-in-mountain-array) |
 | [1196-filling-bookcase-shelves](https://github.com/manu05X/Leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1200-remove-interval](https://github.com/manu05X/Leetcode/tree/master/1200-remove-interval) |
@@ -329,6 +330,7 @@
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1095-two-city-scheduling](https://github.com/manu05X/Leetcode/tree/master/1095-two-city-scheduling) |
 | [1098-largest-unique-number](https://github.com/manu05X/Leetcode/tree/master/1098-largest-unique-number) |
+| [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/manu05X/Leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1306-minimum-absolute-difference](https://github.com/manu05X/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1539-diagonal-traverse-ii](https://github.com/manu05X/Leetcode/tree/master/1539-diagonal-traverse-ii) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/manu05X/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
@@ -358,6 +360,7 @@
 | [0680-valid-palindrome-ii](https://github.com/manu05X/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0917-boats-to-save-people](https://github.com/manu05X/Leetcode/tree/master/0917-boats-to-save-people) |
 | [1095-two-city-scheduling](https://github.com/manu05X/Leetcode/tree/master/1095-two-city-scheduling) |
+| [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/manu05X/Leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1448-maximum-69-number](https://github.com/manu05X/Leetcode/tree/master/1448-maximum-69-number) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/manu05X/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/manu05X/Leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
