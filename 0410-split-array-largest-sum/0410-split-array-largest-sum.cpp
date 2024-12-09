@@ -30,7 +30,7 @@ public:
             left = max(left, num);
         }
 
-        int right = 0;  // Maximum possible value for the largest subarray sum
+        int right = 0;  // Initialize right to the sum of all elements (maximum possible largest sum)
 
         // Calculate the sum of all elements (upper limit for the binary search)
         for (int i = 0; i < n; i++) {
