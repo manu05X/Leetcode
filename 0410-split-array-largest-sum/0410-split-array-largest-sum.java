@@ -22,8 +22,8 @@ class Solution {
     }
 
     public int splitArray(int[] nums, int k) {
-        int left = 0;  // Minimum possible value for the largest sum
-        int right = 0; // Maximum possible value for the largest sum
+        int left = 0;  // Initialize left to the maximum element (minimum possible largest sum)
+        int right = 0; // Initialize right to the sum of all elements (maximum possible largest sum)
 
         for(int num : nums){
             left = Math.max(left, num);
