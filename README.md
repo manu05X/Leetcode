@@ -935,6 +935,7 @@
 | [0695-max-area-of-island](https://github.com/manu05X/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 | [0813-all-paths-from-source-to-target](https://github.com/manu05X/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
+| [1007-numbers-with-same-consecutive-differences](https://github.com/manu05X/Leetcode/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [1036-rotting-oranges](https://github.com/manu05X/Leetcode/tree/master/1036-rotting-oranges) |
 | [1380-number-of-closed-islands](https://github.com/manu05X/Leetcode/tree/master/1380-number-of-closed-islands) |
 | [1428-jump-game-iii](https://github.com/manu05X/Leetcode/tree/master/1428-jump-game-iii) |
@@ -959,6 +960,7 @@
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/manu05X/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0800-letter-case-permutation](https://github.com/manu05X/Leetcode/tree/master/0800-letter-case-permutation) |
 | [0813-all-paths-from-source-to-target](https://github.com/manu05X/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
+| [1007-numbers-with-same-consecutive-differences](https://github.com/manu05X/Leetcode/tree/master/1007-numbers-with-same-consecutive-differences) |
 ## Memoization
 |  |
 | ------- |
