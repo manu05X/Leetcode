@@ -25,7 +25,7 @@ public:
 
     int splitArray(vector<int>& nums, int k) {
         int n = nums.size();
-        int left = 0;   // Minimum possible value for the largest subarray sum
+        int left = 0;   // Initialize left to the maximum element (minimum possible largest sum)
         for(int num : nums){
             left = max(left, num);
         }
