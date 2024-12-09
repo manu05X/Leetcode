@@ -137,6 +137,7 @@
 | [1105-uncrossed-lines](https://github.com/manu05X/Leetcode/tree/master/1105-uncrossed-lines) |
 | [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/manu05X/Leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1185-find-in-mountain-array](https://github.com/manu05X/Leetcode/tree/master/1185-find-in-mountain-array) |
+| [1192-divide-chocolate](https://github.com/manu05X/Leetcode/tree/master/1192-divide-chocolate) |
 | [1196-filling-bookcase-shelves](https://github.com/manu05X/Leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1200-remove-interval](https://github.com/manu05X/Leetcode/tree/master/1200-remove-interval) |
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -295,6 +296,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1087-longest-arithmetic-subsequence](https://github.com/manu05X/Leetcode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1185-find-in-mountain-array](https://github.com/manu05X/Leetcode/tree/master/1185-find-in-mountain-array) |
+| [1192-divide-chocolate](https://github.com/manu05X/Leetcode/tree/master/1192-divide-chocolate) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/manu05X/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/manu05X/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1646-kth-missing-positive-number](https://github.com/manu05X/Leetcode/tree/master/1646-kth-missing-positive-number) |
