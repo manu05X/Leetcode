@@ -21,6 +21,7 @@ public:
             int len1 = isPalindrome(s,i,i); // for odd length
             int len2 = isPalindrome(s,i,i+1); // for even length
 
+            //Now we have both half length len1 and len2 so we now calculate the max length of both
             int len = max(len1,len2);
 
             if(len > end-start){
