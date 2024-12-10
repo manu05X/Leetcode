@@ -650,6 +650,7 @@
 | [0866-rectangle-overlap](https://github.com/manu05X/Leetcode/tree/master/0866-rectangle-overlap) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1236-n-th-tribonacci-number](https://github.com/manu05X/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1448-maximum-69-number](https://github.com/manu05X/Leetcode/tree/master/1448-maximum-69-number) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/manu05X/Leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
@@ -798,6 +799,7 @@
 | [1087-longest-arithmetic-subsequence](https://github.com/manu05X/Leetcode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1105-uncrossed-lines](https://github.com/manu05X/Leetcode/tree/master/1105-uncrossed-lines) |
 | [1196-filling-bookcase-shelves](https://github.com/manu05X/Leetcode/tree/master/1196-filling-bookcase-shelves) |
+| [1236-n-th-tribonacci-number](https://github.com/manu05X/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/manu05X/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1330-longest-arithmetic-subsequence-of-given-difference](https://github.com/manu05X/Leetcode/tree/master/1330-longest-arithmetic-subsequence-of-given-difference) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/manu05X/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -975,6 +977,7 @@
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/manu05X/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
+| [1236-n-th-tribonacci-number](https://github.com/manu05X/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 ## Binary Search Tree
 |  |
 | ------- |
