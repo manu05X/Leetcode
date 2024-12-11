@@ -175,6 +175,7 @@
 | [2714-left-and-right-sum-differences](https://github.com/manu05X/Leetcode/tree/master/2714-left-and-right-sum-differences) |
 | [2727-number-of-senior-citizens](https://github.com/manu05X/Leetcode/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/manu05X/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/manu05X/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3248-count-the-number-of-incremovable-subarrays-ii](https://github.com/manu05X/Leetcode/tree/master/3248-count-the-number-of-incremovable-subarrays-ii) |
 | [3427-special-array-ii](https://github.com/manu05X/Leetcode/tree/master/3427-special-array-ii) |
@@ -307,6 +308,7 @@
 | [2164-two-best-non-overlapping-events](https://github.com/manu05X/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manu05X/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/manu05X/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3248-count-the-number-of-incremovable-subarrays-ii](https://github.com/manu05X/Leetcode/tree/master/3248-count-the-number-of-incremovable-subarrays-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/manu05X/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/manu05X/Leetcode/tree/master/3427-special-array-ii) |
@@ -355,6 +357,7 @@
 | [2479-meeting-rooms-iii](https://github.com/manu05X/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manu05X/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/manu05X/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 ## Greedy
 |  |
 | ------- |
@@ -619,6 +622,7 @@
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/manu05X/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/manu05X/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/manu05X/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/manu05X/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/manu05X/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Monotonic Stack
 |  |
