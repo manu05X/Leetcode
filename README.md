@@ -136,6 +136,7 @@
 | [1095-two-city-scheduling](https://github.com/manu05X/Leetcode/tree/master/1095-two-city-scheduling) |
 | [1098-largest-unique-number](https://github.com/manu05X/Leetcode/tree/master/1098-largest-unique-number) |
 | [1105-uncrossed-lines](https://github.com/manu05X/Leetcode/tree/master/1105-uncrossed-lines) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/manu05X/Leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1127-last-stone-weight](https://github.com/manu05X/Leetcode/tree/master/1127-last-stone-weight) |
 | [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/manu05X/Leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1185-find-in-mountain-array](https://github.com/manu05X/Leetcode/tree/master/1185-find-in-mountain-array) |
@@ -386,6 +387,7 @@
 | [0680-valid-palindrome-ii](https://github.com/manu05X/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0917-boats-to-save-people](https://github.com/manu05X/Leetcode/tree/master/0917-boats-to-save-people) |
 | [1095-two-city-scheduling](https://github.com/manu05X/Leetcode/tree/master/1095-two-city-scheduling) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/manu05X/Leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/manu05X/Leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1448-maximum-69-number](https://github.com/manu05X/Leetcode/tree/master/1448-maximum-69-number) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/manu05X/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
@@ -708,6 +710,7 @@
 | [0802-k-th-smallest-prime-fraction](https://github.com/manu05X/Leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/manu05X/Leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1127-last-stone-weight](https://github.com/manu05X/Leetcode/tree/master/1127-last-stone-weight) |
 | [1539-diagonal-traverse-ii](https://github.com/manu05X/Leetcode/tree/master/1539-diagonal-traverse-ii) |
 | [1917-maximum-average-pass-ratio](https://github.com/manu05X/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
