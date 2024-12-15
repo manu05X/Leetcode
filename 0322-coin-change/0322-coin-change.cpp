@@ -19,6 +19,126 @@ public:
     }
 };
 
+/*
+
+Here is a step-by-step dry run for the input:
+
+
+coins = [1, 2, 5]
+amount = 11
+Initialization:
+We initialize the dp array with size amount + 1 (i.e., 12) and set all values to INT_MAX except dp[0] = 0, since 0 coins are needed to form amount 0.
+
+Initial dp:
+dp = [0, INF, INF, INF, INF, INF, INF, INF, INF, INF, INF, INF]
+Outer Loop: Iterate over amounts i = 1 to amount = 11
+
+
+For i = 1:
+Iterate over coins:
+Coin 1: dp[1] = min(dp[1], dp[1 - 1] + 1) = min(INF, 0 + 1) = 1
+Coin 2: Skipped (2 > 1)
+Coin 5: Skipped (5 > 1)
+Updated dp:
+dp = [0, 1, INF, INF, INF, INF, INF, INF, INF, INF, INF, INF]
+
+
+For i = 2:
+Iterate over coins:
+Coin 1: dp[2] = min(dp[2], dp[2 - 1] + 1) = min(INF, 1 + 1) = 2
+Coin 2: dp[2] = min(dp[2], dp[2 - 2] + 1) = min(2, 0 + 1) = 1
+Coin 5: Skipped (5 > 2)
+Updated dp:
+dp = [0, 1, 1, INF, INF, INF, INF, INF, INF, INF, INF, INF]
+
+
+For i = 3:
+Iterate over coins:
+Coin 1: dp[3] = min(dp[3], dp[3 - 1] + 1) = min(INF, 1 + 1) = 2
+Coin 2: dp[3] = min(dp[3], dp[3 - 2] + 1) = min(2, 1 + 1) = 2
+Coin 5: Skipped (5 > 3)
+Updated dp:
+dp = [0, 1, 1, 2, INF, INF, INF, INF, INF, INF, INF, INF]
+
+
+For i = 4:
+Iterate over coins:
+Coin 1: dp[4] = min(dp[4], dp[4 - 1] + 1) = min(INF, 2 + 1) = 3
+Coin 2: dp[4] = min(dp[4], dp[4 - 2] + 1) = min(3, 1 + 1) = 2
+Coin 5: Skipped (5 > 4)
+Updated dp:
+dp = [0, 1, 1, 2, 2, INF, INF, INF, INF, INF, INF, INF]
+
+
+For i = 5:
+Iterate over coins:
+Coin 1: dp[5] = min(dp[5], dp[5 - 1] + 1) = min(INF, 2 + 1) = 3
+Coin 2: dp[5] = min(dp[5], dp[5 - 2] + 1) = min(3, 2 + 1) = 3
+Coin 5: dp[5] = min(dp[5], dp[5 - 5] + 1) = min(3, 0 + 1) = 1
+Updated dp:
+dp = [0, 1, 1, 2, 2, 1, INF, INF, INF, INF, INF, INF]
+
+
+For i = 6:
+Iterate over coins:
+Coin 1: dp[6] = min(dp[6], dp[6 - 1] + 1) = min(INF, 1 + 1) = 2
+Coin 2: dp[6] = min(dp[6], dp[6 - 2] + 1) = min(2, 2 + 1) = 2
+Coin 5: dp[6] = min(dp[6], dp[6 - 5] + 1) = min(2, 1 + 1) = 2
+Updated dp:
+dp = [0, 1, 1, 2, 2, 1, 2, INF, INF, INF, INF, INF]
+
+
+For i = 7:
+Iterate over coins:
+Coin 1: dp[7] = min(dp[7], dp[7 - 1] + 1) = min(INF, 2 + 1) = 3
+Coin 2: dp[7] = min(dp[7], dp[7 - 2] + 1) = min(3, 1 + 1) = 2
+Coin 5: dp[7] = min(dp[7], dp[7 - 5] + 1) = min(2, 1 + 1) = 2
+Updated dp:
+dp = [0, 1, 1, 2, 2, 1, 2, 2, INF, INF, INF, INF]
+
+
+For i = 8:
+Iterate over coins:
+Coin 1: dp[8] = min(dp[8], dp[8 - 1] + 1) = min(INF, 2 + 1) = 3
+Coin 2: dp[8] = min(dp[8], dp[8 - 2] + 1) = min(3, 2 + 1) = 3
+Coin 5: dp[8] = min(dp[8], dp[8 - 5] + 1) = min(3, 2 + 1) = 3
+Updated dp:
+dp = [0, 1, 1, 2, 2, 1, 2, 2, 3, INF, INF, INF]
+
+
+For i = 9:
+Iterate over coins:
+Coin 1: dp[9] = min(dp[9], dp[9 - 1] + 1) = min(INF, 3 + 1) = 4
+Coin 2: dp[9] = min(dp[9], dp[9 - 2] + 1) = min(4, 2 + 1) = 3
+Coin 5: dp[9] = min(dp[9], dp[9 - 5] + 1) = min(3, 2 + 1) = 3
+Updated dp:
+dp = [0, 1, 1, 2, 2, 1, 2, 2, 3, 3, INF, INF]
+
+
+For i = 10:
+Iterate over coins:
+Coin 1: dp[10] = min(dp[10], dp[10 - 1] + 1) = min(INF, 3 + 1) = 4
+Coin 2: dp[10] = min(dp[10], dp[10 - 2] + 1) = min(4, 3 + 1) = 4
+Coin 5: dp[10] = min(dp[10], dp[10 - 5] + 1) = min(4, 1 + 1) = 2
+Updated dp:
+dp = [0, 1, 1, 2, 2, 1, 2, 2, 3, 3, 2, INF]
+
+
+For i = 11:
+Iterate over coins:
+Coin 1: dp[11] = min(dp[11], dp[11 - 1] + 1) = min(INF, 2 + 1) = 3
+Coin 2: dp[11] = min(dp[11], dp[11 - 2] + 1) = min(3, 3 + 1) = 3
+Coin 5: dp[11] = min(dp[11], dp[11 - 5] + 1) = min(3, 2 + 1) = 3
+Updated dp:
+dp = [0, 1, 1, 2, 2, 1, 2, 2, 3, 3, 2, 3]
+
+
+Final Output:
+dp[11] = 3
+Thus, the minimum number of coins to make amount 11 is 3.
+
+*/
+
 
 
 
