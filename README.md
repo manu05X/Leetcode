@@ -177,6 +177,7 @@
 | [2714-left-and-right-sum-differences](https://github.com/manu05X/Leetcode/tree/master/2714-left-and-right-sum-differences) |
 | [2727-number-of-senior-citizens](https://github.com/manu05X/Leetcode/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
+| [2868-continuous-subarrays](https://github.com/manu05X/Leetcode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/manu05X/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/manu05X/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3248-count-the-number-of-incremovable-subarrays-ii](https://github.com/manu05X/Leetcode/tree/master/3248-count-the-number-of-incremovable-subarrays-ii) |
@@ -628,6 +629,7 @@
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/manu05X/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/manu05X/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/manu05X/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2868-continuous-subarrays](https://github.com/manu05X/Leetcode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/manu05X/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/manu05X/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Monotonic Stack
@@ -704,6 +706,7 @@
 | [2479-meeting-rooms-iii](https://github.com/manu05X/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/manu05X/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/manu05X/Leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [2868-continuous-subarrays](https://github.com/manu05X/Leetcode/tree/master/2868-continuous-subarrays) |
 ## Quickselect
 |  |
 | ------- |
@@ -861,11 +864,13 @@
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0954-maximum-sum-circular-subarray](https://github.com/manu05X/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+| [2868-continuous-subarrays](https://github.com/manu05X/Leetcode/tree/master/2868-continuous-subarrays) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0954-maximum-sum-circular-subarray](https://github.com/manu05X/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+| [2868-continuous-subarrays](https://github.com/manu05X/Leetcode/tree/master/2868-continuous-subarrays) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -1061,4 +1066,5 @@
 |  |
 | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/manu05X/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [2868-continuous-subarrays](https://github.com/manu05X/Leetcode/tree/master/2868-continuous-subarrays) |
 <!---LeetCode Topics End-->
