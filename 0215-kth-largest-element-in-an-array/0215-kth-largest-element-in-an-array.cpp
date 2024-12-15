@@ -5,6 +5,29 @@ public:
         cin.tie(NULL);
 
         // Create a min-heap of size k
+        priority_queue<int, vector<int>> maxHeap(nums.begin(), nums.end());
+        int x = k-1;
+
+        while(x--){
+            maxHeap.pop();
+        }
+        
+        
+        
+        // The root of the min-heap will be the kth largest element
+        return maxHeap.top();
+    }
+};
+
+
+/*
+class Solution {
+public:
+    int findKthLargest(vector<int>& nums, int k) {
+        ios_base::sync_with_stdio(false);         
+        cin.tie(NULL);
+
+        // Create a min-heap of size k
         priority_queue<int, vector<int>, greater<int>> minHeap;
         
         // Iterate through the elements of the array
@@ -25,3 +48,5 @@ public:
         return minHeap.top();
     }
 };
+
+*/
