@@ -187,6 +187,7 @@
 | [3235-minimum-cost-to-convert-string-i](https://github.com/manu05X/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3248-count-the-number-of-incremovable-subarrays-ii](https://github.com/manu05X/Leetcode/tree/master/3248-count-the-number-of-incremovable-subarrays-ii) |
 | [3427-special-array-ii](https://github.com/manu05X/Leetcode/tree/master/3427-special-array-ii) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/manu05X/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -502,6 +503,7 @@
 | [2692-take-gifts-from-the-richest-pile](https://github.com/manu05X/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/manu05X/Leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/manu05X/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Tree
 |  |
 | ------- |
@@ -675,6 +677,7 @@
 | [1448-maximum-69-number](https://github.com/manu05X/Leetcode/tree/master/1448-maximum-69-number) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/manu05X/Leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/manu05X/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -721,6 +724,7 @@
 | [2692-take-gifts-from-the-richest-pile](https://github.com/manu05X/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/manu05X/Leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2868-continuous-subarrays](https://github.com/manu05X/Leetcode/tree/master/2868-continuous-subarrays) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/manu05X/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Quickselect
 |  |
 | ------- |
