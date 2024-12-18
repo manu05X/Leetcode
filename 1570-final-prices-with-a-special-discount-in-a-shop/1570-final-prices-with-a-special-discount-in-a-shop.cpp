@@ -11,11 +11,8 @@ public:
                 ans[st.top()] -= prices[i];
                 st.pop();
             }
-
             st.push(i);
-
         }
-
 
         return ans;
     }
@@ -24,6 +21,7 @@ public:
 
 
 /*
+
 class Solution {
 public:
     vector<int> finalPrices(vector<int>& prices) {
