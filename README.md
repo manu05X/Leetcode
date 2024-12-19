@@ -115,6 +115,7 @@
 | [0739-daily-temperatures](https://github.com/manu05X/Leetcode/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/manu05X/Leetcode/tree/master/0740-delete-and-earn) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/manu05X/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [0780-max-chunks-to-make-sorted](https://github.com/manu05X/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0786-search-in-a-sorted-array-of-unknown-size](https://github.com/manu05X/Leetcode/tree/master/0786-search-in-a-sorted-array-of-unknown-size) |
 | [0792-binary-search](https://github.com/manu05X/Leetcode/tree/master/0792-binary-search) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/manu05X/Leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
@@ -349,6 +350,7 @@
 | [0645-set-mismatch](https://github.com/manu05X/Leetcode/tree/master/0645-set-mismatch) |
 | [0646-maximum-length-of-pair-chain](https://github.com/manu05X/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0726-number-of-atoms](https://github.com/manu05X/Leetcode/tree/master/0726-number-of-atoms) |
+| [0780-max-chunks-to-make-sorted](https://github.com/manu05X/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/manu05X/Leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0917-boats-to-save-people](https://github.com/manu05X/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
@@ -388,6 +390,7 @@
 | [0621-task-scheduler](https://github.com/manu05X/Leetcode/tree/master/0621-task-scheduler) |
 | [0646-maximum-length-of-pair-chain](https://github.com/manu05X/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0680-valid-palindrome-ii](https://github.com/manu05X/Leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0780-max-chunks-to-make-sorted](https://github.com/manu05X/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0917-boats-to-save-people](https://github.com/manu05X/Leetcode/tree/master/0917-boats-to-save-people) |
 | [1095-two-city-scheduling](https://github.com/manu05X/Leetcode/tree/master/1095-two-city-scheduling) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/manu05X/Leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
@@ -485,6 +488,7 @@
 | [0735-asteroid-collision](https://github.com/manu05X/Leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/manu05X/Leetcode/tree/master/0739-daily-temperatures) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0780-max-chunks-to-make-sorted](https://github.com/manu05X/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0874-backspace-string-compare](https://github.com/manu05X/Leetcode/tree/master/0874-backspace-string-compare) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/manu05X/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -656,6 +660,7 @@
 | [0503-next-greater-element-ii](https://github.com/manu05X/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/manu05X/Leetcode/tree/master/0739-daily-temperatures) |
+| [0780-max-chunks-to-make-sorted](https://github.com/manu05X/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/manu05X/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [2573-remove-nodes-from-linked-list](https://github.com/manu05X/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
