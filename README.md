@@ -545,6 +545,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0450-delete-node-in-a-bst) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/manu05X/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -590,6 +591,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0450-delete-node-in-a-bst) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/manu05X/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -631,6 +633,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0437-path-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0437-path-sum-iii) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/manu05X/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -1010,6 +1013,7 @@
 | [0226-invert-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/manu05X/Leetcode/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/manu05X/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/manu05X/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
@@ -1063,6 +1067,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0450-delete-node-in-a-bst) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/manu05X/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0975-range-sum-of-bst](https://github.com/manu05X/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## String Matching
