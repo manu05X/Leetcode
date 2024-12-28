@@ -108,6 +108,7 @@
 | [0645-set-mismatch](https://github.com/manu05X/Leetcode/tree/master/0645-set-mismatch) |
 | [0646-maximum-length-of-pair-chain](https://github.com/manu05X/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/manu05X/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/manu05X/Leetcode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0695-max-area-of-island](https://github.com/manu05X/Leetcode/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/manu05X/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0713-subarray-product-less-than-k](https://github.com/manu05X/Leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -877,6 +878,7 @@
 | [0516-longest-palindromic-subsequence](https://github.com/manu05X/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0646-maximum-length-of-pair-chain](https://github.com/manu05X/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/manu05X/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/manu05X/Leetcode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/manu05X/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0727-minimum-window-subsequence](https://github.com/manu05X/Leetcode/tree/master/0727-minimum-window-subsequence) |
 | [0740-delete-and-earn](https://github.com/manu05X/Leetcode/tree/master/0740-delete-and-earn) |
