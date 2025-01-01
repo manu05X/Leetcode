@@ -25,3 +25,18 @@ public:
         return bestAns+one;
     }
 };
+
+/*
+
+Algorithm
+
+Initialize ones = 0, zeros = 0, and best to a very small value like negative infinity.
+Iterate i from 0 until s.length - 1:
+If s[i] == '1', increment ones.
+Otherwise, increment zeros.
+Update best with zeros - ones if it is larger.
+If the final character of s is equal to '1', increment ones.
+Return best + ones.
+
+
+*/
