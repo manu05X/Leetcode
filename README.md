@@ -182,6 +182,7 @@
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/manu05X/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2358-number-of-ways-to-split-array](https://github.com/manu05X/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/manu05X/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
+| [2465-shifting-letters-ii](https://github.com/manu05X/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2479-meeting-rooms-iii](https://github.com/manu05X/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/manu05X/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -485,6 +486,7 @@
 | [2232-adding-spaces-to-a-string](https://github.com/manu05X/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2300-construct-string-with-repeat-limit](https://github.com/manu05X/Leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/manu05X/Leetcode/tree/master/2414-move-pieces-to-obtain-a-string) |
+| [2465-shifting-letters-ii](https://github.com/manu05X/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/manu05X/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/manu05X/Leetcode/tree/master/2727-number-of-senior-citizens) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/manu05X/Leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
@@ -953,6 +955,7 @@
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/manu05X/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2102-find-the-middle-index-in-array](https://github.com/manu05X/Leetcode/tree/master/2102-find-the-middle-index-in-array) |
 | [2358-number-of-ways-to-split-array](https://github.com/manu05X/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
+| [2465-shifting-letters-ii](https://github.com/manu05X/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/manu05X/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2714-left-and-right-sum-differences](https://github.com/manu05X/Leetcode/tree/master/2714-left-and-right-sum-differences) |
