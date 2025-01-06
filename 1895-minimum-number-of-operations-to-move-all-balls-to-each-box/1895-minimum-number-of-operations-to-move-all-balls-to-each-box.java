@@ -38,6 +38,18 @@ class Solution {
 }
 
 /*
+Why the Code Works:
+This approach effectively breaks the problem into two independent cumulative summations:
+
+From the left, calculating the cumulative effect of moving balls to the current index and storing it in ans[i].
+From the right, doing the same and adding it to ans[i].
+The simultaneous traversal ensures that each operation is computed in O(1) time, making the total time complexity O(n). This avoids the naive solution's O(n²) complexity, where you calculate moves for each index independently by traversing the entire string.
+
+
+ */
+
+
+/*
 
 class Solution {
 
