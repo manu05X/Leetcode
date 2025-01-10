@@ -120,6 +120,7 @@
 | [0780-max-chunks-to-make-sorted](https://github.com/manu05X/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0786-search-in-a-sorted-array-of-unknown-size](https://github.com/manu05X/Leetcode/tree/master/0786-search-in-a-sorted-array-of-unknown-size) |
 | [0792-binary-search](https://github.com/manu05X/Leetcode/tree/master/0792-binary-search) |
+| [0797-rabbits-in-forest](https://github.com/manu05X/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/manu05X/Leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/manu05X/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0917-boats-to-save-people](https://github.com/manu05X/Leetcode/tree/master/0917-boats-to-save-people) |
@@ -243,6 +244,7 @@
 | [0645-set-mismatch](https://github.com/manu05X/Leetcode/tree/master/0645-set-mismatch) |
 | [0726-number-of-atoms](https://github.com/manu05X/Leetcode/tree/master/0726-number-of-atoms) |
 | [0740-delete-and-earn](https://github.com/manu05X/Leetcode/tree/master/0740-delete-and-earn) |
+| [0797-rabbits-in-forest](https://github.com/manu05X/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0940-fruit-into-baskets](https://github.com/manu05X/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/manu05X/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/manu05X/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -412,6 +414,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/manu05X/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0680-valid-palindrome-ii](https://github.com/manu05X/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/manu05X/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
+| [0797-rabbits-in-forest](https://github.com/manu05X/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0917-boats-to-save-people](https://github.com/manu05X/Leetcode/tree/master/0917-boats-to-save-people) |
 | [1095-two-city-scheduling](https://github.com/manu05X/Leetcode/tree/master/1095-two-city-scheduling) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/manu05X/Leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
@@ -745,6 +748,7 @@
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/manu05X/Leetcode/tree/master/0268-missing-number) |
+| [0797-rabbits-in-forest](https://github.com/manu05X/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0866-rectangle-overlap](https://github.com/manu05X/Leetcode/tree/master/0866-rectangle-overlap) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
