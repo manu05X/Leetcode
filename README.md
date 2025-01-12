@@ -431,6 +431,7 @@
 | [1917-maximum-average-pass-ratio](https://github.com/manu05X/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2089-maximum-matrix-sum](https://github.com/manu05X/Leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/manu05X/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/manu05X/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2300-construct-string-with-repeat-limit](https://github.com/manu05X/Leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/manu05X/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/manu05X/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -498,6 +499,7 @@
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/manu05X/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/manu05X/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/manu05X/Leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/manu05X/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2232-adding-spaces-to-a-string](https://github.com/manu05X/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/manu05X/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2300-construct-string-with-repeat-limit](https://github.com/manu05X/Leetcode/tree/master/2300-construct-string-with-repeat-limit) |
@@ -537,6 +539,7 @@
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/manu05X/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/manu05X/Leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/manu05X/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/manu05X/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2573-remove-nodes-from-linked-list](https://github.com/manu05X/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/manu05X/Leetcode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
