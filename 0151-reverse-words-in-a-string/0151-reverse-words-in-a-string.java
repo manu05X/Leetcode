@@ -11,8 +11,10 @@ class Solution {
     }
 
     public String reverseWords(String s) {
+         // Replace multiple spaces with a single space and trim leading/trailing spaces
         s = s.replaceAll("\\s+", " ").trim();
         
+        // Convert the cleaned string into a character array for manipulation
         char[] charArray = s.toCharArray();
         int strLen = charArray.length - 1;
 
