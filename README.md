@@ -441,6 +441,7 @@
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/manu05X/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/manu05X/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
+| [2509-minimize-xor](https://github.com/manu05X/Leetcode/tree/master/2509-minimize-xor) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manu05X/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## String
 |  |
@@ -1020,6 +1021,7 @@
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/manu05X/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0800-letter-case-permutation](https://github.com/manu05X/Leetcode/tree/master/0800-letter-case-permutation) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/manu05X/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2509-minimize-xor](https://github.com/manu05X/Leetcode/tree/master/2509-minimize-xor) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/manu05X/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Matrix
 |  |
