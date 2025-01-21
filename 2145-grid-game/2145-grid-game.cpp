@@ -15,7 +15,7 @@ public:
         for(int i = 0; i < m; i++){
             // sub the curr col elment of first row from firstRowSum
             firstRowSum -= grid[0][i];
-
+            // Find the minimum maximum value out of firstRowSum and secondRowSum.
             // min max sum for second robot
             minSum = min(minSum, max(firstRowSum, secondRowSum));
             // sum of 2nd row sum
