@@ -5,6 +5,7 @@ public:
         int m = grid[0].size();
 
         long long firstRowSum = 0;
+        // calculate sum of first row
         for(int i = 0; i < m; i++){
             firstRowSum += grid[0][i];
         }
@@ -12,9 +13,12 @@ public:
         long long secondRowSum = 0;
         long long minSum = LONG_MAX;
         for(int i = 0; i < m; i++){
+            // sub the curr col elment of first row from firstRowSum
             firstRowSum -= grid[0][i];
 
+            // min max sum for second robot
             minSum = min(minSum, max(firstRowSum, secondRowSum));
+            // sum of 2nd row sum
             secondRowSum += grid[1][i];
         }
 
