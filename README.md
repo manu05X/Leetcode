@@ -712,6 +712,7 @@
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0813-all-paths-from-source-to-target](https://github.com/manu05X/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
+| [0820-find-eventual-safe-states](https://github.com/manu05X/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0975-range-sum-of-bst](https://github.com/manu05X/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/manu05X/Leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -978,6 +979,7 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/manu05X/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0813-all-paths-from-source-to-target](https://github.com/manu05X/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
+| [0820-find-eventual-safe-states](https://github.com/manu05X/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/manu05X/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/manu05X/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2121-find-if-path-exists-in-graph](https://github.com/manu05X/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
@@ -1135,6 +1137,7 @@
 | [0695-max-area-of-island](https://github.com/manu05X/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/manu05X/Leetcode/tree/master/0733-flood-fill) |
 | [0813-all-paths-from-source-to-target](https://github.com/manu05X/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
+| [0820-find-eventual-safe-states](https://github.com/manu05X/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1007-numbers-with-same-consecutive-differences](https://github.com/manu05X/Leetcode/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [1036-rotting-oranges](https://github.com/manu05X/Leetcode/tree/master/1036-rotting-oranges) |
 | [1254-deepest-leaves-sum](https://github.com/manu05X/Leetcode/tree/master/1254-deepest-leaves-sum) |
@@ -1252,6 +1255,7 @@
 | [0207-course-schedule](https://github.com/manu05X/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/manu05X/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0820-find-eventual-safe-states](https://github.com/manu05X/Leetcode/tree/master/0820-find-eventual-safe-states) |
 ## Bitmask
 |  |
 | ------- |
