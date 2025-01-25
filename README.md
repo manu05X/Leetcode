@@ -211,6 +211,7 @@
 | [2868-continuous-subarrays](https://github.com/manu05X/Leetcode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/manu05X/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/manu05X/Leetcode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/manu05X/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/manu05X/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3248-count-the-number-of-incremovable-subarrays-ii](https://github.com/manu05X/Leetcode/tree/master/3248-count-the-number-of-incremovable-subarrays-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/manu05X/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -415,6 +416,7 @@
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/manu05X/Leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/manu05X/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/manu05X/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Greedy
 |  |
 | ------- |
@@ -1216,6 +1218,7 @@
 | [1380-number-of-closed-islands](https://github.com/manu05X/Leetcode/tree/master/1380-number-of-closed-islands) |
 | [1396-count-servers-that-communicate](https://github.com/manu05X/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [2121-find-if-path-exists-in-graph](https://github.com/manu05X/Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/manu05X/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Combinatorics
 |  |
 | ------- |
