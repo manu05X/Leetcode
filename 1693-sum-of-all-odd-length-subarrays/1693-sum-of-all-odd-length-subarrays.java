@@ -14,7 +14,7 @@ class Solution {
             totalSum += arr[i] * oddSubarrays; // 3,16,10,20,9
         }
 
-        return totalSum;
+        return totalSum; // 58
     }
 }
 /*
