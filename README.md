@@ -159,6 +159,7 @@
 | [1293-three-consecutive-odds](https://github.com/manu05X/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1306-minimum-absolute-difference](https://github.com/manu05X/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1330-longest-arithmetic-subsequence-of-given-difference](https://github.com/manu05X/Leetcode/tree/master/1330-longest-arithmetic-subsequence-of-given-difference) |
+| [1364-tuple-with-same-product](https://github.com/manu05X/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1380-number-of-closed-islands](https://github.com/manu05X/Leetcode/tree/master/1380-number-of-closed-islands) |
 | [1396-count-servers-that-communicate](https://github.com/manu05X/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/manu05X/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -275,6 +276,7 @@
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1297-maximum-number-of-balloons](https://github.com/manu05X/Leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1330-longest-arithmetic-subsequence-of-given-difference](https://github.com/manu05X/Leetcode/tree/master/1330-longest-arithmetic-subsequence-of-given-difference) |
+| [1364-tuple-with-same-product](https://github.com/manu05X/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/manu05X/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/manu05X/Leetcode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1502-construct-k-palindrome-strings](https://github.com/manu05X/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
@@ -895,6 +897,7 @@
 | [0621-task-scheduler](https://github.com/manu05X/Leetcode/tree/master/0621-task-scheduler) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
 | [1297-maximum-number-of-balloons](https://github.com/manu05X/Leetcode/tree/master/1297-maximum-number-of-balloons) |
+| [1364-tuple-with-same-product](https://github.com/manu05X/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/manu05X/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/manu05X/Leetcode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1502-construct-k-palindrome-strings](https://github.com/manu05X/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
