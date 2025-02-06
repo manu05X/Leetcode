@@ -1,3 +1,4 @@
+/*
 class Solution {
     // A function that reverses characters from startRev to endRev in place
     private static void strRev(char[] str, int startRev, int endRev) {
@@ -31,12 +32,15 @@ class Solution {
     }
 }
 
+*/
 
 
 
-/*
 class Solution {
     public String reverseWords(String s) {
+        // "\\s+" is a regular expression that matches one or more whitespace characters1. 
+        //The \s represents any whitespace character (space, tab, newline, etc.), and the + means "one or more occurrences
+        //  First removes leading and trailing whitespace from the string s and then splits the string into an array of substrings using whitespace as a delimiter.
         String[] str = s.trim().split("\\s+");
 
         String out = "";
@@ -54,7 +58,6 @@ class Solution {
         return out + str[0];
     }
 }
-*/
 
 /*
 class Solution {
