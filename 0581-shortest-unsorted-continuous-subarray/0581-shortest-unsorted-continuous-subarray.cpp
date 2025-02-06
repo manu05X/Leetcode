@@ -12,6 +12,7 @@ public:
         //For the i-th element nums[i], we compare it with the maximum value seen so far maxValue. If nums[i] is smaller than maxValue, it means nums[i] is out of place as the next element should be greater than the previous in case of left to right in sorted array. That means this can be the end of subarray
         for (int i = 1; i < n; ++i) {
             maxValue = max(maxValue, nums[i]);
+            // curr elm at index i is less than max i.e end = i
             if (nums[i] < maxValue) {
                 end = i;
             }
@@ -21,6 +22,7 @@ public:
         //For the i-th element nums[i], we compare it with the min value seen so far mixValue. If nums[i] is greater than mixValue, it means nums[i] is out of place i.e iteranting from right to left in a sorted array we must get the next element smaller than the previous if not, that means it is the starting place in the subarray that need to be sorted. 
         for (int i = n - 2; i >= 0; --i) {
             minValue = min(minValue, nums[i]);
+            // curr element is greater than minValue so it is start. = i
             if (nums[i] > minValue) {
                 start = i;
             }
