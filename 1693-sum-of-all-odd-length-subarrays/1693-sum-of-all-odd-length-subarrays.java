@@ -5,18 +5,27 @@ class Solution {
 
         for (int i = 0; i < n; i++) {
             // Total number of subarrays that include arr[i]
-            int totalSubarrays = (i + 1) * (n - i);
+            int totalSubarrays = (i + 1) * (n - i); // 5,8,9,8,5
 
             // Only odd-length subarrays count
-            int oddSubarrays = (totalSubarrays + 1) / 2;
+            int oddSubarrays = (totalSubarrays + 1) / 2; // 3,4,5,4,3
 
             // Contribution of arr[i] to the total sum
-            totalSum += arr[i] * oddSubarrays;
+            totalSum += arr[i] * oddSubarrays; // 3,16,10,20,9
         }
 
         return totalSum;
     }
 }
+/*
+1,4,2,5,3
+0,1,2,3,4
+
+
+n = 5
+
+
+ */
 
 
 // class Solution {
