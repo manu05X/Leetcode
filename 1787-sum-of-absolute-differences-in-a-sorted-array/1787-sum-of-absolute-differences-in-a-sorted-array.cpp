@@ -1,3 +1,23 @@
+/*
+class Solution {
+public:
+    vector<int> getSumAbsoluteDifferences(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> result(n);
+        
+        for (int i = 0; i < n; i++) {
+            int sum = 0;
+            for (int j = 0; j < n; j++) {
+                sum += abs(nums[i] - nums[j]);
+            }
+            result[i] = sum;
+        }
+        
+        return result;
+    }
+};
+*/
+
 class Solution {
 public:
     vector<int> getSumAbsoluteDifferences(vector<int>& nums) {
@@ -34,6 +54,7 @@ public:
         return result;
     }
 };
+
 /*
 [2, 3, 5, 7, 11]
 [2, 5, 10, 17, 28]
