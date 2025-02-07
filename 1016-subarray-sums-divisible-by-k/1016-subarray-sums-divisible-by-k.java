@@ -1,24 +1,36 @@
 class Solution {
     public int subarraysDivByK(int[] nums, int k) {
-        int[] mc = new int[k];
-        mc[0] =1;
+        // Array to store frequency of remainders
+        int[] remainderCount = new int[k];
+        remainderCount[0] = 1; // Initialize for cases where prefix sum itself is divisible by k
 
-        int cumulativeSum=0;
-        int countSubarraySum=0;
+        int cumulativeSum = 0;
+        int countSubarraySum = 0;
 
-        for(int num:nums){
+        for (int num : nums) {
+            // Compute the cumulative sum
             int x = cumulativeSum + num;
-            cumulativeSum = (x % k+k)%k;
+            
+            // Normalize the remainder to always be positive
+            cumulativeSum = (x % k + k) % k;
 
-            countSubarraySum += mc[cumulativeSum];
-            mc[cumulativeSum]++;
+            // If this remainder was seen before, it contributes to valid subarrays
+            countSubarraySum += remainderCount[cumulativeSum];
+
+            // Increment the count of this remainder
+            remainderCount[cumulativeSum]++;
         }
+        
         return countSubarraySum;
     }
 }
 
 
+
 /*
+
+import java.util.HashMap;
+
 class Solution {
     public int subarraysDivByK(int[] nums, int k) {
         int n = nums.length;
@@ -27,21 +39,27 @@ class Solution {
         int cumulativeSum = 0;
         int countSubarraySum = 0;
 
-        mp.put(0,1);
+        // Initialize the map with remainder 0 to handle cases where prefix sum itself is divisible by k
+        mp.put(0, 1);
 
-        for(int i = 0; i < n; i++){
-            int x = cumulativeSum+nums[i];
+        for (int i = 0; i < n; i++) {
+            cumulativeSum += nums[i];
 
-            cumulativeSum = (x % k + k)% k;
+            // Ensure remainder is always non-negative
+            int remainder = (cumulativeSum % k + k) % k;
 
-            if(mp.containsKey(cumulativeSum) == true){
-                countSubarraySum += mp.get(cumulativeSum);
+            // If remainder exists in the map, add its count to the result
+            if (mp.containsKey(remainder)) {
+                countSubarraySum += mp.get(remainder);
             }
 
-            mp.put(cumulativeSum, mp.getOrDefault(cumulativeSum,0)+1);
+            // Update the count of this remainder in the map
+            mp.put(remainder, mp.getOrDefault(remainder, 0) + 1);
         }
 
         return countSubarraySum;
     }
 }
+
+
 */
