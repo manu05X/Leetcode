@@ -1,5 +1,26 @@
 class Solution {
     public int subarraysDivByK(int[] nums, int k) {
+        int[] mc = new int[k];
+        mc[0] =1;
+
+        int cumulativeSum=0;
+        int countSubarraySum=0;
+
+        for(int num:nums){
+            int x = cumulativeSum + num;
+            cumulativeSum = (x % k+k)%k;
+
+            countSubarraySum += mc[cumulativeSum];
+            mc[cumulativeSum]++;
+        }
+        return countSubarraySum;
+    }
+}
+
+
+/*
+class Solution {
+    public int subarraysDivByK(int[] nums, int k) {
         int n = nums.length;
         HashMap<Integer, Integer> mp = new HashMap<>();
 
@@ -23,3 +44,4 @@ class Solution {
         return countSubarraySum;
     }
 }
+*/
