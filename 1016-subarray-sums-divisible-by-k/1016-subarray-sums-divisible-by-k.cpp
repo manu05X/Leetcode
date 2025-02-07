@@ -15,7 +15,9 @@ public:
 
             // If a subarray has cumulativeSum mod k equals to some previous subarray's cumulativeSum mod k,
             // then the subarray in between is divisible by k.
-            countSubarrays += prefixSumCount[cumulativeSum]++;
+            countSubarrays += prefixSumCount[cumulativeSum];
+            // now increase the count of cumulativeSum in map
+            prefixSumCount[cumulativeSum]++;
 
             // The prefixSumCount[cumulativeSum]++ increases the count of the
             // current prefix sum mod k, which will be used for future subarray checks.
