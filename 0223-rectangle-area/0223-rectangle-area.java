@@ -19,6 +19,9 @@ class Solution {
         int areaA = (ay2 - ay1) * (ax2 - ax1);
         int areaB = (by2 - by1) * (bx2 - bx1);
 
+        // areaOfOverlap is counted twice when in the summation of
+        // areaOfA and areaOfB, so we need to subtract it from the
+        // total, to get the toal area covered by both the rectangles
         int totalArea = areaA + areaB - areaOverlap;
 
         return totalArea;
