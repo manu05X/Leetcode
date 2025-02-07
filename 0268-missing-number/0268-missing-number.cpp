@@ -4,11 +4,20 @@ public:
         int n = nums.size();
         int ans =0;
         for(int i =1;i<=n;i++){
-            ans = ans ^ i;
+            ans = ans ^ i; // 0^1^2^3
         }
         for(int i =0;i<nums.size();i++){
-            ans= ans^nums[i];
+            ans= ans^nums[i]; // (3^0^1)^(0^1^2^3)
         }
+        /*
+        = (3^0^1)^(0^1^2^3)
+        = (0^0)^(1^1)^2^(3^3)
+        = 0^0^2^0
+        = 0^2^0
+        = 0^2
+        = 2
+        */
+
         return ans;
     }
 };
