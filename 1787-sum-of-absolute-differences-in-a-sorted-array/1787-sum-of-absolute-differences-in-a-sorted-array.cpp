@@ -12,13 +12,17 @@ public:
 
         vector<int> result;
         for(int i = 0; i < n; i++){
+            // left and right sum of curr element
             int leftSum = prefix[i]-nums[i];
             int rightSum = prefix[n-1]-prefix[i];
 
+            // count of element to left and right of curr element
             int leftCount = i;
             int rightCount = n-1-i;
 
+            //difference between nums[i] and each element on the left.
             int leftTotal = leftCount*nums[i] - leftSum;
+            //difference between nums[i] and each element on the right.
             int rightTotal = rightSum - rightCount*nums[i];
 
             result.push_back(leftTotal+rightTotal);
