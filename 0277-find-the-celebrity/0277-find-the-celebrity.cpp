@@ -20,6 +20,8 @@ public:
         for(int i = 0; i < n; i++){
             if(i != candidate){
                 // A celebrity should not know anyone, but everyone should know the celebrity
+                // candidate knows someone, they cannot be a celebrity.
+                // someone does not know candidate, then candidate is not a celebrity.
                 if(knows(candidate, i) || !knows(i, candidate)){
                     return -1;
                 }
