@@ -1,36 +1,37 @@
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
-        stack<int> st;
+        stack<int> st; // Stack to keep track of remaining asteroids after collisions
 
-        for(int astorid : asteroids){
-            bool flag = true;
+        for(int asteroid : asteroids){
+            bool flag = true; // Flag to track if the asteroid survives
 
-            while(!st.empty() && (st.top() > 0 && astorid < 0)){
-                // If the top asteroid in the stack is smaller, then it will explode.
-                // Hence pop it from the stack, also continue with the next asteroid in the stack.
-                if(abs(st.top()) < abs(astorid)){
+            // Check if a collision happens (Right-moving asteroid vs Left-moving asteroid)
+            while(!st.empty() && (st.top() > 0 && asteroid < 0)){
+                // If the top asteroid in the stack is smaller, then it explodes.
+                // Continue checking the next asteroid in the stack.
+                if(abs(st.top()) < abs(asteroid)){
                     st.pop();
                     continue;
                 } 
-                // If both asteroids are the same size, then both asteroids will explode.
-                // Pop the asteroid from the stack; also, we won't push the current asteroid to the stack.
-                else if(abs(st.top()) == abs(astorid)){
+                // If both asteroids are of the same size, both will explode.
+                else if(abs(st.top()) == abs(asteroid)){
                     st.pop();
                 }
 
-                // If we reach here, the current asteroid will be destroyed
-                // Hence, we should not add it to the stack
+                // If we reach here, the current asteroid is destroyed (either by equal or larger asteroid)
+                // So, we should not add it to the stack.
                 flag = false;
                 break;
             }
 
+            // If asteroid survives, push it onto the stack.
             if(flag){
-                st.push(astorid);
+                st.push(asteroid);
             }
         }
 
-        // Add the asteroids from the stack to the vector in the reverse order.
+        // Transfer stack elements to result vector in reverse order.
         vector<int> ans(st.size());
         for (int i = ans.size() - 1; i >= 0; i--) {
             ans[i] = st.top();
