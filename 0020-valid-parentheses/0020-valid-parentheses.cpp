@@ -1,6 +1,6 @@
 class Solution {
-    public: 
-        bool isValid(string s) {
+public: 
+    bool isValid(string s) {
         stack<char> st;
         for (char c : s) { 
             if (c == '(') 
@@ -10,15 +10,15 @@ class Solution {
             else if (c == '[') 
                 st.push(']');
             else {
-                if (st.empty() || st.top() != c)
+                if (st.empty() || st.top() != c) // Check if stack is empty before accessing top
                     return false;
-                st.pop();
+                st.pop(); // Pop after comparing
             }
         }
-        
-        return st.empty();
+        return st.empty(); // Ensure no unmatched open brackets remain
     }
 };
+
 
 
 
