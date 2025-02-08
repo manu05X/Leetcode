@@ -1,6 +1,39 @@
 /* The knows API is defined for you.
       bool knows(int a, int b); */
 
+/* The knows API is defined for you.
+      bool knows(int a, int b); */
+
+class Solution {
+public:
+    int findCelebrity(int n) {
+        int candidate = 0;
+
+        // Step 1: Find the potential celebrity
+        for(int i = 1; i < n; i++){
+            if(knows(candidate, i)){  // If candidate knows i, then candidate cannot be the celebrity
+                candidate = i;  // Update candidate
+            }
+        }
+
+        // Step 2: Verify if the candidate is a real celebrity
+        for(int i = 0; i < n; i++){
+            if(i != candidate){
+                // A celebrity should not know anyone, but everyone should know the celebrity
+                if(knows(candidate, i) || !knows(i, candidate)){
+                    return -1;
+                }
+            }
+        }
+
+        return candidate;
+    }
+};
+
+
+
+/*
+
 class Solution {
 public:
     int findCelebrity(int n) {
@@ -39,3 +72,5 @@ public:
         return last;
     }
 };
+
+*/
