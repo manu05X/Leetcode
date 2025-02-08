@@ -1,5 +1,39 @@
 class Solution {
     public boolean isValid(String s) {
+        Stack<Character> st = new Stack<>();
+        
+
+        for(char c : s.toCharArray()){
+            if(c == ')' || c == '}' || c == ']'){
+                if(st.isEmpty()){
+                    return false;
+                }
+                if(st.peek() != '(' && c == ')'){
+                    return false;
+                }
+                if(st.peek() != '{' && c == '}'){
+                    return false;
+                }
+                if(st.peek() != '[' && c == ']'){
+                    return false;
+                }
+
+                st.pop();
+
+            } else {
+                st.push(c);
+            }
+        }
+
+        return st.isEmpty()?true : false;
+    }
+}
+
+
+
+/*
+class Solution {
+    public boolean isValid(String s) {
         // Use a deque as a stack to keep track of the opening brackets
         Deque<Character> stack = new ArrayDeque<>();
 
@@ -26,3 +60,4 @@ class Solution {
                (left == '[' && right == ']');
     }
 }
+*/
