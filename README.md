@@ -581,6 +581,7 @@
 | [0776-n-ary-tree-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0780-max-chunks-to-make-sorted](https://github.com/manu05X/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0874-backspace-string-compare](https://github.com/manu05X/Leetcode/tree/master/0874-backspace-string-compare) |
+| [0937-online-stock-span](https://github.com/manu05X/Leetcode/tree/master/0937-online-stock-span) |
 | [1002-maximum-width-ramp](https://github.com/manu05X/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/manu05X/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -798,6 +799,7 @@
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/manu05X/Leetcode/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/manu05X/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
+| [0937-online-stock-span](https://github.com/manu05X/Leetcode/tree/master/0937-online-stock-span) |
 | [1002-maximum-width-ramp](https://github.com/manu05X/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/manu05X/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -1310,11 +1312,13 @@
 | [0232-implement-queue-using-stacks](https://github.com/manu05X/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/manu05X/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/manu05X/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0937-online-stock-span](https://github.com/manu05X/Leetcode/tree/master/0937-online-stock-span) |
 | [2434-design-a-number-container-system](https://github.com/manu05X/Leetcode/tree/master/2434-design-a-number-container-system) |
 ## Data Stream
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/manu05X/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0937-online-stock-span](https://github.com/manu05X/Leetcode/tree/master/0937-online-stock-span) |
 ## Topological Sort
 |  |
 | ------- |
