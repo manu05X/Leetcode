@@ -245,6 +245,7 @@
 | [0133-clone-graph](https://github.com/manu05X/Leetcode/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/manu05X/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/manu05X/Leetcode/tree/master/0146-lru-cache) |
 | [0166-fraction-to-recurring-decimal](https://github.com/manu05X/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0202-happy-number](https://github.com/manu05X/Leetcode/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/manu05X/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -1145,6 +1146,7 @@
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/manu05X/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0141-linked-list-cycle](https://github.com/manu05X/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/manu05X/Leetcode/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/manu05X/Leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/manu05X/Leetcode/tree/master/0206-reverse-linked-list) |
 | [2573-remove-nodes-from-linked-list](https://github.com/manu05X/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 ## Recursion
@@ -1308,6 +1310,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/manu05X/Leetcode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/manu05X/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/manu05X/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/manu05X/Leetcode/tree/master/0295-find-median-from-data-stream) |
@@ -1358,4 +1361,8 @@
 |  |
 | ------- |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/manu05X/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/manu05X/Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
