@@ -300,6 +300,7 @@
 | [2479-meeting-rooms-iii](https://github.com/manu05X/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/manu05X/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manu05X/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/manu05X/Leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2685-first-completely-painted-row-or-column](https://github.com/manu05X/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/manu05X/Leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/manu05X/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -671,6 +672,7 @@
 | [2306-create-binary-tree-from-descriptions](https://github.com/manu05X/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/manu05X/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/manu05X/Leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/manu05X/Leetcode/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/manu05X/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Binary Tree
@@ -721,6 +723,7 @@
 | [2306-create-binary-tree-from-descriptions](https://github.com/manu05X/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/manu05X/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/manu05X/Leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -778,6 +781,7 @@
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/manu05X/Leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/manu05X/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/manu05X/Leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/manu05X/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/manu05X/Leetcode/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/manu05X/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -1234,6 +1238,7 @@
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/manu05X/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/manu05X/Leetcode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/manu05X/Leetcode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/manu05X/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/manu05X/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Backtracking
