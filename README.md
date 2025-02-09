@@ -287,6 +287,7 @@
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/manu05X/Leetcode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1502-construct-k-palindrome-strings](https://github.com/manu05X/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/manu05X/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
+| [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/manu05X/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/manu05X/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/manu05X/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2300-construct-string-with-repeat-limit](https://github.com/manu05X/Leetcode/tree/master/2300-construct-string-with-repeat-limit) |
@@ -428,6 +429,7 @@
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/manu05X/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/manu05X/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/manu05X/Leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/manu05X/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1829-maximum-units-on-a-truck](https://github.com/manu05X/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [2164-two-best-non-overlapping-events](https://github.com/manu05X/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/manu05X/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -466,6 +468,7 @@
 | [1502-construct-k-palindrome-strings](https://github.com/manu05X/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/manu05X/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/manu05X/Leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/manu05X/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/manu05X/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1829-maximum-units-on-a-truck](https://github.com/manu05X/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1917-maximum-average-pass-ratio](https://github.com/manu05X/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
@@ -541,6 +544,7 @@
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/manu05X/Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/manu05X/Leetcode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/manu05X/Leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/manu05X/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/manu05X/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/manu05X/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/manu05X/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
