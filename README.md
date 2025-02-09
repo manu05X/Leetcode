@@ -661,6 +661,7 @@
 | [0784-insert-into-a-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/manu05X/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/manu05X/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
+| [1035-cousins-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/manu05X/Leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -710,6 +711,7 @@
 | [0784-insert-into-a-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/manu05X/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/manu05X/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
+| [1035-cousins-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/manu05X/Leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -763,6 +765,7 @@
 | [0854-making-a-large-island](https://github.com/manu05X/Leetcode/tree/master/0854-making-a-large-island) |
 | [0975-range-sum-of-bst](https://github.com/manu05X/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/manu05X/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
+| [1035-cousins-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/manu05X/Leetcode/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1254-deepest-leaves-sum](https://github.com/manu05X/Leetcode/tree/master/1254-deepest-leaves-sum) |
@@ -1218,6 +1221,7 @@
 | [0820-find-eventual-safe-states](https://github.com/manu05X/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/manu05X/Leetcode/tree/master/0854-making-a-large-island) |
 | [1007-numbers-with-same-consecutive-differences](https://github.com/manu05X/Leetcode/tree/master/1007-numbers-with-same-consecutive-differences) |
+| [1035-cousins-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/manu05X/Leetcode/tree/master/1036-rotting-oranges) |
 | [1254-deepest-leaves-sum](https://github.com/manu05X/Leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1380-number-of-closed-islands](https://github.com/manu05X/Leetcode/tree/master/1380-number-of-closed-islands) |
