@@ -651,6 +651,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/manu05X/Leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0285-inorder-successor-in-bst](https://github.com/manu05X/Leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0437-path-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/manu05X/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -704,6 +705,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/manu05X/Leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0285-inorder-successor-in-bst](https://github.com/manu05X/Leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0437-path-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/manu05X/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -753,6 +755,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/manu05X/Leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0285-inorder-successor-in-bst](https://github.com/manu05X/Leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/manu05X/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0437-path-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0437-path-sum-iii) |
@@ -1287,6 +1290,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/manu05X/Leetcode/tree/master/0270-closest-binary-search-tree-value) |
+| [0285-inorder-successor-in-bst](https://github.com/manu05X/Leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/manu05X/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/manu05X/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
