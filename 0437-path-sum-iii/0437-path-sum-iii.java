@@ -13,6 +13,37 @@
  *     }
  * }
  */
+class Solution {
+    public int count = 0;
+    public void dfs(TreeNode root, Long currSum, int targetSum, HashMap<Long, Integer> prefixSum){
+        if(root == null){
+            return;
+        }
+
+        currSum += root.val;
+        if(prefixSum.containsKey(currSum - targetSum) == true){
+            count += prefixSum.get(currSum - targetSum);
+        }
+
+        prefixSum.put(currSum, prefixSum.getOrDefault(currSum,0)+1);
+
+        dfs(root.left, currSum, targetSum, prefixSum);
+        dfs(root.right, currSum, targetSum, prefixSum);
+        
+        prefixSum.put(currSum, prefixSum.getOrDefault(currSum, 0)-1);
+    }
+
+    public int pathSum(TreeNode root, int targetSum) {
+        HashMap<Long, Integer> prefixSum = new HashMap<>();
+        prefixSum.put(0L,1);
+
+        dfs(root, 0L, targetSum, prefixSum);
+
+        return count;
+    }
+}
+
+
 
 /*
  class Solution {
@@ -49,6 +80,7 @@
 */
 
 
+/*
 class Solution {
     // Main method to find the number of paths summing to targetSum
     public int pathSum(TreeNode root, int targetSum) {
@@ -84,3 +116,4 @@ class Solution {
         return res;  // Return the total number of valid paths found for this branch
     }
 }
+*/
