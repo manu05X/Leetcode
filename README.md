@@ -571,6 +571,7 @@
 | [3235-minimum-cost-to-convert-string-i](https://github.com/manu05X/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/manu05X/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/manu05X/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3447-clear-digits](https://github.com/manu05X/Leetcode/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/manu05X/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Stack
 |  |
@@ -610,6 +611,7 @@
 | [2573-remove-nodes-from-linked-list](https://github.com/manu05X/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/manu05X/Leetcode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3447-clear-digits](https://github.com/manu05X/Leetcode/tree/master/3447-clear-digits) |
 ## Simulation
 |  |
 | ------- |
@@ -623,6 +625,7 @@
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/manu05X/Leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/manu05X/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3447-clear-digits](https://github.com/manu05X/Leetcode/tree/master/3447-clear-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/manu05X/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Tree
 |  |
