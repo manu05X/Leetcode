@@ -12,13 +12,23 @@ class Solution {
         TreeNode successor = null;
 
         while(root != null){
-            if(p.val >= root.val){
-                root = root.right;
-            } else {
+            if(p.val < root.val){
                 successor = root;
                 root = root.left;
+                
+            } else {
+                root = root.right;
             }
         }
+
+        // while(root != null){
+        //     if(p.val >= root.val){
+        //         root = root.right;
+        //     } else {
+        //         successor = root;
+        //         root = root.left;
+        //     }
+        // }
 
         return successor;
     }
