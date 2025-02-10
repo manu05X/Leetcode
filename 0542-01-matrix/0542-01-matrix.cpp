@@ -17,7 +17,7 @@ public:
         }
       
         // Defining directions for easy access to adjacent cells in matrix (up, right, down, left)
-        vector<int> directions = {-1, 0, 1, 0, -1};
+        vector<int> directions = {-1, 0, 1, 0, -1};// up = {-1,0}, right = {0,1}, down = {1,0}, left = {0,-1} 
 
         // Perform Breadth-First Search
         while (!queue.empty()) {
