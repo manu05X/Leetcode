@@ -10,6 +10,50 @@
 
 
 class Solution {
+    List<Integer> ans;
+    public void helper(TreeNode root,int k) {
+        if(root==null) return;
+        if(k==0) {
+            ans.add(root.val);
+        }
+        helper(root.left,k-1);
+        helper(root.right,k-1);
+    }
+    public int getTarget(TreeNode root,TreeNode tar,int k) {
+        if(root==null) return -1;
+        if(root.val==tar.val) {
+            helper(root,k);
+            return k-1;
+        }
+        int x=getTarget(root.left,tar,k);
+        if(x!=-1) {
+            if(x==0)
+                ans.add(root.val);
+            else
+                helper(root.right,x-1);
+            return x-1;
+        }
+        x=getTarget(root.right,tar,k);
+        if(x!=-1) {
+            if(x==0)
+                ans.add(root.val);
+            else
+                helper(root.left,x-1);
+            return x-1;
+        }
+        return -1;
+    }
+    public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
+        ans=new ArrayList<>();
+        getTarget(root,target,k);
+        return ans;
+    }
+}
+
+
+
+/*
+class Solution {
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
         List<Integer> result = new ArrayList<>();
         if (root == null || target == null) return result;
@@ -69,3 +113,4 @@ class Solution {
         buildParentMap(node.right, node, parentMap);
     }
 }
+*/
