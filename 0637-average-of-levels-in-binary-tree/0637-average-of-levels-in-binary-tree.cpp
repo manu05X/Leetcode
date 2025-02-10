@@ -31,7 +31,7 @@ public:
             double sum = 0;
             double count = 0;
             
-            queue<TreeNode*> level; // Temporary queue to store nodes at the current level
+            //queue<TreeNode*> level; // Temporary queue to store nodes at the current level
             int n = q.size(); // Number of nodes at the current level
             
             // Traverse all nodes at the current level
@@ -43,15 +43,16 @@ public:
                 
                 // Push left child to the level queue if it exists
                 if (curr->left) {
-                    level.push(curr->left);
+                    q.push(curr->left);
                 }
                 
                 // Push right child to the level queue if it exists
                 if (curr->right) {
-                    level.push(curr->right);
+                    q.push(curr->right);
                 }
             }
-            q = level; // adding the level queue to original queue
+
+            //q = level; // adding the level queue to original queue
             
             // Add the current level avg (temp) to the result (ans)
             ans.push_back(sum * 1.0/ count);
