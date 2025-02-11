@@ -1,6 +1,45 @@
 class Solution {
 public:
     vector<string> topKFrequent(vector<string>& words, int k) {
+        // Step 1: Count the frequency of each word using a map
+        map<string, int> cnt;
+        for (string& word : words) {
+            cnt[word]++;
+        }
+
+        // Step 2: Use a min-heap (priority queue) to maintain the top k frequent words
+        priority_queue<pair<int, string>> h;
+        for (auto& p : cnt) {
+            h.push({-p.second, p.first});  // Store negative frequency for min-heap behavior
+            
+            if (h.size() > k) h.pop();  // Maintain only k elements
+        }
+
+        // Step 3: Extract elements from the heap and sort them lexicographically
+        vector<pair<int, string>> candidates;
+        while (!h.empty()) {
+            candidates.push_back(h.top());
+            h.pop();
+        }
+        
+        // Step 4: Sort based on frequency and lexicographical order
+        sort(candidates.begin(), candidates.end());
+
+        // Step 5: Extract the top K words
+        vector<string> res;
+        for (auto& p : candidates) {
+            res.push_back(p.second);
+        }
+        
+        return res;
+    }
+};
+
+
+/*
+class Solution {
+public:
+    vector<string> topKFrequent(vector<string>& words, int k) {
         int n = words.size();
 
         unordered_map<string, int> mp;
@@ -38,3 +77,5 @@ public:
         return ans;
     }
 };
+
+*/
