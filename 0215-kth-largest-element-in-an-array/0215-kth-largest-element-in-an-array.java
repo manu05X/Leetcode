@@ -21,6 +21,63 @@ class Solution {
 
 
 /*
+
+2
+-
+
+2
+3
+-
+
+1
+2
+3
+
+2
+3
+-
+
+2
+3
+5
+
+2
+3
+5
+-
+
+2
+3
+5
+
+3
+5
+-
+
+3
+5
+6
+
+5
+6
+-
+
+4
+5
+6
+
+5
+6
+-
+
+
+5
+6
+
+*/
+
+
+/*
 class Solution {
     public int findKthLargest(int[] nums, int k) {
         // Create a min-heap (PriorityQueue with natural ordering, i.e., min-heap)
