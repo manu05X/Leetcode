@@ -14,7 +14,7 @@ class Solution {
             ans[i] = mat[rowPtr][colPtr];
             
             int cellSum = rowPtr + colPtr;
-            // cellSum % 2 == 0 Go Up
+            // cellSum % 2 == 0 Go Up i.e if cellSum is even
             if(cellSum % 2 == 0){
                 // corner case of last column
                 if(colPtr == m-1){
@@ -31,7 +31,7 @@ class Solution {
                 }
                 
             }
-            // Go Down 
+            // Go Down i.e if cellSum is odd
             else {
                 // corner case of last row
                 if(rowPtr == n-1){
