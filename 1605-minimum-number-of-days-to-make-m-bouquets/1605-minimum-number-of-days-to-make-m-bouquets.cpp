@@ -18,8 +18,8 @@ public:
                 if (bloomDay[j] > mid) {
                     flowers = 0; // Reset if flower has not bloomed
                 } else {
-                    //++flowers; // Count consecutive bloomed flowers
-                    if (++flowers >= k) {
+                    ++flowers; // Count consecutive bloomed flowers
+                    if (flowers >= k) {
                         bouquets++; // Make a bouquet
                         flowers = 0; // Reset flower count for next bouquet
                     }
