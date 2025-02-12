@@ -55,10 +55,12 @@ public:
 0,1,2,3,4
 3,4,5,1,2
 
-lo = 0, hi = 4, mid = 2, 5 < 2 , so hi = 2
-lo = 0, hi = 2, mid = 1, 4 < 2 X, so lo = 2
-lo = 2, hi = 2, mid = 2, 5 < 2 X, so lo = 2+1 = 3
+lo = 0, hi = 4, mid = 2, 5 < 2 , so lo = 3
+lo = 3, hi = 4, mid = 3, 1 < 2 X, so hi = 3
+lo = 3, hi = 3 break while loop
 
+return nums[lo]
 
+nums[3] = 3
 
 */
