@@ -26,8 +26,10 @@ public:
             while (nums[maxDeque.front()] - nums[minDeque.front()] > 2) {
                 ++left; // Move the left pointer
                 // Remove out-of-bound indices from deques
-                if (!maxDeque.empty() && maxDeque.front() < left) maxDeque.pop_front();
-                if (!minDeque.empty() && minDeque.front() < left) minDeque.pop_front();
+                if (!maxDeque.empty() && maxDeque.front() < left) 
+                    maxDeque.pop_front();
+                if (!minDeque.empty() && minDeque.front() < left) 
+                    minDeque.pop_front();
             }
 
             // Count valid subarrays in the current window
