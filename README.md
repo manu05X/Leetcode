@@ -152,6 +152,7 @@
 | [1036-rotting-oranges](https://github.com/manu05X/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/manu05X/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1063-best-sightseeing-pair](https://github.com/manu05X/Leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1087-longest-arithmetic-subsequence](https://github.com/manu05X/Leetcode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1095-two-city-scheduling](https://github.com/manu05X/Leetcode/tree/master/1095-two-city-scheduling) |
@@ -396,6 +397,7 @@
 | [0802-k-th-smallest-prime-fraction](https://github.com/manu05X/Leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/manu05X/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/manu05X/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1087-longest-arithmetic-subsequence](https://github.com/manu05X/Leetcode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1185-find-in-mountain-array](https://github.com/manu05X/Leetcode/tree/master/1185-find-in-mountain-array) |
 | [1192-divide-chocolate](https://github.com/manu05X/Leetcode/tree/master/1192-divide-chocolate) |
