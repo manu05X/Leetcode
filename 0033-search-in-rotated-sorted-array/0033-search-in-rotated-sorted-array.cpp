@@ -13,11 +13,11 @@ public:
             {
                 return mid;
             }
-            // Case 2: subarray on mid's left is sorted
-            else if (nums[mid] >= nums[lo]) 
+            // Case 2: subarray on mid's left is sorted so element nums[lo] is less or equal to nums[mid]
+            else if (nums[lo] <= nums[mid]) 
             {
                 //might be in the left half. Continue with the left half
-                if(target >= nums[lo] && target < nums[mid])
+                if(nums[lo] <= target && target < nums[mid])
                 {
                     hi = mid-1;
                 }
@@ -27,11 +27,11 @@ public:
                 }
                 
             }
-            // Case 3: subarray on mid's right is sorted
+            // Case 3: subarray on mid's right is sorted so element nums[mid] is less or equal to nums[hi]
             else 
             {
-                //might be in the right half
-                if(target <= nums[hi] && target > nums[mid])
+                //might be in the right half so 
+                if(nums[mid] < target && target <= nums[hi])
                 {
                     lo = mid+1;
                 }
