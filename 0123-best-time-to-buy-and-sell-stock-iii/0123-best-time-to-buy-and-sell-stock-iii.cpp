@@ -1,22 +1,20 @@
 class Solution {
-  public:
-  int maxProfit(vector<int>& prices) {
-    int t1Cost = INT_MAX, 
-        t2Cost = INT_MAX;
-    int t1Profit = 0,
-        t2Profit = 0;
+public:
+    int maxProfit(vector<int>& prices) {
+        int firstBuy = INT_MAX, secondBuy = INT_MIN;
+        int firstProfit = 0 , secondProfit = 0;
 
-    for (int price : prices) {
-        // the maximum profit if only one transaction is allowed
-        t1Cost = min(t1Cost, price);
-        t1Profit = max(t1Profit, price - t1Cost);
-        // re-invest the gained profit in the second transaction
-        t2Cost = min(t2Cost, price - t1Profit);
-        t2Profit = max(t2Profit, price - t2Cost);
+        for(auto i : prices) {
+            // the maximum profit if only one transaction is allowed
+           firstBuy = min(i, firstBuy);
+           firstProfit = max(firstProfit, i - firstBuy);
+
+           // re-invest the gained profit in the second transaction
+           secondBuy = max(secondBuy, firstProfit - i);
+           secondProfit = max(secondProfit, i + secondBuy );
+        }
+        return secondProfit;
     }
-
-    return t2Profit;
-  }
 };
 
 
