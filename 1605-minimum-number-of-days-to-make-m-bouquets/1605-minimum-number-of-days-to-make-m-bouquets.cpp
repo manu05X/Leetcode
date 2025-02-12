@@ -1,15 +1,18 @@
  class Solution {
 public:
     bool canMakeBouquets(vector<int>& bloomDay, int days, int m, int k) {
+        // day = 5, 3
         int bouquets = 0, flowers = 0;
         for (int bloom : bloomDay) {
-            if (bloom <= days) {
+            if (bloom <= days) 
+            {
                 flowers++;
                 if (flowers == k) {
                     bouquets++;
                     flowers = 0;  // Reset flower count after forming a bouquet
                 }
-            } else {
+            } 
+            else {
                 flowers = 0;  // Reset if non-bloomed flower breaks adjacency
             }
             if (bouquets >= m) return true;  // Early exit
@@ -21,18 +24,18 @@ public:
         int n = bloomDay.size();
         if ((long long)m * k > n) return -1;  // Check if making bouquets is impossible
 
-        int left = *min_element(bloomDay.begin(), bloomDay.end());  // Min bloom day
-        int right = *max_element(bloomDay.begin(), bloomDay.end()); // Max bloom day
+        int left = *min_element(bloomDay.begin(), bloomDay.end());  // Min bloom day -> 1
+        int right = *max_element(bloomDay.begin(), bloomDay.end()); // Max bloom day -> 10
 
         while (left < right) {
-            int mid = left + (right - left) / 2;
-            if (canMakeBouquets(bloomDay, mid, m, k)) {
-                right = mid;  // Try a smaller number of days
+            int mid = left + (right - left) / 2; // 5, 3, 2
+            if (canMakeBouquets(bloomDay, mid, m, k)) { // true, true
+                right = mid;  // Try a smaller number of days -> right = 5, 3
             } else {
-                left = mid + 1;  // Increase days if bouquets can't be made
+                left = mid + 1;  // Increase days if bouquets can't be made -> left 3
             }
         }
-        return left;
+        return left; // 3
     }
 };
 
