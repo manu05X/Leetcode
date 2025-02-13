@@ -13,10 +13,12 @@ public:
         int oddlength = 0;
 
         for(auto i = mp.begin(); i != mp.end(); i++){
-            if(i->second % 2 ==0){
+            if(i->second % 2 == 0)
+            {
                 evenlength += i->second;  // Add even frequencies fully
             }
-            else{
+            else
+            {
                 hasOdd = true; // Mark that there is an odd frequency
                 oddlength += i->second - 1;  // Add the largest even part of odd frequencies
 
