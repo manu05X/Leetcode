@@ -1,5 +1,26 @@
 class Solution {
     public int maximum69Number (int num) {
+        int numCopy = num;
+        int idxSix = -1;
+        int currDigit = 0;
+
+        while(numCopy > 0){
+            if(numCopy % 10 == 6){
+                idxSix = currDigit;
+            }
+
+            numCopy = numCopy/10;
+            currDigit++;
+        }
+
+        return idxSix == -1 ? num : num+3 * (int)Math.pow(10, idxSix);
+    }
+}
+
+
+/*
+class Solution {
+    public int maximum69Number (int num) {
         // Convert the input 'num' to a string builder 'numSB'.
         StringBuilder numSB = new StringBuilder();
         numSB.append(num);
@@ -16,6 +37,8 @@ class Solution {
         return Integer.parseInt(numSB.toString());
     }
 }
+*/
+
 
 /*
 
