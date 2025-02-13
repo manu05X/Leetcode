@@ -510,6 +510,7 @@
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/manu05X/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/manu05X/Leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/manu05X/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
+| [1782-smallest-string-with-a-given-numeric-value](https://github.com/manu05X/Leetcode/tree/master/1782-smallest-string-with-a-given-numeric-value) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/manu05X/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1829-maximum-units-on-a-truck](https://github.com/manu05X/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/manu05X/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
@@ -589,6 +590,7 @@
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/manu05X/Leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/manu05X/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1777-determine-if-two-strings-are-close](https://github.com/manu05X/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
+| [1782-smallest-string-with-a-given-numeric-value](https://github.com/manu05X/Leetcode/tree/master/1782-smallest-string-with-a-given-numeric-value) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/manu05X/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/manu05X/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/manu05X/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
