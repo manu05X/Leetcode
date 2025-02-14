@@ -178,6 +178,7 @@
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/manu05X/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1428-jump-game-iii](https://github.com/manu05X/Leetcode/tree/master/1428-jump-game-iii) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/manu05X/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1477-product-of-the-last-k-numbers](https://github.com/manu05X/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/manu05X/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/manu05X/Leetcode/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1524-string-matching-in-an-array](https://github.com/manu05X/Leetcode/tree/master/1524-string-matching-in-an-array) |
@@ -913,6 +914,7 @@
 | [1236-n-th-tribonacci-number](https://github.com/manu05X/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/manu05X/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1448-maximum-69-number](https://github.com/manu05X/Leetcode/tree/master/1448-maximum-69-number) |
+| [1477-product-of-the-last-k-numbers](https://github.com/manu05X/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/manu05X/Leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/manu05X/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
@@ -1152,6 +1154,7 @@
 | [1016-subarray-sums-divisible-by-k](https://github.com/manu05X/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/manu05X/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1477-product-of-the-last-k-numbers](https://github.com/manu05X/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/manu05X/Leetcode/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/manu05X/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1603-running-sum-of-1d-array](https://github.com/manu05X/Leetcode/tree/master/1603-running-sum-of-1d-array) |
@@ -1423,12 +1426,14 @@
 | [0303-range-sum-query-immutable](https://github.com/manu05X/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0460-lfu-cache](https://github.com/manu05X/Leetcode/tree/master/0460-lfu-cache) |
 | [0937-online-stock-span](https://github.com/manu05X/Leetcode/tree/master/0937-online-stock-span) |
+| [1477-product-of-the-last-k-numbers](https://github.com/manu05X/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2434-design-a-number-container-system](https://github.com/manu05X/Leetcode/tree/master/2434-design-a-number-container-system) |
 ## Data Stream
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/manu05X/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0937-online-stock-span](https://github.com/manu05X/Leetcode/tree/master/0937-online-stock-span) |
+| [1477-product-of-the-last-k-numbers](https://github.com/manu05X/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 ## Topological Sort
 |  |
 | ------- |
