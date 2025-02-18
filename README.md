@@ -524,6 +524,7 @@
 | [2300-construct-string-with-repeat-limit](https://github.com/manu05X/Leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/manu05X/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/manu05X/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/manu05X/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2509-minimize-xor](https://github.com/manu05X/Leetcode/tree/master/2509-minimize-xor) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manu05X/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -607,6 +608,7 @@
 | [2293-minimum-number-of-steps-to-make-two-strings-anagram-ii](https://github.com/manu05X/Leetcode/tree/master/2293-minimum-number-of-steps-to-make-two-strings-anagram-ii) |
 | [2300-construct-string-with-repeat-limit](https://github.com/manu05X/Leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/manu05X/Leetcode/tree/master/2414-move-pieces-to-obtain-a-string) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/manu05X/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2465-shifting-letters-ii](https://github.com/manu05X/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/manu05X/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/manu05X/Leetcode/tree/master/2727-number-of-senior-citizens) |
@@ -652,6 +654,7 @@
 | [1818-maximum-score-from-removing-substrings](https://github.com/manu05X/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/manu05X/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/manu05X/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/manu05X/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2573-remove-nodes-from-linked-list](https://github.com/manu05X/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/manu05X/Leetcode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -1348,6 +1351,7 @@
 | [1007-numbers-with-same-consecutive-differences](https://github.com/manu05X/Leetcode/tree/master/1007-numbers-with-same-consecutive-differences) |
 | [1160-letter-tile-possibilities](https://github.com/manu05X/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/manu05X/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/manu05X/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/manu05X/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Memoization
 |  |
