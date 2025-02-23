@@ -138,6 +138,7 @@
 | [0854-making-a-large-island](https://github.com/manu05X/Leetcode/tree/master/0854-making-a-large-island) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/manu05X/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0917-boats-to-save-people](https://github.com/manu05X/Leetcode/tree/master/0917-boats-to-save-people) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0932-monotonic-array](https://github.com/manu05X/Leetcode/tree/master/0932-monotonic-array) |
 | [0940-fruit-into-baskets](https://github.com/manu05X/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
@@ -294,6 +295,7 @@
 | [0740-delete-and-earn](https://github.com/manu05X/Leetcode/tree/master/0740-delete-and-earn) |
 | [0797-rabbits-in-forest](https://github.com/manu05X/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0940-fruit-into-baskets](https://github.com/manu05X/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0952-word-subsets](https://github.com/manu05X/Leetcode/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/manu05X/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
@@ -721,6 +723,7 @@
 | [0776-n-ary-tree-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0975-range-sum-of-bst](https://github.com/manu05X/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/manu05X/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1035-cousins-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/1035-cousins-in-binary-tree) |
@@ -777,6 +780,7 @@
 | [0637-average-of-levels-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0975-range-sum-of-bst](https://github.com/manu05X/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/manu05X/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1035-cousins-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/1035-cousins-in-binary-tree) |
@@ -949,6 +953,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/manu05X/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/manu05X/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0347-top-k-frequent-elements](https://github.com/manu05X/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/manu05X/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/manu05X/Leetcode/tree/master/0948-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/manu05X/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
