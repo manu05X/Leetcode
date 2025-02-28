@@ -4,6 +4,7 @@ class Solution {
             left--;
             right++;
         }
+
         return right - left - 1; // Corrected to return length of palindrome
     }
 
@@ -17,7 +18,8 @@ class Solution {
         int start = 0;
         int end = 0;
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             int l1 = isPalindrome(s, i, i);      // Odd length palindrome
             int l2 = isPalindrome(s, i, i + 1);  // Even length palindrome
 
