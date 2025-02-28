@@ -207,6 +207,7 @@
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/manu05X/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/manu05X/Leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/manu05X/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1909-buildings-with-an-ocean-view](https://github.com/manu05X/Leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [1917-maximum-average-pass-ratio](https://github.com/manu05X/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/manu05X/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2089-maximum-matrix-sum](https://github.com/manu05X/Leetcode/tree/master/2089-maximum-matrix-sum) |
@@ -675,6 +676,7 @@
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/manu05X/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/manu05X/Leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/manu05X/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1909-buildings-with-an-ocean-view](https://github.com/manu05X/Leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/manu05X/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/manu05X/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/manu05X/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -927,6 +929,7 @@
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/manu05X/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [1909-buildings-with-an-ocean-view](https://github.com/manu05X/Leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [2573-remove-nodes-from-linked-list](https://github.com/manu05X/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/manu05X/Leetcode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Math
