@@ -43,23 +43,24 @@ public:
         for(int i =0; i < s.size(); i++)
         {
             char c = s[i];
-            // we can only try to add c if it's not already in our solution
+            // we can only try to add c in set if it's not already in our set
             // this is to maintain only one of each character
-            if(seen.find(c) == seen.end())
+            if(seen.find(c) == seen.end())//b=0, c=1, a=2 is not in set // b=3 is already in set // c=4 is not in set
             {
                 // if the last letter in our solution:
                 //     1. exists
-                //     2. is greater than c so removing it will make the string smaller
+                //     2. is greater than curr c so removing it will make the string smaller
                 //     3. it's not the last occurrence
                 // we remove it from the solution to keep the solution optimal
-                while(!st.empty() && c < st.top() && last_seen[st.top()] > i)
+                while(!st.empty() && c < st.top() && last_seen[st.top()] > i) // a < c && 4 > 1 // a < b && 3 > 0
                 {
                     char elm = st.top();
-                    seen.erase(elm);
-                    st.pop();
-                }
-                seen.insert(c);
-                st.push(c);
+                    seen.erase(elm); // remove from set // b,c
+                    st.pop(); // remove from stack // b,c
+                } // {} {}
+
+                seen.insert(c);//b,c //{a,b ,c}
+                st.push(c); //b,c //{a,b ,c}
             }
         }
 
