@@ -596,6 +596,7 @@
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/manu05X/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1160-letter-tile-possibilities](https://github.com/manu05X/Leetcode/tree/master/1160-letter-tile-possibilities) |
+| [1170-shortest-common-supersequence](https://github.com/manu05X/Leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/manu05X/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1297-maximum-number-of-balloons](https://github.com/manu05X/Leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/manu05X/Leetcode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -1151,6 +1152,7 @@
 | [1063-best-sightseeing-pair](https://github.com/manu05X/Leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1087-longest-arithmetic-subsequence](https://github.com/manu05X/Leetcode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1105-uncrossed-lines](https://github.com/manu05X/Leetcode/tree/master/1105-uncrossed-lines) |
+| [1170-shortest-common-supersequence](https://github.com/manu05X/Leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1196-filling-bookcase-shelves](https://github.com/manu05X/Leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1236-n-th-tribonacci-number](https://github.com/manu05X/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/manu05X/Leetcode/tree/master/1250-longest-common-subsequence) |
