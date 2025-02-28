@@ -1,6 +1,64 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
+        int n = grid.size();
+        int m = grid[0].size();
+
+        queue<pair<pair<int, int>, int>> q;
+        vector<vector<bool>> visited(n,vector<bool>(m, false));
+        int cntFresh = 0;
+
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                if(grid[i][j] == 2){
+                    q.push({{i,j}, 0});
+                    visited[i][j] = true;
+                }
+
+                if(grid[i][j] == 1){
+                    cntFresh++;
+                }
+            }
+        }
+
+        int tm = 0;
+        int dRow[] = {-1, 0, +1, 0};
+        int dCol[] = {0, +1, 0, -1};
+        int count = 0;
+        while(!q.empty()){
+            int r = q.front().first.first;
+            int c = q.front().first.second;
+            int t = q.front().second;
+
+            tm = max(t, tm);
+            q.pop();
+
+            for(int i = 0; i < 4; i++){
+                int nr = r + dRow[i];
+                int nc = c + dCol[i];
+
+                if(nr >= 0 && nr < n && nc >= 0 && nc < m && grid[nr][nc] == 1 && visited[nr][nc] == false){
+                    q.push({{nr,nc}, t+1});
+                    visited[nr][nc] = true;
+                    count++;
+                }
+            }
+        }
+
+        if(count != cntFresh){
+            return -1;
+        }
+
+        return tm;
+    }
+};
+
+
+
+/*
+class Solution {
+public:
+    int orangesRotting(vector<vector<int>>& grid) {
         int n = grid.size(); // Number of rows
         int m = grid[0].size(); // Number of columns
 
@@ -47,7 +105,7 @@ public:
 
 };
 
-
+*/
 
 /*
 class Solution {
