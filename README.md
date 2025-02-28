@@ -541,6 +541,7 @@
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2509-minimize-xor](https://github.com/manu05X/Leetcode/tree/master/2509-minimize-xor) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manu05X/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2817-minimum-cost-to-make-all-characters-equal](https://github.com/manu05X/Leetcode/tree/master/2817-minimum-cost-to-make-all-characters-equal) |
 ## String
 |  |
 | ------- |
@@ -628,6 +629,7 @@
 | [2465-shifting-letters-ii](https://github.com/manu05X/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/manu05X/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/manu05X/Leetcode/tree/master/2727-number-of-senior-citizens) |
+| [2817-minimum-cost-to-make-all-characters-equal](https://github.com/manu05X/Leetcode/tree/master/2817-minimum-cost-to-make-all-characters-equal) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/manu05X/Leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/manu05X/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/manu05X/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -1158,6 +1160,7 @@
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/manu05X/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2164-two-best-non-overlapping-events](https://github.com/manu05X/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2562-count-ways-to-build-good-strings](https://github.com/manu05X/Leetcode/tree/master/2562-count-ways-to-build-good-strings) |
+| [2817-minimum-cost-to-make-all-characters-equal](https://github.com/manu05X/Leetcode/tree/master/2817-minimum-cost-to-make-all-characters-equal) |
 ## Graph
 |  |
 | ------- |
