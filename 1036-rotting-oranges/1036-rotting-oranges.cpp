@@ -1,57 +1,65 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        int n = grid.size();
-        int m = grid[0].size();
+        int n = grid.size();   // Number of rows
+        int m = grid[0].size(); // Number of columns
 
-        queue<pair<pair<int, int>, int>> q;
-        vector<vector<bool>> visited(n,vector<bool>(m, false));
-        int cntFresh = 0;
+        queue<pair<pair<int, int>, int>> q;  // Queue to store {row, column, time}
+        vector<vector<bool>> visited(n,vector<bool>(m, false)); // Visited array to track processed cells
+        int cntFresh = 0; // Count of fresh oranges
 
+        // Step 1: Initialize the queue with all rotten oranges and count fresh oranges
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
-                if(grid[i][j] == 2){
-                    q.push({{i,j}, 0});
-                    visited[i][j] = true;
+                if(grid[i][j] == 2){ // If the cell has a rotten orange
+                    q.push({{i,j}, 0});  // Push position with time 0
+                    visited[i][j] = true; // Mark as visited
                 }
 
-                if(grid[i][j] == 1){
+                if(grid[i][j] == 1){ // Count fresh oranges
                     cntFresh++;
                 }
             }
         }
 
-        int tm = 0;
-        int dRow[] = {-1, 0, +1, 0};
-        int dCol[] = {0, +1, 0, -1};
-        int count = 0;
+        int tm = 0; // Variable to track the maximum time required
+        int dRow[] = {-1, 0, +1, 0}; // Row movement (Up, Right, Down, Left)
+        int dCol[] = {0, +1, 0, -1}; // Column movement (Up, Right, Down, Left)
+        int count = 0; // Counter for the number of fresh oranges that get rotten
+
+        // Step 2: Process the queue using BFS
         while(!q.empty()){
-            int r = q.front().first.first;
-            int c = q.front().first.second;
-            int t = q.front().second;
+            int r = q.front().first.first;  // Current row
+            int c = q.front().first.second; // Current column
+            int t = q.front().second;       // Current time step
 
-            tm = max(t, tm);
-            q.pop();
+            tm = max(t, tm); // Update max time required
+            q.pop(); // Remove processed node from queue
 
+            // Step 3: Check all 4 possible adjacent cells
             for(int i = 0; i < 4; i++){
-                int nr = r + dRow[i];
-                int nc = c + dCol[i];
+                int nr = r + dRow[i]; // New row index
+                int nc = c + dCol[i]; // New column index
 
+                // Check if the new cell is within bounds and is a fresh orange
                 if(nr >= 0 && nr < n && nc >= 0 && nc < m && grid[nr][nc] == 1 && visited[nr][nc] == false){
-                    q.push({{nr,nc}, t+1});
-                    visited[nr][nc] = true;
-                    count++;
+                    q.push({{nr,nc}, t+1}); // Push the new rotten orange into queue
+                    visited[nr][nc] = true; // Mark as visited
+                    count++; // Increase the count of rotted fresh oranges
                 }
             }
         }
 
+        // Step 4: If all fresh oranges are not rotted, return -1
         if(count != cntFresh){
             return -1;
         }
 
+        // Step 5: Return the time required to rot all oranges
         return tm;
     }
 };
+
 
 
 
