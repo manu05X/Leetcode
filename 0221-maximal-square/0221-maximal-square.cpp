@@ -71,5 +71,13 @@ public:
     }
 };
 
+
+// So when we map standard indices into the 1-based shifted DP array, we get:
+
+// dp[i][j] → corresponds to dp[i+1][j+1]
+// dp[i-1][j] (top) → corresponds to dp[i][j+1]
+// dp[i][j-1] (left) → corresponds to dp[i+1][j]
+// dp[i-1][j-1] (top-left diagonal) → corresponds to dp[i][j]
+
 */
 
