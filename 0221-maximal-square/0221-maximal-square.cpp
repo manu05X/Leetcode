@@ -4,29 +4,36 @@ public:
         int row = matrix.size();
         int col = matrix[0].size();
 
-        vector<vector<int>> dp(row, vector<int>(col, 0)); // No extra row/column
+        // DP table to store the size of the maximum square ending at each cell.
+        vector<vector<int>> dp(row, vector<int>(col, 0));
 
-        int maxEdge = 0;
+        int maxEdge = 0; // Variable to keep track of the largest square's edge length.
 
+        // Iterate through the matrix row-wise
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
-                if (matrix[i][j] == '1') {
-                    // If it's the first row or first column, square size is just 1
+                if (matrix[i][j] == '1') { // Only process cells that contain '1'
+                    
+                    // If the cell is in the first row or first column, it can only form a 1x1 square.
                     if (i == 0 || j == 0) {
                         dp[i][j] = 1;
                     } else {
-                        // Standard DP transition using top, left, and diagonal
+                        // The size of the square ending at (i, j) depends on the minimum square size 
+                        // of the top (dp[i-1][j]), left (dp[i][j-1]), and top-left diagonal (dp[i-1][j-1]) cells.
                         dp[i][j] = min(dp[i-1][j], min(dp[i][j-1], dp[i-1][j-1])) + 1;
                     }
-                    // Update max square size
+
+                    // Update maxEdge if we find a larger square
                     maxEdge = max(maxEdge, dp[i][j]);
                 }
             }
         }
 
-        return maxEdge * maxEdge; // Return the area of the largest square
+        // Return the area of the largest square found.
+        return maxEdge * maxEdge;
     }
 };
+
 
 
 
