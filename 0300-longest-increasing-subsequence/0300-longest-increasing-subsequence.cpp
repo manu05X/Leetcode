@@ -1,25 +1,32 @@
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-        int n = nums.size();
-        vector<int> dp(n,1);
-
+        int n = nums.size(); // Get the size of the input array
+        vector<int> dp(n, 1); // Initialize DP array with all values as 1
+        
+        // Iterate over each element in nums
         for(int i = 0; i < n; i++){
+            // Check all previous elements before index i
             for(int j = 0; j < i; j++){
+                // If nums[j] is smaller than nums[i], it can be part of an increasing subsequence
                 if(nums[j] < nums[i]){
-                    dp[i] = max(dp[i], dp[j]+1);
+                    // Update dp[i] to store the maximum length of LIS ending at index i
+                    dp[i] = max(dp[i], dp[j] + 1);
                 }
             }
         }
 
-        int longest = 0;
+        int longest = 0; // Variable to store the maximum LIS length
+        
+        // Find the maximum value in the dp array, which represents the LIS length
         for(int x : dp){
             longest = max(longest, x);
         }
 
-        return longest;
+        return longest; // Return the length of the longest increasing subsequence
     }
 };
+
 
 /*
 class Solution {
