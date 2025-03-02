@@ -972,6 +972,7 @@
 | [0224-basic-calculator](https://github.com/manu05X/Leetcode/tree/master/0224-basic-calculator) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/manu05X/Leetcode/tree/master/0268-missing-number) |
+| [0279-perfect-squares](https://github.com/manu05X/Leetcode/tree/master/0279-perfect-squares) |
 | [0797-rabbits-in-forest](https://github.com/manu05X/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0866-rectangle-overlap](https://github.com/manu05X/Leetcode/tree/master/0866-rectangle-overlap) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
@@ -1159,6 +1160,7 @@
 | [0213-house-robber-ii](https://github.com/manu05X/Leetcode/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/manu05X/Leetcode/tree/master/0221-maximal-square) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0279-perfect-squares](https://github.com/manu05X/Leetcode/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/manu05X/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/manu05X/Leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/manu05X/Leetcode/tree/master/0322-coin-change) |
@@ -1377,6 +1379,7 @@
 | [0207-course-schedule](https://github.com/manu05X/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/manu05X/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0226-invert-binary-tree) |
+| [0279-perfect-squares](https://github.com/manu05X/Leetcode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/manu05X/Leetcode/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/manu05X/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
