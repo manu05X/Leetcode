@@ -1,5 +1,46 @@
 class Solution {
 public:
+    int minInsertions(string s) {
+        int n = s.length();
+        // Reverse the string to find the Longest Palindromic Subsequence (LPS)
+        string revS = s;
+        reverse(revS.begin(), revS.end());
+        
+        // Compute the Longest Common Subsequence (LCS) of s and its reverse
+        int lps = longestCommonSubsequence(s, revS);
+        
+        // Minimum insertions required to make s a palindrome
+        return n - lps;
+    }
+    
+private:
+    int longestCommonSubsequence(string& s1, string& s2) {
+        int n = s1.length();
+        // DP table to store LCS values
+        vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
+
+        // Compute LCS using bottom-up DP approach
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                // If characters match, extend LCS
+                if (s1[i - 1] == s2[j - 1]) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                } 
+                // Otherwise, take the maximum of ignoring one character
+                else {
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
+                }
+            }
+        }
+        
+        return dp[n][n]; // LCS length
+    }
+};
+
+
+/*
+class Solution {
+public:
     int lcs(string& s1, string& s2, int m, int n) {
         vector<int> dp(n + 1), dpPrev(n + 1);
 
@@ -29,6 +70,7 @@ public:
     }
 };
 
+*/
 
 
 // class Solution {
