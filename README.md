@@ -719,6 +719,7 @@
 ## Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/manu05X/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/manu05X/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/manu05X/Leetcode/tree/master/0101-symmetric-tree) |
@@ -779,6 +780,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/manu05X/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/manu05X/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/manu05X/Leetcode/tree/master/0101-symmetric-tree) |
@@ -1138,6 +1140,7 @@
 | [0064-minimum-path-sum](https://github.com/manu05X/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/manu05X/Leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/manu05X/Leetcode/tree/master/0072-edit-distance) |
+| [0095-unique-binary-search-trees-ii](https://github.com/manu05X/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/manu05X/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0115-distinct-subsequences](https://github.com/manu05X/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/manu05X/Leetcode/tree/master/0120-triangle) |
@@ -1422,6 +1425,7 @@
 | [0078-subsets](https://github.com/manu05X/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/manu05X/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/manu05X/Leetcode/tree/master/0090-subsets-ii) |
+| [0095-unique-binary-search-trees-ii](https://github.com/manu05X/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0113-path-sum-ii](https://github.com/manu05X/Leetcode/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0216-combination-sum-iii) |
@@ -1450,6 +1454,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/manu05X/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/manu05X/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/manu05X/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
