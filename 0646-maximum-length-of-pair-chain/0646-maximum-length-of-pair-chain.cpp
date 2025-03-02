@@ -12,6 +12,7 @@ public:
         // Sort the pairs by the second element of each vector
         sort(pairs.begin(), pairs.end(), [](const vector<int>& a, const vector<int>& b) {
             return a[1] < b[1];
+            //return b[1]-a[1];
         });
 
         int count = 0;
