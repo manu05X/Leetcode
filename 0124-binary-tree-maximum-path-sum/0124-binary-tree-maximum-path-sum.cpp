@@ -11,6 +11,7 @@
  */
 class Solution {
 public:
+    int maxSum;
     int maxPathSum(TreeNode* root) {
         maxSum = INT_MIN;
         gainFromSubtree(root);
@@ -18,7 +19,7 @@ public:
     }
 
 private:
-    int maxSum;
+    
     // post order traversal of subtree rooted at `root`
     int gainFromSubtree(TreeNode* root) {
         if (root == nullptr) {
