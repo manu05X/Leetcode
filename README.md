@@ -566,6 +566,7 @@
 | [0072-edit-distance](https://github.com/manu05X/Leetcode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/manu05X/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/manu05X/Leetcode/tree/master/0079-word-search) |
+| [0115-distinct-subsequences](https://github.com/manu05X/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/manu05X/Leetcode/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/manu05X/Leetcode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
@@ -1132,6 +1133,7 @@
 | [0070-climbing-stairs](https://github.com/manu05X/Leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/manu05X/Leetcode/tree/master/0072-edit-distance) |
 | [0096-unique-binary-search-trees](https://github.com/manu05X/Leetcode/tree/master/0096-unique-binary-search-trees) |
+| [0115-distinct-subsequences](https://github.com/manu05X/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/manu05X/Leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manu05X/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/manu05X/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
