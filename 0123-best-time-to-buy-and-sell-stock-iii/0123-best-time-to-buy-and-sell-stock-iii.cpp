@@ -4,14 +4,14 @@ public:
         int firstBuy = INT_MAX, secondBuy = INT_MIN;
         int firstProfit = 0 , secondProfit = 0;
 
-        for(auto i : prices) {
+        for(int i = 0; i < prices.size(); i++) {
             // the maximum profit if only one transaction is allowed
-           firstBuy = min(i, firstBuy);
-           firstProfit = max(firstProfit, i - firstBuy);
+           firstBuy = min(prices[i], firstBuy);
+           firstProfit = max(firstProfit, prices[i] - firstBuy);
 
            // re-invest the gained profit in the second transaction
-           secondBuy = max(secondBuy, firstProfit - i);
-           secondProfit = max(secondProfit, i + secondBuy );
+           secondBuy = max(secondBuy, firstProfit - prices[i]);
+           secondProfit = max(secondProfit, prices[i] + secondBuy );
         }
         return secondProfit;
     }
