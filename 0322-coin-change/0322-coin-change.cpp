@@ -2,13 +2,16 @@ class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
         // DP array to store the minimum coins needed for each amount
-        vector<int> dp(amount + 1, INT_MAX);
+        vector<int> dp(amount + 1, INT_MAX); // Initialize with INT_MAX (infinity)
         dp[0] = 0; // Base case: 0 coins needed for amount 0
 
         // Fill the dp array
         for (int i = 1; i <= amount; i++) {
+            // Try every coin to find the minimum number of coins for amount `i`
             for (int coin : coins) {
+                // Check if the coin can be used and if the subproblem (i - coin) has a solution
                 if (coin <= i && dp[i - coin] != INT_MAX) {
+                    // Update dp[i] with the minimum of its current value and (dp[i - coin] + 1)
                     dp[i] = min(dp[i], dp[i - coin] + 1);
                 }
             }
