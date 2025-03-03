@@ -70,6 +70,7 @@
 | [0130-surrounded-regions](https://github.com/manu05X/Leetcode/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/manu05X/Leetcode/tree/master/0134-gas-station) |
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
+| [0149-max-points-on-a-line](https://github.com/manu05X/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/manu05X/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/manu05X/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/manu05X/Leetcode/tree/master/0162-find-peak-element) |
@@ -285,6 +286,7 @@
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/manu05X/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/manu05X/Leetcode/tree/master/0146-lru-cache) |
+| [0149-max-points-on-a-line](https://github.com/manu05X/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0166-fraction-to-recurring-decimal](https://github.com/manu05X/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0202-happy-number](https://github.com/manu05X/Leetcode/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/manu05X/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -974,6 +976,7 @@
 | [0069-sqrtx](https://github.com/manu05X/Leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/manu05X/Leetcode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/manu05X/Leetcode/tree/master/0096-unique-binary-search-trees) |
+| [0149-max-points-on-a-line](https://github.com/manu05X/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/manu05X/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0166-fraction-to-recurring-decimal](https://github.com/manu05X/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0202-happy-number](https://github.com/manu05X/Leetcode/tree/master/0202-happy-number) |
@@ -1014,6 +1017,7 @@
 ## Geometry
 |  |
 | ------- |
+| [0149-max-points-on-a-line](https://github.com/manu05X/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0223-rectangle-area](https://github.com/manu05X/Leetcode/tree/master/0223-rectangle-area) |
 | [0866-rectangle-overlap](https://github.com/manu05X/Leetcode/tree/master/0866-rectangle-overlap) |
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
