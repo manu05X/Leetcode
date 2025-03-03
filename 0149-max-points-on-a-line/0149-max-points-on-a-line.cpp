@@ -10,8 +10,7 @@ public:
             unordered_map<double, int> cnt;
             for (int j = 0; j < n; j++) {
                 if (j != i) {
-                    cnt[atan2(points[j][1] - points[i][1],
-                              points[j][0] - points[i][0])]++;
+                    cnt[atan2(points[j][1] - points[i][1], points[j][0] - points[i][0])]++;
                 }
             }
             for (auto [h, count] : cnt) {
