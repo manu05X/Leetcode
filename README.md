@@ -439,6 +439,7 @@
 | [0882-peak-index-in-a-mountain-array](https://github.com/manu05X/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1046-max-consecutive-ones-iii](https://github.com/manu05X/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/manu05X/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1060-longest-repeating-substring](https://github.com/manu05X/Leetcode/tree/master/1060-longest-repeating-substring) |
 | [1087-longest-arithmetic-subsequence](https://github.com/manu05X/Leetcode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1185-find-in-mountain-array](https://github.com/manu05X/Leetcode/tree/master/1185-find-in-mountain-array) |
 | [1192-divide-chocolate](https://github.com/manu05X/Leetcode/tree/master/1192-divide-chocolate) |
@@ -619,6 +620,7 @@
 | [0800-letter-case-permutation](https://github.com/manu05X/Leetcode/tree/master/0800-letter-case-permutation) |
 | [0874-backspace-string-compare](https://github.com/manu05X/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0952-word-subsets](https://github.com/manu05X/Leetcode/tree/master/0952-word-subsets) |
+| [1060-longest-repeating-substring](https://github.com/manu05X/Leetcode/tree/master/1060-longest-repeating-substring) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/manu05X/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
@@ -1203,6 +1205,7 @@
 | [0967-minimum-falling-path-sum](https://github.com/manu05X/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/manu05X/Leetcode/tree/master/1013-fibonacci-number) |
 | [1025-minimum-cost-for-tickets](https://github.com/manu05X/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
+| [1060-longest-repeating-substring](https://github.com/manu05X/Leetcode/tree/master/1060-longest-repeating-substring) |
 | [1063-best-sightseeing-pair](https://github.com/manu05X/Leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1087-longest-arithmetic-subsequence](https://github.com/manu05X/Leetcode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1105-uncrossed-lines](https://github.com/manu05X/Leetcode/tree/master/1105-uncrossed-lines) |
@@ -1592,11 +1595,13 @@
 ## Rolling Hash
 |  |
 | ------- |
+| [1060-longest-repeating-substring](https://github.com/manu05X/Leetcode/tree/master/1060-longest-repeating-substring) |
 | [1508-longest-happy-prefix](https://github.com/manu05X/Leetcode/tree/master/1508-longest-happy-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/manu05X/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
 | ------- |
+| [1060-longest-repeating-substring](https://github.com/manu05X/Leetcode/tree/master/1060-longest-repeating-substring) |
 | [1508-longest-happy-prefix](https://github.com/manu05X/Leetcode/tree/master/1508-longest-happy-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/manu05X/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Brainteaser
@@ -1608,4 +1613,8 @@
 | ------- |
 | [0146-lru-cache](https://github.com/manu05X/Leetcode/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/manu05X/Leetcode/tree/master/0460-lfu-cache) |
+## Suffix Array
+|  |
+| ------- |
+| [1060-longest-repeating-substring](https://github.com/manu05X/Leetcode/tree/master/1060-longest-repeating-substring) |
 <!---LeetCode Topics End-->
