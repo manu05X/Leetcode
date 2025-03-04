@@ -31,13 +31,13 @@ public:
     string removeDuplicateLetters(string s) {
         stack<char> st;
         // this will let us know if there are any more instances of s[i] left in s
-        unordered_map<char,int> last_seen;
+        unordered_map<char,int> last_seen_mp;
         // this lets us keep track of what's in our solution in O(1) time
-        unordered_set<char> seen;
+        unordered_set<char> seen_set;
         
         for(int i = 0; i < s.size(); i++)
         {
-            last_seen[s[i]] = i;
+            last_seen_mp[s[i]] = i;
         }
 
         for(int i =0; i < s.size(); i++)
@@ -45,21 +45,21 @@ public:
             char c = s[i];
             // we can only try to add current char in set if it's not already in our set
             // this is to maintain only one of each character
-            if(seen.find(c) == seen.end())//b=0, c=1, a=2 is not in set // b=3 is already in set // c=4 is not in set
+            if(seen_set.find(c) == seen_set.end())//b=0, c=1, a=2 is not in set // b=3 is already in set // c=4 is not in set
             {
                 // if the last letter in our solution:
                 //     1. exists
                 //     2. is greater than curr c so removing it will make the string smaller
                 //     3. it's not the last occurrence
                 // we remove it from the solution to keep the solution optimal
-                while(!st.empty() && c < st.top() && last_seen[st.top()] > i) // a < c && 4 > 1 // a < b && 3 > 0
+                while(!st.empty() && c < st.top() && last_seen_mp[st.top()] > i) // a < c && 4 > 1 // a < b && 3 > 0
                 {
                     char elm = st.top();
-                    seen.erase(elm); // remove from set // b,c
+                    seen_set.erase(elm); // remove from set // b,c
                     st.pop(); // remove from stack // b,c
                 } // {} {}
 
-                seen.insert(c);//b,c //{a,b ,c}
+                seen_set.insert(c);//b,c //{a,b ,c}
                 st.push(c); //b,c //{a,b ,c}
             }
         }
