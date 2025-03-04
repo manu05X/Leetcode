@@ -30,10 +30,10 @@ class Solution {
 public:
     string removeDuplicateLetters(string s) {
         stack<char> st;
-        // this lets us keep track of what's in our solution in O(1) time
-        unordered_set<char> seen;
         // this will let us know if there are any more instances of s[i] left in s
         unordered_map<char,int> last_seen;
+        // this lets us keep track of what's in our solution in O(1) time
+        unordered_set<char> seen;
         
         for(int i = 0; i < s.size(); i++)
         {
@@ -43,7 +43,7 @@ public:
         for(int i =0; i < s.size(); i++)
         {
             char c = s[i];
-            // we can only try to add c in set if it's not already in our set
+            // we can only try to add current char in set if it's not already in our set
             // this is to maintain only one of each character
             if(seen.find(c) == seen.end())//b=0, c=1, a=2 is not in set // b=3 is already in set // c=4 is not in set
             {
