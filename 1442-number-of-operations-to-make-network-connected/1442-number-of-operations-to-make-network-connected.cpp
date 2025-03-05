@@ -5,11 +5,15 @@ public:
     DSU(int n) {
         parent.resize(n);
         rank.resize(n, 1);
-        for (int i = 0; i < n; ++i) parent[i] = i; // Each node is its own parent
+        for (int i = 0; i < n; ++i){
+            parent[i] = i; // Each node is its own parent
+        }
     }
 
     int find(int x) {
-        if (parent[x] != x) parent[x] = find(parent[x]); // Path compression
+        if (parent[x] != x){
+            parent[x] = find(parent[x]); // Path compression
+        }
         return parent[x];
     }
 
@@ -48,3 +52,11 @@ public:
         return components - 1; // Minimum operations needed
     }
 };
+
+/*
+
+n:4
+connections:{{0, 1}, {0, 2}, {1, 2}}
+dsu:{parent = {0, 0, 0, 3}, rank = {2, 1, 1, 1}}
+components:2
+*/
