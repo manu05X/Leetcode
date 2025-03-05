@@ -1,5 +1,54 @@
 class Solution {
 public:
+    // DFS function to check if a node is safe
+    bool dfs(int node, vector<vector<int>>& graph, vector<int>& visited) {
+        // If the node is already in the visiting state, it's part of a cycle (not safe)
+        if (visited[node] == 1) {
+            return false;
+        }
+
+        // If the node is already marked as safe, return true
+        if (visited[node] == 2) {
+            return true;
+        }
+
+        // Mark the node as visiting
+        visited[node] = 1;
+
+        // Traverse all neighbors of the current node
+        for (int neighbor : graph[node]) {
+            // If any neighbor is not safe, the current node is not safe
+            if (!dfs(neighbor, graph, visited)) {
+                return false;
+            }
+        }
+
+        // If all neighbors are safe, mark the current node as safe
+        visited[node] = 2;
+        return true;
+    }
+
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+        int n = graph.size();
+        vector<int> visited(n, 0); // 0: unvisited, 1: visiting, 2: visited and safe
+        vector<int> safeNodes;
+
+        // Perform DFS for each unvisited node
+        for (int i = 0; i < n; i++) {
+            if (dfs(i, graph, visited)) {
+                safeNodes.push_back(i); // Add safe nodes to the result
+            }
+        }
+
+        return safeNodes;
+    }
+};
+
+
+
+/*
+class Solution {
+public:
     bool dfs(int node,vector<int> &visited,vector<int> &pathVisited,vector<int> &checked,vector<vector<int>> &graph)
     {
         visited[node]=1;
@@ -46,6 +95,8 @@ public:
      return safe;
     }
 };
+
+*/
 
 /*
 class Solution {
