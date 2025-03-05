@@ -1,3 +1,47 @@
+class Solution {
+public:
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        vector<vector<int>> adj(numCourses);
+
+        vector<int> inDegree(numCourses, 0);
+
+        for(auto x : prerequisites){
+            int u = x[1];
+            int v = x[0];
+
+            adj[u].push_back(v);
+            inDegree[v]++;
+        }
+
+        queue<int> q;
+        for(int i = 0; i < numCourses; i++){
+            if(inDegree[i] == 0){
+                q.push(i);
+            }
+        }
+
+
+        int count = 0;
+        while(!q.empty()){
+            int curr = q.front();
+            q.pop();
+            count++;
+
+            for(int x : adj[curr]){
+                inDegree[x]--;
+
+                if(inDegree[x] == 0){
+                    q.push(x);
+                }
+            }
+        }
+        
+        return count == numCourses;
+    }
+};
+
+/*
+
 #include <vector>
 #include <list>
 #include <unordered_map>
@@ -71,3 +115,4 @@ public:
         return true; // No cycles detected, all courses can be finished
     }
 };
+*/
