@@ -57,11 +57,12 @@ public:
         DSU dsu(n);
 
         for(auto& edge : edges){
+            // If union returns false, we know the nodes are already connected and hence we can return this edge.
             if(!dsu.unionSet(edge[0], edge[1])){
-                return edge;
+                return edge; // This edge forms a cycle, return it
             }
         }
 
-        return {};
+        return {}; // This should never be reached
     }
 };
