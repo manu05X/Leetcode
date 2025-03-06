@@ -1,6 +1,52 @@
 class Solution {
 public:
-    int uniquePathsWithObstacles(std::vector<std::vector<int>>& obstacleGrid) {
+    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+        int m = obstacleGrid.size();
+        int n = obstacleGrid[0].size();
+
+        // If the starting cell is blocked, no paths exist
+        if (obstacleGrid[0][0] == 1) return 0;
+
+        // Create a 1D array to store the number of paths for the current row
+        vector<int> dp(n, 0);
+
+        // Initialize the first cell
+        dp[0] = 1;
+
+        // Fill the first row
+        for (int j = 1; j < n; j++) {
+            if (obstacleGrid[0][j] == 1) {
+                dp[j] = 0; // If the cell is blocked, no paths exist
+            } else {
+                dp[j] = dp[j - 1]; // Carry over the paths from the left
+            }
+        }
+
+        // Fill the rest of the grid
+        for (int i = 1; i < m; i++) {
+            // Handle the first column
+            if (obstacleGrid[i][0] == 1) {
+                dp[0] = 0; // If the cell is blocked, no paths exist
+            }
+
+            for (int j = 1; j < n; j++) {
+                if (obstacleGrid[i][j] == 1) {
+                    dp[j] = 0; // If the cell is blocked, no paths exist
+                } else {
+                    dp[j] += dp[j - 1]; // Add paths from above and left
+                }
+            }
+        }
+
+        // Return the number of unique paths to the bottom-right corner
+        return dp[n - 1];
+    }
+};
+
+/*
+class Solution {
+public:
+    int uniquePathsWithObstacles(vector<std::vector<int>>& obstacleGrid) {
         if (obstacleGrid.empty() || obstacleGrid[0].empty() || obstacleGrid[0][0] == 1) {
             return 0;
         }
@@ -23,6 +69,8 @@ public:
         return previous[n-1];
     }
 };
+
+*/
 
 /*
 Example
