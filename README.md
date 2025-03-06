@@ -75,6 +75,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/manu05X/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/manu05X/Leetcode/tree/master/0162-find-peak-element) |
 | [0163-missing-ranges](https://github.com/manu05X/Leetcode/tree/master/0163-missing-ranges) |
+| [0174-dungeon-game](https://github.com/manu05X/Leetcode/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/manu05X/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/manu05X/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
@@ -1193,6 +1194,7 @@
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/manu05X/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
+| [0174-dungeon-game](https://github.com/manu05X/Leetcode/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/manu05X/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/manu05X/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/manu05X/Leetcode/tree/master/0213-house-robber-ii) |
@@ -1354,6 +1356,7 @@
 | [0074-search-a-2d-matrix](https://github.com/manu05X/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/manu05X/Leetcode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/manu05X/Leetcode/tree/master/0130-surrounded-regions) |
+| [0174-dungeon-game](https://github.com/manu05X/Leetcode/tree/master/0174-dungeon-game) |
 | [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/manu05X/Leetcode/tree/master/0221-maximal-square) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
