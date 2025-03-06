@@ -1,18 +1,24 @@
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
-        ios_base::sync_with_stdio(false);
-        cin.tie(NULL);
-        cout.tie(NULL);
-        
         int n = cost.size();
-        cost.push_back(0);
 
-        for(int i = n-3; i >= 0; i--)
-        {
-            cost[i] += min(cost[i+1], cost[i+2]);
+        // Base cases
+        if (n == 0) return 0;
+        if (n == 1) return cost[0];
+
+        // Initialize variables for (i-1) and (i-2)
+        int prev1 = cost[1]; // minimum cost to reach step 1
+        int prev2 = cost[0]; // minimum cost to reach step 0
+
+        // Iterate from step 2 to (n-1)
+        for (int i = 2; i < n; i++) {
+            int current = cost[i] + min(prev1, prev2); // minimum cost to reach step i
+            prev2 = prev1; // update prev2 to prev1
+            prev1 = current; // update prev1 to current
         }
 
-        return min(cost[0],cost[1]);
+        // The top is beyond the last step, so return the minimum of the last two steps
+        return min(prev1, prev2);
     }
 };
