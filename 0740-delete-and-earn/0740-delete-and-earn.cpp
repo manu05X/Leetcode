@@ -1,8 +1,14 @@
 class Solution {
 public:
     int deleteAndEarn(vector<int>& nums) {
-        // Step 1: Create a frequency array (or count array) of size 10,001.
-        vector<int> points(1e4 + 1, 0);
+        if (nums.empty()) return 0;
+
+        // Find the maximum number in nums
+        int maxNum = *max_element(nums.begin(), nums.end());
+
+        // Step 1: Create a frequency array (or count array) of size maxNum + 1
+        // Create a count array to store the total points for each number
+        vector<int> points(maxNum + 1, 0);
 
         // Step 2: Calculate the total points for each number
         for (auto num : nums) {
@@ -10,18 +16,17 @@ public:
         }
 
         // Step 3: Initialize two variables: 'exc' and 'inc'.
-        int excludeCurrent = 0;
-        int includeCurrent = 0;
+        int excludeCurrent = 0; // maximum points up to (i-2)
+        int includeCurrent = 0; // maximum points up to (i-1)
 
-        // Iterate through all possible numbers (1 to 10000)
-        for (int i = 0; i <= 10000; i++) {
-            // Step 4: Iterate through the frequency array and calculate maximum points.
+        // Step 4: Iterate through the frequency array and calculate maximum points.
+        for (int i = 0; i <= maxNum; i++) {
             int tempInclude = excludeCurrent + points[i]; // Points if current number is included
-            int tempExclude = max(excludeCurrent, includeCurrent); // Points if current number is excluded
+            int currNumber = max(tempInclude, includeCurrent); // max Points up to if current i
 
              // Update 'exc' to the maximum points excluding current number
-            excludeCurrent = tempExclude;
-            includeCurrent = tempInclude;// Update 'inc' to the points including current number
+            excludeCurrent = includeCurrent;
+            includeCurrent = currNumber;// Update 'inc' to the points including current number
         }
 
         return max(excludeCurrent, includeCurrent);
