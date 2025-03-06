@@ -1,6 +1,52 @@
 class Solution {
 public:
     int minFallingPathSum(vector<vector<int>>& matrix) {
+        int n = matrix.size();
+
+        // Create a DP table of size n x n
+        vector<vector<int>> dp(n, vector<int>(n, 0));
+
+        // Initialize the first row of the DP table
+        for (int j = 0; j < n; j++) {
+            dp[0][j] = matrix[0][j];
+        }
+
+        // Fill the DP table
+        for (int i = 1; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                // Initialize the minimum sum to the value directly above
+                int minSum = dp[i - 1][j];
+
+                // Check diagonally left (if within bounds)
+                if (j > 0) {
+                    minSum = min(minSum, dp[i - 1][j - 1]);
+                }
+
+                // Check diagonally right (if within bounds)
+                if (j < n - 1) {
+                    minSum = min(minSum, dp[i - 1][j + 1]);
+                }
+
+                // Update the DP table
+                dp[i][j] = matrix[i][j] + minSum;
+            }
+        }
+
+        // Find the minimum value in the last row of the DP table
+        int result = dp[n - 1][0];
+        for (int j = 1; j < n; j++) {
+            result = min(result, dp[n - 1][j]);
+        }
+
+        return result;
+    }
+};
+
+
+/*
+class Solution {
+public:
+    int minFallingPathSum(vector<vector<int>>& matrix) {
         int n = matrix.size(); // Number of rows
         int m = matrix[0].size(); // Number of columns
 
@@ -53,3 +99,4 @@ public:
         return minSum;
     }
 };
+*/
