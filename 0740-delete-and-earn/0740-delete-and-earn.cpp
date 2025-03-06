@@ -16,19 +16,19 @@ public:
         }
 
         // Step 3: Initialize two variables: 'exc' and 'inc'.
-        int excludeCurrent = 0; // maximum points up to (i-2)
-        int includeCurrent = 0; // maximum points up to (i-1)
+        int includeCurrent = 0; // maximum points up to (i-2)
+        int includePrev = 0; // maximum points up to (i-1)
 
         // Step 4: Iterate through the frequency array and calculate maximum points.
         for (int i = 0; i <= maxNum; i++) {
-            int tempInclude = excludeCurrent + points[i]; // Points if current number is included
-            int currNumber = max(tempInclude, includeCurrent); // max Points up to if current i
+            int tempInclude = includeCurrent + points[i]; // if current number is included: points(i-2)+points[i]
+            int currNumber = max(tempInclude, includePrev); // max Points up to if current index 
 
              // Update 'exc' to the maximum points excluding current number
-            excludeCurrent = includeCurrent;
-            includeCurrent = currNumber;// Update 'inc' to the points including current number
+            includeCurrent = includePrev;
+            includePrev = currNumber;// Update 'inc' to the points including current number
         }
 
-        return max(excludeCurrent, includeCurrent);
+        return max(includePrev, includeCurrent);
     }
 };
