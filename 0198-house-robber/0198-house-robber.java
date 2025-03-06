@@ -2,6 +2,32 @@ class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
 
+        // Base cases
+        if (n == 0) return 0;
+        if (n == 1) return nums[0];
+
+        // Initialize variables for (i-1) and (i-2)
+        int prev1 = nums[0]; // maximum money up to the first house
+        int prev2 = 0;       // maximum money up to the "house before the first house"
+
+        // Iterate from the second house to the last house
+        for (int i = 1; i < n; i++) {
+            int current = Math.max(prev1, prev2 + nums[i]); // maximum money up to house i
+            prev2 = prev1; // update prev2 to prev1
+            prev1 = current; // update prev1 to current
+        }
+
+        // Return the maximum money up to the last house
+        return prev1;
+    }
+}
+
+
+/*
+class Solution {
+    public int rob(int[] nums) {
+        int n = nums.length;
+
         int prev_rob = 0; 
         int max_rob = 0;
 
@@ -14,6 +40,7 @@ class Solution {
         return max_rob;
     }
 }
+*/
 
 /*
 Approach
