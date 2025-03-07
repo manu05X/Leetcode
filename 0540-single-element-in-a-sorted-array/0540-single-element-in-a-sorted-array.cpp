@@ -1,5 +1,37 @@
 class Solution {
 public:
+    int singleNonDuplicate(vector<int>& arr) {
+         int n = arr.size();
+
+        int lo = 0; 
+        int hi = n-1;
+
+        while(lo <= hi){
+            int mid = lo + (hi-lo)/2;
+
+            // if odd
+            if(mid %2 == 1){
+                if(mid-1 >= 0 && arr[mid-1] == arr[mid]){
+                    lo = mid+1;
+                } else {
+                    hi = mid-1;
+                }
+            } else {
+                if(mid+1 < n && arr[mid+1] == arr[mid]){
+                    lo = mid+1;
+                } else {
+                    hi = mid-1;
+                }
+            }
+        }
+
+        return arr[lo];
+    }
+};
+
+/*
+class Solution {
+public:
     int singleNonDuplicate(vector<int>& nums) {
         if(nums.size()==1)
             return nums[0];
