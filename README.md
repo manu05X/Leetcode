@@ -252,6 +252,7 @@
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/manu05X/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/manu05X/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manu05X/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2648-number-of-ways-to-earn-points](https://github.com/manu05X/Leetcode/tree/master/2648-number-of-ways-to-earn-points) |
 | [2685-first-completely-painted-row-or-column](https://github.com/manu05X/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/manu05X/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/manu05X/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -1255,6 +1256,7 @@
 | [2164-two-best-non-overlapping-events](https://github.com/manu05X/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2262-solving-questions-with-brainpower](https://github.com/manu05X/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2562-count-ways-to-build-good-strings](https://github.com/manu05X/Leetcode/tree/master/2562-count-ways-to-build-good-strings) |
+| [2648-number-of-ways-to-earn-points](https://github.com/manu05X/Leetcode/tree/master/2648-number-of-ways-to-earn-points) |
 | [2817-minimum-cost-to-make-all-characters-equal](https://github.com/manu05X/Leetcode/tree/master/2817-minimum-cost-to-make-all-characters-equal) |
 ## Graph
 |  |
