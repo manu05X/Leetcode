@@ -1,5 +1,4 @@
 //Revision
-/*
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
        int n = text1.length();
@@ -21,8 +20,9 @@ class Solution {
         return dp[n][m];  
     }
 }
-*/
 
+
+/*
 class Solution {
     // Helper function with updated signature: i is current index in str1, j is current index in str2
   public static int longestCommonSubsequenceHelper(String str1, String str2, int i, int j, int[][] dp){
@@ -60,6 +60,7 @@ class Solution {
         return longestCommonSubsequenceHelper(str1, str2, 0, 0, dp);
     }
 }
+*/
 
 
 /*
