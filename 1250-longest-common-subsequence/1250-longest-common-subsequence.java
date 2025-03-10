@@ -5,13 +5,17 @@ class Solution {
         int m = text2.length();
 
         int dp[][] = new int[n+1][m+1];
+        // Iterating to fill the table
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= m; j++){
+                 // If the characters at this position match, 
                 if(text1.charAt(i-1) == text2.charAt(j-1))
                 {
+                     // add 1 to the previous diagonal and store it in this diagonal
                     dp[i][j] = dp[i-1][j-1] + 1;
                 }
                 else{
+        // If the characters don't match, fill this entry with the max of the left and top elements
                     dp[i][j] = Math.max(dp[i][j-1], dp[i-1][j]);
                 }
             }
