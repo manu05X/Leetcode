@@ -1,15 +1,4 @@
 class Solution {
-    
-    //  * Recursive helper function to count the number of distinct subsequences of `t` in `s`.
-    //  *
-    //  * @param s   The input string `s`.
-    //  * @param t   The target string `t`.
-    //  * @param m   The length of string `s`.
-    //  * @param n   The length of string `t`.
-    //  * @param i1  Current index in string `s`.
-    //  * @param i2  Current index in string `t`.
-    //  * @return    The number of distinct subsequences of `t` in `s` starting from indices `i1` and `i2`.
-     
     // helper recursive function
     public int numberOfSubsequenceRec(String str1, String str2, int m, int n, int i1, int i2, int[][] lookupTable) {
         // if we have reached the end of str1, return 1
@@ -37,13 +26,6 @@ class Solution {
         // return the result stored in the lookup table
         return lookupTable[i1][i2];
     }
-
-    
-    //  * Main function to count the number of distinct subsequences of `t` in `s`.
-    //  *
-    //  * @param s The input string `s`.
-    //  * @param t The target string `t`.
-    //  * @return  The number of distinct subsequences of `t` in `s`.
      
     public int numDistinct(String s, String t) {
         int m = s.length(); // Length of string `s`.
