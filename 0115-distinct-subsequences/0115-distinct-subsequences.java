@@ -1,37 +1,53 @@
 class Solution {
-    public int numDistinct(String s, String t) {
-        int m = s.length();
-        int n = t.length();
+        public int numDistinct(String s, String t) {
+        int m = s.length(); // Length of string `s`.
+        int n = t.length(); // Length of string `t`.
 
-        int[][] dp = new int[m+1][n+1];
-        for(int[] row : dp){
+        // Create a DP table of size (m+1) x (n+1) to store intermediate results.
+        // dp[i][j] represents the number of distinct subsequences of t[j..n-1] in s[i..m-1].
+        int[][] dp = new int[m + 1][n + 1];
+
+        // Initialize all values in the DP table to 0.
+        for (int[] row : dp) {
             Arrays.fill(row, 0);
         }
 
-        // filling the last row with 0s
-        for(int i = 0; i < n+1; i++){
-            dp[m][i] = 0;
-        }
-
-        // filling the last column with 1s
-        for(int i = 0; i < m+1; i++){
+        // Base case: If `t` is empty (j == n), there is exactly 1 subsequence (empty string).
+        // Fill the last column with 1s.
+        for (int i = 0; i < m + 1; i++) {
             dp[i][n] = 1;
         }
 
+        // Base case: If `s` is empty (i == m) and `t` is not empty (j < n), there are no subsequences.
+        // Fill the last row with 0s.
+        for (int j = 0; j < n; j++) {
+            dp[m][j] = 0;
+        }
 
-        for(int i = m-1; i > -1; i--){
-            for(int j = n-1; j > -1; j--){
-                if(s.charAt(i) == t.charAt(j)){
-                    dp[i][j] += dp[i+1][j+1] + dp[i+1][j];
+        // Fill the DP table from bottom to top (i from m-1 to 0) and right to left (j from n-1 to 0).
+        for (int i = m - 1; i >= 0; i--) {
+            for (int j = n - 1; j >= 0; j--) {
+                // If the current characters of `s` and `t` match:
+                if (s.charAt(i) == t.charAt(j)) {
+                    // Case 1: Include the current character of `s` in the subsequence.
+                    // Add the result from dp[i+1][j+1] (move both pointers forward).
+                    // Case 2: Exclude the current character of `s` from the subsequence.
+                    // Add the result from dp[i+1][j] (move only the pointer in `s` forward).
+                    dp[i][j] += dp[i + 1][j + 1] + dp[i + 1][j];
                 } else {
-                    dp[i][j] += dp[i+1][j];
+                    // If the current characters do not match:
+                    // Exclude the current character of `s` from the subsequence.
+                    // Add the result from dp[i+1][j] (move only the pointer in `s` forward).
+                    dp[i][j] += dp[i + 1][j];
                 }
             }
         }
 
+        // The result is stored in dp[0][0], which represents the number of distinct subsequences
+        // of `t` in the entire string `s`.
         return dp[0][0];
-
     }
+
 }
 
 /*
