@@ -1,4 +1,41 @@
 class Solution {
+    public int numDistinct(String s, String t) {
+        int m = s.length();
+        int n = t.length();
+
+        int[][] dp = new int[m+1][n+1];
+        for(int[] row : dp){
+            Arrays.fill(row, 0);
+        }
+
+        // filling the last row with 0s
+        for(int i = 0; i < n+1; i++){
+            dp[m][i] = 0;
+        }
+
+        // filling the last column with 1s
+        for(int i = 0; i < m+1; i++){
+            dp[i][n] = 1;
+        }
+
+
+        for(int i = m-1; i > -1; i--){
+            for(int j = n-1; j > -1; j--){
+                if(s.charAt(i) == t.charAt(j)){
+                    dp[i][j] += dp[i+1][j+1] + dp[i+1][j];
+                } else {
+                    dp[i][j] += dp[i+1][j];
+                }
+            }
+        }
+
+        return dp[0][0];
+
+    }
+}
+
+/*
+class Solution {
     // helper recursive function
     public int numberOfSubsequenceRec(String str1, String str2, int m, int n, int i1, int i2, int[][] lookupTable) {
         // if we have reached the end of str1, return 1
@@ -44,13 +81,7 @@ class Solution {
     }
 }
 
-
-
-
-
-
-
-
+*/
 
 /*
 class Solution {
