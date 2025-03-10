@@ -8,8 +8,7 @@ class Solution {
             for (int prev = curr - 1; prev > -2; prev--) {
                 int length = dp[curr + 1][prev + 1];
 
-                // if 'prev' is negative or previous value is less than the next value
-                // we will take it
+                // if 'prev' is negative or previous value is less than the next value we will take it
                 if (prev < 0 || nums[prev] < nums[curr]) {
                     length = Math.max(length, 1 + dp[curr + 1][curr + 1]);
                 }
