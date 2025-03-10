@@ -1,4 +1,34 @@
 class Solution {
+    public int climbStairs(int n) {
+        // Base Conditions
+        if(n < 0) return 0;
+        if(n == 0)
+        { 
+            return 1;
+        }
+
+        // Initialize lookup table
+        int[] lookupArr = new int[n+1];
+        for(int i = 0; i < n+1; i++){
+            lookupArr[i] = 0;
+        }
+
+         // Setting the first two values
+        lookupArr[0] = 1;
+        lookupArr[1] = 1;
+
+        for(int i = 2; i <= n; i++){
+            // Fill up the table by summing up previous two values
+            lookupArr[i] = lookupArr[i-1] + lookupArr[i-2];
+        }
+
+        return lookupArr[n];
+    }
+}
+
+
+/*
+class Solution {
     public int climbStairsRecur(int n, int[] lookupArr){
 
         //Negative staircases i.e., invalid input
@@ -30,6 +60,7 @@ class Solution {
     }
 }
 
+*/
 
 /*
 class Solution {
