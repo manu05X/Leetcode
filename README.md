@@ -70,6 +70,7 @@
 | [0130-surrounded-regions](https://github.com/manu05X/Leetcode/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/manu05X/Leetcode/tree/master/0134-gas-station) |
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/manu05X/Leetcode/tree/master/0140-word-break-ii) |
 | [0149-max-points-on-a-line](https://github.com/manu05X/Leetcode/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/manu05X/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/manu05X/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -293,6 +294,7 @@
 | [0127-word-ladder](https://github.com/manu05X/Leetcode/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/manu05X/Leetcode/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/manu05X/Leetcode/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/manu05X/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/manu05X/Leetcode/tree/master/0146-lru-cache) |
 | [0149-max-points-on-a-line](https://github.com/manu05X/Leetcode/tree/master/0149-max-points-on-a-line) |
@@ -606,6 +608,7 @@
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/manu05X/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/manu05X/Leetcode/tree/master/0140-word-break-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/manu05X/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0208-implement-trie-prefix-tree](https://github.com/manu05X/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -1202,6 +1205,7 @@
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/manu05X/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/manu05X/Leetcode/tree/master/0140-word-break-ii) |
 | [0174-dungeon-game](https://github.com/manu05X/Leetcode/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/manu05X/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/manu05X/Leetcode/tree/master/0198-house-robber) |
@@ -1503,6 +1507,7 @@
 | [0095-unique-binary-search-trees-ii](https://github.com/manu05X/Leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0113-path-sum-ii](https://github.com/manu05X/Leetcode/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0140-word-break-ii](https://github.com/manu05X/Leetcode/tree/master/0140-word-break-ii) |
 | [0216-combination-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0320-generalized-abbreviation](https://github.com/manu05X/Leetcode/tree/master/0320-generalized-abbreviation) |
 | [0494-target-sum](https://github.com/manu05X/Leetcode/tree/master/0494-target-sum) |
@@ -1521,6 +1526,7 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/manu05X/Leetcode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/manu05X/Leetcode/tree/master/0140-word-break-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/manu05X/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/manu05X/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -1582,6 +1588,7 @@
 | ------- |
 | [0014-longest-common-prefix](https://github.com/manu05X/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/manu05X/Leetcode/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/manu05X/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0692-top-k-frequent-words](https://github.com/manu05X/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/manu05X/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
