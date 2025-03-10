@@ -1,4 +1,77 @@
 class Solution {
+    public int uniquePathsWithObstaclesRecur(int i, int j, int rows, int cols, int[][]obstacleGrid, int[][] pathArray){
+        // check the boundary constraints
+        if(i == rows || j == cols){
+            return 0;
+        }
+        // check if obastacle is present or not
+        if(obstacleGrid[i][j] == 1){
+            return 0;
+        }
+
+        // check the base case when the last cell is reached
+        if(i == rows-1 && j == cols-1){
+            return 1;
+        }
+
+        if(pathArray[i][j] != -1){
+            return pathArray[i][j];
+        }
+
+        // using the recursive appraoch when moving to next row or next column 
+        pathArray[i][j] = uniquePathsWithObstaclesRecur(i+1, j, rows, cols, obstacleGrid, pathArray) + uniquePathsWithObstaclesRecur(i, j+1, rows, cols, obstacleGrid, pathArray);
+
+        return pathArray[i][j];
+
+    }
+    public int uniquePathsWithObstacles(int[][] obstacleGrid) {
+        int rows = obstacleGrid.length;   // Number of rows
+        int cols = obstacleGrid[0].length; // Number of columns
+
+        int[][] pathArray = new int[rows][cols];
+		for (int[] row: pathArray){
+			Arrays.fill(row, -1);
+		}
+
+        return uniquePathsWithObstaclesRecur(0, 0, rows, cols, obstacleGrid, pathArray);
+    }
+}
+
+
+/*
+class Solution {
+    public int uniquePathsWithObstaclesRecur(int i, int j, int rows, int cols, int[][]obstacleGrid){
+        // check the boundary constraints
+        if(i == rows || j == cols){
+            return 0;
+        }
+        // check if obastacle is present or not
+        if(obstacleGrid[i][j] == 1){
+            return 0;
+        }
+
+        // check the base case when the last cell is reached
+        if(i == rows-1 && j == cols-1){
+            return 1;
+        }
+        // using the recursive appraoch when moving to next row or next column 
+        return uniquePathsWithObstaclesRecur(i+1, j, rows, cols, obstacleGrid) + uniquePathsWithObstaclesRecur(i, j+1, rows, cols, obstacleGrid);
+
+    }
+    public int uniquePathsWithObstacles(int[][] obstacleGrid) {
+        int rows = obstacleGrid.length;   // Number of rows
+        int cols = obstacleGrid[0].length; // Number of columns
+
+        return uniquePathsWithObstaclesRecur(0, 0, rows, cols, obstacleGrid);
+    }
+}
+
+*/
+
+
+
+/*
+class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int n = obstacleGrid.length;   // Number of rows
         int m = obstacleGrid[0].length; // Number of columns
@@ -47,3 +120,4 @@ class Solution {
         return obstacleGrid[n - 1][m - 1];
     }
 }
+*/
