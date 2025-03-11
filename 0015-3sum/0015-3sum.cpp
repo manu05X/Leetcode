@@ -9,7 +9,8 @@ public:
         
         for(int i =0; i < n-2;i++)
         {
-            if (i == 0  || nums[i-1] != nums[i]) // to skip the duplicate element 
+        // to skip the 1st elements of nums and duplicate if nums[i-1]== nums[i]
+            if (i == 0  || nums[i-1] != nums[i]) 
             {
                 int lo = i+1;
                 int hi = n-1;
