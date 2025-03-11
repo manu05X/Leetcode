@@ -5,7 +5,7 @@ public:
         string processed;
         for (char c : str) 
         {
-            if (c == '#' && !processed.empty()) 
+            if (!processed.empty() && c == '#') 
             {
                 processed.pop_back();
             } 
