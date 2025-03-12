@@ -28,8 +28,12 @@ public:
         // Step 2: Compute suffix product (product of all elements after the current index)
         temp = 1; // Reset temp for suffix product
         for (int i = n - 1; i >= 0; i--) {
-            res[i] *= temp; // Multiply with product of elements after index i
-            temp *= nums[i]; // Update temp to include nums[i] for the previous index
+            res[i] *= temp; //24*1,12*1 ,4*2,1*6 // Multiply with product of elements after index i
+            temp *= nums[i]; //24*1,12*2,4*3,4*1 // Update temp to include nums[i] for the previous index
+            // res = [1,1,2,6]
+            // res = [1,1,8,6]
+            // res = [1,12,8,6]
+            // res = [24,12,8,6]
         }
          // res = [24,12,8,6]
         return res;
