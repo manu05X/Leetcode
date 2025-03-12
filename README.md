@@ -249,6 +249,7 @@
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/manu05X/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/manu05X/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/manu05X/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2538-minimum-cost-to-make-array-equal](https://github.com/manu05X/Leetcode/tree/master/2538-minimum-cost-to-make-array-equal) |
 | [2551-apply-operations-to-an-array](https://github.com/manu05X/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/manu05X/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/manu05X/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -476,6 +477,7 @@
 | [2096-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/manu05X/Leetcode/tree/master/2096-find-the-longest-valid-obstacle-course-at-each-position) |
 | [2164-two-best-non-overlapping-events](https://github.com/manu05X/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
+| [2538-minimum-cost-to-make-array-equal](https://github.com/manu05X/Leetcode/tree/master/2538-minimum-cost-to-make-array-equal) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/manu05X/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manu05X/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/manu05X/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
@@ -539,6 +541,7 @@
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/manu05X/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/manu05X/Leetcode/tree/master/2479-meeting-rooms-iii) |
+| [2538-minimum-cost-to-make-array-equal](https://github.com/manu05X/Leetcode/tree/master/2538-minimum-cost-to-make-array-equal) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manu05X/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/manu05X/Leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2846-robot-collisions](https://github.com/manu05X/Leetcode/tree/master/2846-robot-collisions) |
@@ -594,6 +597,7 @@
 | [2456-construct-smallest-number-from-di-string](https://github.com/manu05X/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2509-minimize-xor](https://github.com/manu05X/Leetcode/tree/master/2509-minimize-xor) |
+| [2538-minimum-cost-to-make-array-equal](https://github.com/manu05X/Leetcode/tree/master/2538-minimum-cost-to-make-array-equal) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/manu05X/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2817-minimum-cost-to-make-all-characters-equal](https://github.com/manu05X/Leetcode/tree/master/2817-minimum-cost-to-make-all-characters-equal) |
 ## String
@@ -1344,6 +1348,7 @@
 | [2358-number-of-ways-to-split-array](https://github.com/manu05X/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/manu05X/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
+| [2538-minimum-cost-to-make-array-equal](https://github.com/manu05X/Leetcode/tree/master/2538-minimum-cost-to-make-array-equal) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/manu05X/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2714-left-and-right-sum-differences](https://github.com/manu05X/Leetcode/tree/master/2714-left-and-right-sum-differences) |
 | [3427-special-array-ii](https://github.com/manu05X/Leetcode/tree/master/3427-special-array-ii) |
