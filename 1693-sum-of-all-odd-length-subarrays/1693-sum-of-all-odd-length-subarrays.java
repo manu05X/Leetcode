@@ -7,7 +7,7 @@ class Solution {
             // Total number of subarrays that include arr[i]
             int totalSubarrays = (i + 1) * (n - i); // 5,8,9,8,5
 
-            // Only odd-length subarrays count
+            // Only odd-length subarrays that include arr[i]
             int oddSubarrays = (totalSubarrays + 1) / 2; // 3,4,5,4,3
 
             // Contribution of arr[i] to the total sum
@@ -17,12 +17,30 @@ class Solution {
         return totalSum; // 58
     }
 }
+
+
 /*
-1,4,2,5,3
-0,1,2,3,4
+class Solution {
+public:
+    int sumOddLengthSubarrays(vector<int>& arr) {
+        int n = int(arr.size()), answer = 0;
+        
+        for (int i = 0; i < n; ++i) {
+            int left = i, right = n - i - 1;
+            answer += arr[i] * (left / 2 + 1) * (right / 2 + 1);
+            answer += arr[i] * ((left + 1) / 2) * ((right + 1) / 2);
+        }
+        
+        return answer;
+    }
+};
 
 
-n = 5
+// 1,4,2,5,3
+// 0,1,2,3,4
+
+
+// n = 5
 
 
  */
