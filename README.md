@@ -283,6 +283,7 @@
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/manu05X/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3483-alternating-groups-ii](https://github.com/manu05X/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/manu05X/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3643-zero-array-transformation-ii](https://github.com/manu05X/Leetcode/tree/master/3643-zero-array-transformation-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -491,6 +492,7 @@
 | [3248-count-the-number-of-incremovable-subarrays-ii](https://github.com/manu05X/Leetcode/tree/master/3248-count-the-number-of-incremovable-subarrays-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/manu05X/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/manu05X/Leetcode/tree/master/3427-special-array-ii) |
+| [3643-zero-array-transformation-ii](https://github.com/manu05X/Leetcode/tree/master/3643-zero-array-transformation-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -1357,6 +1359,7 @@
 | [2691-count-vowel-strings-in-ranges](https://github.com/manu05X/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2714-left-and-right-sum-differences](https://github.com/manu05X/Leetcode/tree/master/2714-left-and-right-sum-differences) |
 | [3427-special-array-ii](https://github.com/manu05X/Leetcode/tree/master/3427-special-array-ii) |
+| [3643-zero-array-transformation-ii](https://github.com/manu05X/Leetcode/tree/master/3643-zero-array-transformation-ii) |
 ## Queue
 |  |
 | ------- |
