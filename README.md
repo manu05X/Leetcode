@@ -196,6 +196,7 @@
 | [1370-count-number-of-nice-subarrays](https://github.com/manu05X/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1380-number-of-closed-islands](https://github.com/manu05X/Leetcode/tree/master/1380-number-of-closed-islands) |
 | [1396-count-servers-that-communicate](https://github.com/manu05X/Leetcode/tree/master/1396-count-servers-that-communicate) |
+| [1397-search-suggestions-system](https://github.com/manu05X/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/manu05X/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1428-jump-game-iii](https://github.com/manu05X/Leetcode/tree/master/1428-jump-game-iii) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/manu05X/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -476,6 +477,7 @@
 | [1087-longest-arithmetic-subsequence](https://github.com/manu05X/Leetcode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1185-find-in-mountain-array](https://github.com/manu05X/Leetcode/tree/master/1185-find-in-mountain-array) |
 | [1192-divide-chocolate](https://github.com/manu05X/Leetcode/tree/master/1192-divide-chocolate) |
+| [1397-search-suggestions-system](https://github.com/manu05X/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/manu05X/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/manu05X/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/manu05X/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -538,6 +540,7 @@
 | [1098-largest-unique-number](https://github.com/manu05X/Leetcode/tree/master/1098-largest-unique-number) |
 | [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/manu05X/Leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
 | [1306-minimum-absolute-difference](https://github.com/manu05X/Leetcode/tree/master/1306-minimum-absolute-difference) |
+| [1397-search-suggestions-system](https://github.com/manu05X/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/manu05X/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1539-diagonal-traverse-ii](https://github.com/manu05X/Leetcode/tree/master/1539-diagonal-traverse-ii) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/manu05X/Leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
@@ -681,6 +684,7 @@
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/manu05X/Leetcode/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/manu05X/Leetcode/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/manu05X/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1397-search-suggestions-system](https://github.com/manu05X/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/manu05X/Leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/manu05X/Leetcode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1502-construct-k-palindrome-strings](https://github.com/manu05X/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
@@ -1111,6 +1115,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/manu05X/Leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1127-last-stone-weight](https://github.com/manu05X/Leetcode/tree/master/1127-last-stone-weight) |
+| [1397-search-suggestions-system](https://github.com/manu05X/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/manu05X/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1539-diagonal-traverse-ii](https://github.com/manu05X/Leetcode/tree/master/1539-diagonal-traverse-ii) |
 | [1917-maximum-average-pass-ratio](https://github.com/manu05X/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
@@ -1626,6 +1631,7 @@
 | [0140-word-break-ii](https://github.com/manu05X/Leetcode/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/manu05X/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0692-top-k-frequent-words](https://github.com/manu05X/Leetcode/tree/master/0692-top-k-frequent-words) |
+| [1397-search-suggestions-system](https://github.com/manu05X/Leetcode/tree/master/1397-search-suggestions-system) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/manu05X/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Binary Indexed Tree
 |  |
