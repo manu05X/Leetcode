@@ -130,6 +130,7 @@
 | [0643-maximum-average-subarray-i](https://github.com/manu05X/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0645-set-mismatch](https://github.com/manu05X/Leetcode/tree/master/0645-set-mismatch) |
 | [0646-maximum-length-of-pair-chain](https://github.com/manu05X/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
+| [0648-replace-words](https://github.com/manu05X/Leetcode/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/manu05X/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/manu05X/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/manu05X/Leetcode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
@@ -333,6 +334,7 @@
 | [0567-permutation-in-string](https://github.com/manu05X/Leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/manu05X/Leetcode/tree/master/0621-task-scheduler) |
 | [0645-set-mismatch](https://github.com/manu05X/Leetcode/tree/master/0645-set-mismatch) |
+| [0648-replace-words](https://github.com/manu05X/Leetcode/tree/master/0648-replace-words) |
 | [0692-top-k-frequent-words](https://github.com/manu05X/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/manu05X/Leetcode/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/manu05X/Leetcode/tree/master/0726-number-of-atoms) |
@@ -661,6 +663,7 @@
 | [0567-permutation-in-string](https://github.com/manu05X/Leetcode/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/manu05X/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/manu05X/Leetcode/tree/master/0647-palindromic-substrings) |
+| [0648-replace-words](https://github.com/manu05X/Leetcode/tree/master/0648-replace-words) |
 | [0680-valid-palindrome-ii](https://github.com/manu05X/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0686-repeated-string-match](https://github.com/manu05X/Leetcode/tree/master/0686-repeated-string-match) |
 | [0692-top-k-frequent-words](https://github.com/manu05X/Leetcode/tree/master/0692-top-k-frequent-words) |
@@ -1630,6 +1633,7 @@
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/manu05X/Leetcode/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/manu05X/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0648-replace-words](https://github.com/manu05X/Leetcode/tree/master/0648-replace-words) |
 | [0692-top-k-frequent-words](https://github.com/manu05X/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [1397-search-suggestions-system](https://github.com/manu05X/Leetcode/tree/master/1397-search-suggestions-system) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/manu05X/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
