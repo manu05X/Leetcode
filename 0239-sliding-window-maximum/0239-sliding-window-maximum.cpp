@@ -1,7 +1,40 @@
 class Solution {
 public:
+    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        vector<int> result; // To store the result
+        deque<int> dq; // Deque to store indices of potential maximum values
+
+        // Iterate through the array
+        for (int i = 0; i < nums.size(); i++) {
+            // Remove indices from the back of the deque if the corresponding elements are smaller than the current element
+            while (!dq.empty() && nums[dq.back()] <= nums[i]) {
+                dq.pop_back();
+            }
+
+            // Remove indices from the front of the deque if they are outside the current window
+            while (!dq.empty() && dq.front() <= i - k) {
+                dq.pop_front();
+            }
+
+            // Add the current index to the back of the deque
+            dq.push_back(i);
+
+            // If the window size is reached, add the maximum value to the result
+            if (i >= k - 1) {
+                result.push_back(nums[dq.front()]);
+            }
+        }
+
+        return result;
+    }
+};
+
+
+/*
+class Solution {
+public:
     vector<int> maxSlidingWindow(vector<int>& nums, int windowSize) {
-         vector<int> result;
+        vector<int> result;
         // Initializing doubly ended queue for storing indices
         deque<int> window;
         // Let’s now return an empty list if nums is empty
@@ -52,3 +85,5 @@ public:
         return result;
     }
 };
+
+*/
