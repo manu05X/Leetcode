@@ -8,16 +8,17 @@ public:
 
         int left = 0;
         for (int right = 0; right < nums.size(); right++) {
-            // Add nums[right] to the window
+            // Add nums[right] to the windowSum
             windowSum += nums[right];
+            // Add the current element to the map
             freqMap[nums[right]]++;
 
-            int currWindowSize = right - left + 1;
+            int currWindowSize = right - left + 1; // current window size
 
-            // Shrink the window if it exceeds size k
+            // Shrink the currWindow Size if it exceeds size k
             while (currWindowSize > k) {
-                windowSum -= nums[left];
-                freqMap[nums[left]]--;
+                windowSum -= nums[left]; // Subtract the left element from windowSum
+                freqMap[nums[left]]--; // Remove the left element from freqMap
 
                 // Remove element from map if its frequency becomes zero
                 if (freqMap[nums[left]] == 0) {
@@ -116,7 +117,10 @@ public:
 };
 */
 
+
+
 /*
+
 nums = [1,5,4,2,9,9,9], k = 3
         0,1,2,3,4,5,6
 
