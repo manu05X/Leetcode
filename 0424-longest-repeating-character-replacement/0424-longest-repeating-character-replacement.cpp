@@ -1,37 +1,6 @@
 class Solution {
 public:
     int characterReplacement(string s, int k) {
-        int n = s.length();
-        vector<int> freq(26, 0); // Frequency map for characters A-Z
-        int left = 0; // Left pointer of the window
-        int maxLen = 0; // Maximum length of the valid window
-        int maxFreq = 0; // Maximum frequency of any character in the current window
-
-        // Iterate over the string with the right pointer
-        for (int right = 0; right < n; right++) {
-            // Update the frequency of the current character
-            freq[s[right] - 'A']++;
-            // Update the maximum frequency in the current window
-            maxFreq = max(maxFreq, freq[s[right] - 'A']);
-
-            // If the number of characters to replace exceeds k, shrink the window
-            if ((right - left + 1) - maxFreq > k) {
-                freq[s[left] - 'A']--; // Decrement the frequency of the left character
-                left++; // Move the left pointer
-            }
-
-            // Update the maximum window size
-            maxLen = max(maxLen, right - left + 1);
-        }
-
-        return maxLen;
-    }
-};
-
-/*
-class Solution {
-public:
-    int characterReplacement(string s, int k) {
         vector<int> charCount(26, 0); // Counter for each letter's frequency within the sliding window
         int left = 0; // Left index of the sliding window
         //int right = 0; // Right index of the sliding window
@@ -52,7 +21,7 @@ public:
                 charCount[s[left] - 'A']--; // Decrement the count for the character at the left index as it's going out of the window
                 left++; // Shrink the window from the left
                 //update the window size
-                currWindowSize = right - left + 1;
+                //currWindowSize = right - left + 1;
             }
             // the window is valid at this point, note down the length
             // size of the window never decreases
@@ -63,8 +32,6 @@ public:
         return longestSubstringLength;
     }
 };
-
-*/
 
 /*
 we can say that by currWindowSize - maxCharCount we get the count of number of less frequent character. Count of less frequent character must be less than or equal to k.
