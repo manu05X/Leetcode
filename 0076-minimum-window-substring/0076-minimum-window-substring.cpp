@@ -1,7 +1,7 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-      // Store the counts of characters in 't'
+      // Step 1: Store the counts of characters for string 't'
         unordered_map<char, int> letters;
         for(auto c : t)  
             letters[c]++; 
@@ -11,7 +11,7 @@ public:
         // Stores location and length of best substring
         int min_length = INT_MAX, min_start = 0;
 
-        // Iterate over 's'
+        //  Step 2 : Iterate over 's'
         for(int right = 0; right<s.length(); right++) 
         {
             // If this character is required, then update count (Add it to the window)
@@ -19,7 +19,7 @@ public:
                 count++;
             // Reduce the count for this character (since we have added this to the window)
             letters[s[right]]--;
-            // If we have all the valid characters, update substring
+            // Step 3: If we have all the valid characters, update substring
             if(count == t.length()) 
             {
                 // What exactly are we doing in the loop below?
@@ -28,9 +28,9 @@ public:
                 //  So we have to remove such characters
                 while(left < right && letters[s[left]] < 0){ 
                     letters[s[left]]++; // Remove character from window, update count
-                    left++; // Update substring window start
+                    left++; //Shrink the window from the left i.e Update substring window
                 }
-                // Update substring
+                //  Step 4: Update substring
                 if(min_length > (right - left + 1)){
                     min_start = left; // Set start
                     min_length = right - left + 1; // Set length
@@ -38,7 +38,7 @@ public:
             }
         }
 
-        // No substring satisfies 't'
+        //  Step 5: No substring satisfies 't'
         if(min_length == INT_MAX) return "";
 
         // Return the best substring
