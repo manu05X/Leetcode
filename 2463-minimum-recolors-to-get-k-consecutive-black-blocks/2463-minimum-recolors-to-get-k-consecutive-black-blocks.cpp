@@ -16,7 +16,8 @@ public:
                 numRecolors = min(numRecolors, numWhites);
 
                 // Decrement numWhites if block at left pointer is white
-                if (blocks[left] == 'W') numWhites--;
+                if (blocks[left] == 'W') 
+                    numWhites--;
 
                 // Move left pointer
                 left++;
@@ -25,3 +26,11 @@ public:
         return numRecolors;
     }
 };
+/*
+
+W,B,B,W,W,B,B,W,B,W
+0,1,2,3,4,5,6,7,8,9
+
+
+
+*/
