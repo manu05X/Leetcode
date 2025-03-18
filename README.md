@@ -1216,6 +1216,7 @@
 | [1155-product-sales-analysis-iii](https://github.com/manu05X/Leetcode/tree/master/1155-product-sales-analysis-iii) |
 | [1161-project-employees-i](https://github.com/manu05X/Leetcode/tree/master/1161-project-employees-i) |
 | [1258-article-views-i](https://github.com/manu05X/Leetcode/tree/master/1258-article-views-i) |
+| [1292-immediate-food-delivery-ii](https://github.com/manu05X/Leetcode/tree/master/1292-immediate-food-delivery-ii) |
 | [1317-monthly-transactions-i](https://github.com/manu05X/Leetcode/tree/master/1317-monthly-transactions-i) |
 | [1390-average-selling-price](https://github.com/manu05X/Leetcode/tree/master/1390-average-selling-price) |
 | [1415-students-and-examinations](https://github.com/manu05X/Leetcode/tree/master/1415-students-and-examinations) |
