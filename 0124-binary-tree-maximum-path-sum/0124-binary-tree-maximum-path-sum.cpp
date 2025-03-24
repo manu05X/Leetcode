@@ -28,8 +28,10 @@ private:
         int gainFromLeft = max(gainFromSubtree(root->left), 0);
         // add the path sum from right subtree. 0 if negative
         int gainFromRight = max(gainFromSubtree(root->right), 0);
+
+        int currPathSum = gainFromLeft + gainFromRight + root->val;
         // if left or right path sum are negative, they are counted as 0, so this statement takes care of all four scenarios
-        maxSum = max(maxSum, gainFromLeft + gainFromRight + root->val);
+        maxSum = max(maxSum, currPathSum);
         // return the max sum for a path starting at the root of subtree
         return max(gainFromLeft + root->val, gainFromRight + root->val);
     }
