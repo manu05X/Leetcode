@@ -1,4 +1,65 @@
 class Solution {
+private:
+    unordered_map<string, string> parent;
+    unordered_map<string, double> weight;
+
+    string find(const string &x) {
+        if (parent.find(x) == parent.end()) {
+            parent[x] = x;
+            weight[x] = 1.0;
+            return x;
+        }
+        if (parent[x] == x) return x;
+
+        string root = find(parent[x]);
+        weight[x] *= weight[parent[x]];
+        parent[x] = root;
+        return root;
+    }
+
+    void unionSet(const string &a, const string &b, double val) {
+        string rootA = find(a);
+        string rootB = find(b);
+        if (rootA != rootB) {
+            parent[rootA] = rootB;
+            weight[rootA] = (weight[b] * val) / weight[a];
+        }
+    }
+
+public:
+    vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
+        // Step 1: Build the Union-Find structure.
+        for (int i = 0; i < equations.size(); i++) {
+            string a = equations[i][0], b = equations[i][1];
+            double val = values[i];
+            unionSet(a, b, val);
+        }
+
+        // Step 2: Process each query.
+        vector<double> result;
+        for (auto &q : queries) {
+            string x = q[0], y = q[1];
+            if (parent.find(x) == parent.end() || parent.find(y) == parent.end()) {
+                result.push_back(-1.0);
+                continue;
+            }
+
+            string rootX = find(x);
+            string rootY = find(y);
+            if (rootX != rootY) {
+                result.push_back(-1.0);
+            } else {
+                result.push_back(weight[x] / weight[y]);
+            }
+        }
+        return result;
+    }
+};
+
+
+
+/*
+class Solution {
 public:
     vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
         // Step 1: Build the adjacency list (graph).
@@ -44,6 +105,9 @@ public:
         return result;
     }
 };
+*/
+
+
 
 
 /*
