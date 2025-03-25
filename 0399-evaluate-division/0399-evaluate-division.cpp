@@ -1,3 +1,4 @@
+// Graph Union and Find
 class Solution {
 private:
     unordered_map<string, string> parent;
@@ -59,6 +60,7 @@ public:
 
 
 /*
+//BFS
 class Solution {
 public:
     vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
@@ -111,6 +113,7 @@ public:
 
 
 /*
+//DFS
 class Solution {
 public:
     // DFS to find a path from src to dest and compute the product of edge weights.
