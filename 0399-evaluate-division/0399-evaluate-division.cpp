@@ -1,5 +1,54 @@
 class Solution {
 public:
+    vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
+        // Step 1: Build the adjacency list (graph).
+        unordered_map<string, vector<pair<string, double>>> adj;
+        for (int i = 0; i < equations.size(); i++) {
+            string u = equations[i][0], v = equations[i][1];
+            double val = values[i];
+            adj[u].push_back({v, val}); // Forward edge: u/v = val.
+            adj[v].push_back({u, 1.0 / val}); // Reverse edge: v/u = 1/val.
+        }
+
+        // Step 2: Process each query using BFS.
+        vector<double> result;
+        for (auto &q : queries) {
+            string src = q[0], dest = q[1];
+            double ans = -1.0; // Default if src/dest not found.
+
+            if (adj.find(src) != adj.end() && adj.find(dest) != adj.end()) {
+                queue<pair<string, double>> q_bfs; // Queue for BFS: (node, current_product).
+                q_bfs.push({src, 1.0});
+                unordered_set<string> visited;
+                visited.insert(src);
+
+                while (!q_bfs.empty()) {
+                    auto [current, product] = q_bfs.front();
+                    q_bfs.pop();
+
+                    if (current == dest) {
+                        ans = product;
+                        break; // Early termination if destination is found.
+                    }
+
+                    for (auto [neighbor, weight] : adj[current]) {
+                        if (visited.find(neighbor) == visited.end()) {
+                            visited.insert(neighbor);
+                            q_bfs.push({neighbor, product * weight});
+                        }
+                    }
+                }
+            }
+            result.push_back(ans);
+        }
+        return result;
+    }
+};
+
+
+/*
+class Solution {
+public:
     // DFS to find a path from src to dest and compute the product of edge weights.
     void dfs(unordered_map<string, vector<pair<string, double>>> &adj, string src, string dest, unordered_set<string>& visited, double product, double &ans) {
         if(visited.find(src) != visited.end()) 
@@ -48,3 +97,4 @@ public:
         return result;
     }
 };
+*/
