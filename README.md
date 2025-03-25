@@ -107,6 +107,7 @@
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/manu05X/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0377-combination-sum-iv](https://github.com/manu05X/Leetcode/tree/master/0377-combination-sum-iv) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/manu05X/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0399-evaluate-division](https://github.com/manu05X/Leetcode/tree/master/0399-evaluate-division) |
 | [0407-trapping-rain-water-ii](https://github.com/manu05X/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0410-split-array-largest-sum](https://github.com/manu05X/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/manu05X/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -664,6 +665,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/manu05X/Leetcode/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/manu05X/Leetcode/tree/master/0394-decode-string) |
+| [0399-evaluate-division](https://github.com/manu05X/Leetcode/tree/master/0399-evaluate-division) |
 | [0402-remove-k-digits](https://github.com/manu05X/Leetcode/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/manu05X/Leetcode/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/manu05X/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -951,6 +953,7 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/manu05X/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0337-house-robber-iii](https://github.com/manu05X/Leetcode/tree/master/0337-house-robber-iii) |
+| [0399-evaluate-division](https://github.com/manu05X/Leetcode/tree/master/0399-evaluate-division) |
 | [0437-path-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0437-path-sum-iii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/manu05X/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/manu05X/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -1334,6 +1337,7 @@
 | [0277-find-the-celebrity](https://github.com/manu05X/Leetcode/tree/master/0277-find-the-celebrity) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/manu05X/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0399-evaluate-division](https://github.com/manu05X/Leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/manu05X/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/manu05X/Leetcode/tree/master/0684-redundant-connection) |
 | [0813-all-paths-from-source-to-target](https://github.com/manu05X/Leetcode/tree/master/0813-all-paths-from-source-to-target) |
@@ -1355,6 +1359,7 @@
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/manu05X/Leetcode/tree/master/0399-evaluate-division) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/manu05X/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/manu05X/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/manu05X/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -1523,6 +1528,7 @@
 | [0322-coin-change](https://github.com/manu05X/Leetcode/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/manu05X/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/manu05X/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0399-evaluate-division](https://github.com/manu05X/Leetcode/tree/master/0399-evaluate-division) |
 | [0407-trapping-rain-water-ii](https://github.com/manu05X/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/manu05X/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/manu05X/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -1635,6 +1641,7 @@
 | [0130-surrounded-regions](https://github.com/manu05X/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/manu05X/Leetcode/tree/master/0200-number-of-islands) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/manu05X/Leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0399-evaluate-division](https://github.com/manu05X/Leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/manu05X/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/manu05X/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/manu05X/Leetcode/tree/master/0695-max-area-of-island) |
