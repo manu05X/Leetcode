@@ -1,4 +1,68 @@
+import java.util.LinkedList;
+import java.util.Queue;
 
+class Solution {
+    public int orangesRotting(int[][] grid) {
+        int n = grid.length;    // Number of rows
+        int m = grid[0].length; // Number of columns
+
+        Queue<int[]> q = new LinkedList<>(); // Queue to store {row, column, time}
+        boolean[][] visited = new boolean[n][m]; // Visited array to track processed cells
+        int cntFresh = 0; // Count of fresh oranges
+
+        // Step 1: Initialize the queue with all rotten oranges and count fresh oranges
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (grid[i][j] == 2) { // If the cell has a rotten orange
+                    q.add(new int[]{i, j, 0}); // Push position with time 0
+                    visited[i][j] = true; // Mark as visited
+                }
+
+                if (grid[i][j] == 1) { // Count fresh oranges
+                    cntFresh++;
+                }
+            }
+        }
+
+        int tm = 0; // Variable to track the maximum time required
+        int[] dRow = {-1, 0, +1, 0}; // Row movement (Up, Right, Down, Left)
+        int[] dCol = {0, +1, 0, -1}; // Column movement (Up, Right, Down, Left)
+        int count = 0; // Counter for the number of fresh oranges that get rotten
+
+        // Step 2: Process the queue using BFS
+        while (!q.isEmpty()) {
+            int[] current = q.poll();
+            int r = current[0];  // Current row
+            int c = current[1]; // Current column
+            int t = current[2];  // Current time step
+
+            tm = Math.max(t, tm); // Update max time required
+
+            // Step 3: Check all 4 possible adjacent cells
+            for (int i = 0; i < 4; i++) {
+                int nr = r + dRow[i]; // New row index
+                int nc = c + dCol[i]; // New column index
+
+                // Check if the new cell is within bounds and is a fresh orange
+                if (nr >= 0 && nr < n && nc >= 0 && nc < m && grid[nr][nc] == 1 && !visited[nr][nc]) {
+                    q.add(new int[]{nr, nc, t + 1}); // Push the new rotten orange into queue
+                    visited[nr][nc] = true; // Mark as visited
+                    count++; // Increase the count of rotted fresh oranges
+                }
+            }
+        }
+
+        // Step 4: If all fresh oranges are not rotted, return -1
+        if (count != cntFresh) {
+            return -1;
+        }
+
+        // Step 5: Return the time required to rot all oranges
+        return tm;
+    }
+}
+
+/*
 //bfs
 class Solution {
     // Function to find minimum time required to rot all oranges. 
@@ -86,6 +150,8 @@ class Pair<K, V> {
         return value;
     }
 }
+
+*/
 
 /*
 //dfs
