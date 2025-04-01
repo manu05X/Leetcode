@@ -11,7 +11,9 @@ public:
 
             // Option 1: Solve this question
             long long solve = points;
-            if (i + skip + 1 < n) solve += dp[i + skip + 1];
+            if (i + skip + 1 < n){
+                solve += dp[i + skip + 1];
+            }
 
             // Option 2: Skip this question
             long long skipQuestion = dp[i + 1];
