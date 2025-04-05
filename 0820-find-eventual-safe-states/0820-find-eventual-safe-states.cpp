@@ -1,5 +1,57 @@
 class Solution {
 public:
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+        int n = graph.size();
+        vector<int> inDegree(n, 0);
+        vector<vector<int>> adj(n);
+
+        for(int i = 0; i < n; i++){
+            for(int node : graph[i]){
+                adj[node].push_back(i);
+                inDegree[i]++;
+            }
+        }
+
+
+        queue<int> q;
+        for(int i = 0; i < n; i++){
+            if(inDegree[i] == 0){
+                q.push(i);
+            }
+        }
+
+
+        vector<bool> safe(n,false);
+
+        while(!q.empty()){
+            int curr = q.front();
+            q.pop();
+
+            safe[curr] = true;
+            for(int neigh : adj[curr]){
+                inDegree[neigh]--;
+                if(inDegree[neigh] == 0){
+                    q.push(neigh);
+                }
+            }
+        }
+
+
+        vector<int> ans;
+        for(int i = 0; i < n; i++){
+            if(safe[i]){
+                ans.push_back(i);
+            }
+        }
+
+        return ans;
+    }
+};
+
+
+/*
+class Solution {
+public:
     // DFS function to check if a node is safe
     bool dfs(int node, vector<vector<int>>& graph, vector<int>& visited) {
         // If the node is already in the visiting state, it's part of a cycle (not safe)
@@ -43,60 +95,10 @@ public:
         return safeNodes;
     }
 };
-
-
-
-/*
-class Solution {
-public:
-    bool dfs(int node,vector<int> &visited,vector<int> &pathVisited,vector<int> &checked,vector<vector<int>> &graph)
-    {
-        visited[node]=1;
-        pathVisited[node]=1;
-
-        for(int nei : graph[node])
-        {
-            if(!visited[nei])
-            {
-                if(dfs(nei,visited,pathVisited,checked,graph))
-                {
-                    return true;
-                }
-            }
-              else if(pathVisited[nei]==1)
-                {
-                    return true;
-                }
-        }
-        checked[node]=1;
-        pathVisited[node]=0;
-        return false;
-    }
-    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
-     int n = graph.size();
-     vector<int> visited(n,0);
-     vector<int> pathVisited(n,0);
-     vector<int> checked(n,0);
-     vector<int> safe;
-
-     for(int i=0;i<n;i++)
-     {
-        if(!visited[i])
-        {
-            dfs(i,visited,pathVisited,checked,graph);
-        }
-     }
-
-     for(int i=0;i<n;i++)
-     {
-        if(checked[i]==1)
-        safe.push_back(i);
-     }
-     return safe;
-    }
-};
-
 */
+
+
+
 
 /*
 class Solution {
