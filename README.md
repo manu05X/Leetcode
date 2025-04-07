@@ -183,6 +183,7 @@
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/manu05X/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1063-best-sightseeing-pair](https://github.com/manu05X/Leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1073-number-of-enclaves](https://github.com/manu05X/Leetcode/tree/master/1073-number-of-enclaves) |
+| [1075-index-pairs-of-a-string](https://github.com/manu05X/Leetcode/tree/master/1075-index-pairs-of-a-string) |
 | [1087-longest-arithmetic-subsequence](https://github.com/manu05X/Leetcode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1095-two-city-scheduling](https://github.com/manu05X/Leetcode/tree/master/1095-two-city-scheduling) |
 | [1098-largest-unique-number](https://github.com/manu05X/Leetcode/tree/master/1098-largest-unique-number) |
@@ -555,6 +556,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/manu05X/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/manu05X/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/manu05X/Leetcode/tree/master/1047-maximize-sum-of-array-after-k-negations) |
+| [1075-index-pairs-of-a-string](https://github.com/manu05X/Leetcode/tree/master/1075-index-pairs-of-a-string) |
 | [1095-two-city-scheduling](https://github.com/manu05X/Leetcode/tree/master/1095-two-city-scheduling) |
 | [1098-largest-unique-number](https://github.com/manu05X/Leetcode/tree/master/1098-largest-unique-number) |
 | [1141-how-many-apples-can-you-put-into-the-basket](https://github.com/manu05X/Leetcode/tree/master/1141-how-many-apples-can-you-put-into-the-basket) |
@@ -696,6 +698,7 @@
 | [0952-word-subsets](https://github.com/manu05X/Leetcode/tree/master/0952-word-subsets) |
 | [1032-satisfiability-of-equality-equations](https://github.com/manu05X/Leetcode/tree/master/1032-satisfiability-of-equality-equations) |
 | [1060-longest-repeating-substring](https://github.com/manu05X/Leetcode/tree/master/1060-longest-repeating-substring) |
+| [1075-index-pairs-of-a-string](https://github.com/manu05X/Leetcode/tree/master/1075-index-pairs-of-a-string) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/manu05X/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
@@ -1697,6 +1700,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/manu05X/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0648-replace-words](https://github.com/manu05X/Leetcode/tree/master/0648-replace-words) |
 | [0692-top-k-frequent-words](https://github.com/manu05X/Leetcode/tree/master/0692-top-k-frequent-words) |
+| [1075-index-pairs-of-a-string](https://github.com/manu05X/Leetcode/tree/master/1075-index-pairs-of-a-string) |
 | [1397-search-suggestions-system](https://github.com/manu05X/Leetcode/tree/master/1397-search-suggestions-system) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/manu05X/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Binary Indexed Tree
