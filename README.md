@@ -366,6 +366,7 @@
 | [1034-subarrays-with-k-different-integers](https://github.com/manu05X/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1087-longest-arithmetic-subsequence](https://github.com/manu05X/Leetcode/tree/master/1087-longest-arithmetic-subsequence) |
 | [1098-largest-unique-number](https://github.com/manu05X/Leetcode/tree/master/1098-largest-unique-number) |
+| [1125-design-file-system](https://github.com/manu05X/Leetcode/tree/master/1125-design-file-system) |
 | [1160-letter-tile-possibilities](https://github.com/manu05X/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1207-delete-nodes-and-return-forest](https://github.com/manu05X/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1297-maximum-number-of-balloons](https://github.com/manu05X/Leetcode/tree/master/1297-maximum-number-of-balloons) |
@@ -702,6 +703,7 @@
 | [1060-longest-repeating-substring](https://github.com/manu05X/Leetcode/tree/master/1060-longest-repeating-substring) |
 | [1075-index-pairs-of-a-string](https://github.com/manu05X/Leetcode/tree/master/1075-index-pairs-of-a-string) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/manu05X/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1125-design-file-system](https://github.com/manu05X/Leetcode/tree/master/1125-design-file-system) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/manu05X/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/manu05X/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1160-letter-tile-possibilities](https://github.com/manu05X/Leetcode/tree/master/1160-letter-tile-possibilities) |
@@ -1705,6 +1707,7 @@
 | [0648-replace-words](https://github.com/manu05X/Leetcode/tree/master/0648-replace-words) |
 | [0692-top-k-frequent-words](https://github.com/manu05X/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [1075-index-pairs-of-a-string](https://github.com/manu05X/Leetcode/tree/master/1075-index-pairs-of-a-string) |
+| [1125-design-file-system](https://github.com/manu05X/Leetcode/tree/master/1125-design-file-system) |
 | [1397-search-suggestions-system](https://github.com/manu05X/Leetcode/tree/master/1397-search-suggestions-system) |
 | [2755-extra-characters-in-a-string](https://github.com/manu05X/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/manu05X/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -1732,6 +1735,7 @@
 | [0303-range-sum-query-immutable](https://github.com/manu05X/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0460-lfu-cache](https://github.com/manu05X/Leetcode/tree/master/0460-lfu-cache) |
 | [0937-online-stock-span](https://github.com/manu05X/Leetcode/tree/master/0937-online-stock-span) |
+| [1125-design-file-system](https://github.com/manu05X/Leetcode/tree/master/1125-design-file-system) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/manu05X/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/manu05X/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2434-design-a-number-container-system](https://github.com/manu05X/Leetcode/tree/master/2434-design-a-number-container-system) |
