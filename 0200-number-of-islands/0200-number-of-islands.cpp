@@ -40,6 +40,7 @@ public:
         return islandCount;
     }
 };
+
 auto init = atexit([]() { ofstream("display_runtime.txt") << "0";});
 
 /*
