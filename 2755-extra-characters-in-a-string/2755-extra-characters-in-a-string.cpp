@@ -63,7 +63,8 @@ public:
 
         // Process from end to start
         for (int i = n - 1; i >= 0; --i) {
-            dp[i] = 1 + dp[i + 1];  // Option 1: skip s[i], count as extra
+            // Option 1: skip s[i], count as extra
+            dp[i] = 1 + dp[i + 1];  
 
             TrieNode* node = trie.root;
             for (int j = i; j < n; ++j) {
