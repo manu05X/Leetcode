@@ -546,6 +546,7 @@
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/manu05X/Leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0611-valid-triangle-number](https://github.com/manu05X/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/manu05X/Leetcode/tree/master/0621-task-scheduler) |
+| [0642-design-search-autocomplete-system](https://github.com/manu05X/Leetcode/tree/master/0642-design-search-autocomplete-system) |
 | [0645-set-mismatch](https://github.com/manu05X/Leetcode/tree/master/0645-set-mismatch) |
 | [0646-maximum-length-of-pair-chain](https://github.com/manu05X/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0658-find-k-closest-elements](https://github.com/manu05X/Leetcode/tree/master/0658-find-k-closest-elements) |
@@ -687,6 +688,7 @@
 | [0516-longest-palindromic-subsequence](https://github.com/manu05X/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/manu05X/Leetcode/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/manu05X/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
+| [0642-design-search-autocomplete-system](https://github.com/manu05X/Leetcode/tree/master/0642-design-search-autocomplete-system) |
 | [0647-palindromic-substrings](https://github.com/manu05X/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0648-replace-words](https://github.com/manu05X/Leetcode/tree/master/0648-replace-words) |
 | [0680-valid-palindrome-ii](https://github.com/manu05X/Leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -980,6 +982,7 @@
 | [0545-boundary-of-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/manu05X/Leetcode/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/manu05X/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0642-design-search-autocomplete-system](https://github.com/manu05X/Leetcode/tree/master/0642-design-search-autocomplete-system) |
 | [0684-redundant-connection](https://github.com/manu05X/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/manu05X/Leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/manu05X/Leetcode/tree/master/0721-accounts-merge) |
@@ -1151,6 +1154,7 @@
 | [0480-sliding-window-median](https://github.com/manu05X/Leetcode/tree/master/0480-sliding-window-median) |
 | [0502-ipo](https://github.com/manu05X/Leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/manu05X/Leetcode/tree/master/0621-task-scheduler) |
+| [0642-design-search-autocomplete-system](https://github.com/manu05X/Leetcode/tree/master/0642-design-search-autocomplete-system) |
 | [0658-find-k-closest-elements](https://github.com/manu05X/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/manu05X/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/manu05X/Leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
@@ -1704,6 +1708,7 @@
 | [0139-word-break](https://github.com/manu05X/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/manu05X/Leetcode/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/manu05X/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0642-design-search-autocomplete-system](https://github.com/manu05X/Leetcode/tree/master/0642-design-search-autocomplete-system) |
 | [0648-replace-words](https://github.com/manu05X/Leetcode/tree/master/0648-replace-words) |
 | [0692-top-k-frequent-words](https://github.com/manu05X/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [1075-index-pairs-of-a-string](https://github.com/manu05X/Leetcode/tree/master/1075-index-pairs-of-a-string) |
@@ -1734,6 +1739,7 @@
 | [0295-find-median-from-data-stream](https://github.com/manu05X/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/manu05X/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0460-lfu-cache](https://github.com/manu05X/Leetcode/tree/master/0460-lfu-cache) |
+| [0642-design-search-autocomplete-system](https://github.com/manu05X/Leetcode/tree/master/0642-design-search-autocomplete-system) |
 | [0937-online-stock-span](https://github.com/manu05X/Leetcode/tree/master/0937-online-stock-span) |
 | [1125-design-file-system](https://github.com/manu05X/Leetcode/tree/master/1125-design-file-system) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/manu05X/Leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -1743,6 +1749,7 @@
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/manu05X/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0642-design-search-autocomplete-system](https://github.com/manu05X/Leetcode/tree/master/0642-design-search-autocomplete-system) |
 | [0937-online-stock-span](https://github.com/manu05X/Leetcode/tree/master/0937-online-stock-span) |
 | [1477-product-of-the-last-k-numbers](https://github.com/manu05X/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 ## Topological Sort
