@@ -1628,6 +1628,7 @@
 | [0131-palindrome-partitioning](https://github.com/manu05X/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/manu05X/Leetcode/tree/master/0140-word-break-ii) |
 | [0216-combination-sum-iii](https://github.com/manu05X/Leetcode/tree/master/0216-combination-sum-iii) |
+| [0254-factor-combinations](https://github.com/manu05X/Leetcode/tree/master/0254-factor-combinations) |
 | [0320-generalized-abbreviation](https://github.com/manu05X/Leetcode/tree/master/0320-generalized-abbreviation) |
 | [0494-target-sum](https://github.com/manu05X/Leetcode/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/manu05X/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
