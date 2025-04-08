@@ -1,5 +1,40 @@
 class Solution {
 public:
+    bool isPalindrome(const string& s, int start, int end){
+        while (start < end) {
+            if (s[start++] != s[end--]) return false;
+        }
+        return true;
+    }
+
+    // Backtracking function
+    void dfs(int start, string& s, vector<string>& path, vector<vector<string>>& ans){
+        if(start == s.size()){
+            ans.push_back(path);
+        }
+
+        for(int end = start; end < s.size(); end++){
+            if(isPalindrome(s, start, end)){
+                path.push_back(s.substr(start, end - start + 1));
+                dfs(end+1, s, path, ans);
+                path.pop_back();
+            }
+        }
+    }
+
+    vector<vector<string>> partition(string s) {
+        vector<vector<string>> ans;
+        vector<string> path;
+        dfs(0, s, path, ans);
+        return ans;
+    }
+};
+
+
+
+/*
+class Solution {
+public:
     // Function to find all possible partitions of the given string s
     vector<vector<string>> partition(string s) {
         int len = s.length(); // Length of the input string
@@ -37,3 +72,4 @@ public:
         }
     }
 };
+*/
