@@ -19,6 +19,9 @@ public:
     }
 
     vector<vector<int>> getFactors(int n) {
+        ios_base::sync_with_stdio(false);  
+        cin.tie(NULL);
+        
         if(n == 1){
             return {};
         }
