@@ -11,7 +11,6 @@ class ListNode {
     }
 }
 
-
 class LRUCache {
     int capacity;  // Maximum capacity of the cache
     Map<Integer, ListNode> dictionary; // HashMap to store key-node mapping
@@ -65,26 +64,22 @@ class LRUCache {
         }
     }
 
-
-    // Function to add a node at the end of the doubly linked list
-    // This places the node in the most recently used (MRU) position
+    // Function to add a node at the end (Most Recently Used position)
     public void add(ListNode node) {
-        ListNode prevEnd = tail.prev; // Get the node that is currently before the tail
-        prevEnd.next = node;          // Set its next pointer to the new node
-
-        node.prev = prevEnd;          // Set the new node's prev pointer to the previous end node
-        node.next = tail;             // Set the new node's next pointer to tail
-
-        tail.prev = node;             // Update the tail's prev pointer to the new node
+        ListNode prevEnd = tail.prev; // Node before tail
+        prevEnd.next = node;
+        node.prev = prevEnd;
+        node.next = tail;
+        tail.prev = node;
     }
 
     // Function to remove a node from the doubly linked list
-    // This is used when an item is accessed (to move it) or when the cache exceeds capacity
     public void remove(ListNode node) {
-        node.prev.next = node.next;   // Connect the previous node to the next node, bypassing the current node
-        node.next.prev = node.prev;   // Connect the next node to the previous node, bypassing the current node
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
     }
 }
+
 
 /**
  * Your LRUCache object will be instantiated and called as such:
