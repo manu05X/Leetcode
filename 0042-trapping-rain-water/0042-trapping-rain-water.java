@@ -7,9 +7,10 @@ class Solution {
 
         while(left < right)
         {
-            /* If height[left] is smaller than height[right] as water trapped would be dependant on height of bar in current direction (from left to right). As soon as we find the bar at other end (right) is smaller, we start iterating in opposite direction (from right to left).*/
+            /* If height[left] is smaller than height[right] as water trapped would be dependant on smaller height of bar in current direction (from left to right). 
+            As soon as we find the bar at other end (right) is smaller, we start iterating in opposite direction (from right to left).*/
             if(height[left] <= height[right]){
-                //If height[left] is greater than left_max, update left_max
+                //If height[left] is greater than left_max till current index from left, update left_max
                 if(height[left] >= left_max){
                     left_max = height[left];
                 }
@@ -20,6 +21,7 @@ class Solution {
                 left++;
             }
             else{
+                //If height[right] is greater than right_max till current index from right, update left_max
                 if(height[right] >= right_max){
                     right_max = height[right];
                 }
