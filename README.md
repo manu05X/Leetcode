@@ -248,6 +248,7 @@
 | [2107-find-unique-binary-string](https://github.com/manu05X/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2145-grid-game](https://github.com/manu05X/Leetcode/tree/master/2145-grid-game) |
 | [2164-two-best-non-overlapping-events](https://github.com/manu05X/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/manu05X/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/manu05X/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/manu05X/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/manu05X/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -513,6 +514,7 @@
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/manu05X/Leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2096-find-the-longest-valid-obstacle-course-at-each-position](https://github.com/manu05X/Leetcode/tree/master/2096-find-the-longest-valid-obstacle-course-at-each-position) |
 | [2164-two-best-non-overlapping-events](https://github.com/manu05X/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/manu05X/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2538-minimum-cost-to-make-array-equal](https://github.com/manu05X/Leetcode/tree/master/2538-minimum-cost-to-make-array-equal) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/manu05X/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -581,6 +583,7 @@
 | [1829-maximum-units-on-a-truck](https://github.com/manu05X/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/manu05X/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
 | [2164-two-best-non-overlapping-events](https://github.com/manu05X/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/manu05X/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/manu05X/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/manu05X/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/manu05X/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -635,6 +638,7 @@
 | [1917-maximum-average-pass-ratio](https://github.com/manu05X/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2089-maximum-matrix-sum](https://github.com/manu05X/Leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/manu05X/Leetcode/tree/master/2094-remove-stones-to-minimize-the-total) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/manu05X/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/manu05X/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2300-construct-string-with-repeat-limit](https://github.com/manu05X/Leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2310-minimum-operations-to-halve-array-sum](https://github.com/manu05X/Leetcode/tree/master/2310-minimum-operations-to-halve-array-sum) |
@@ -1451,6 +1455,7 @@
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/manu05X/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0954-maximum-sum-circular-subarray](https://github.com/manu05X/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/manu05X/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2868-continuous-subarrays](https://github.com/manu05X/Leetcode/tree/master/2868-continuous-subarrays) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/manu05X/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Monotonic Queue
@@ -1458,6 +1463,7 @@
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/manu05X/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0954-maximum-sum-circular-subarray](https://github.com/manu05X/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/manu05X/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2868-continuous-subarrays](https://github.com/manu05X/Leetcode/tree/master/2868-continuous-subarrays) |
 ## Bit Manipulation
 |  |
