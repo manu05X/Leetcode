@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public String intToRoman(int num) {
         // Array of Roman numeral values and their corresponding symbols
@@ -19,6 +17,6 @@ class Solution {
             }
         }
 
-        return result.toString();  // Return the final Roman numeral string
+        return result.toString();
     }
 }
