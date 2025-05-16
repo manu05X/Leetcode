@@ -1,4 +1,3 @@
-using namespace std;
 class Solution {
 public:
     int romanToInt(string s) {
@@ -10,7 +9,9 @@ public:
         m['C'] = 100;
         m['D'] = 500;
         m['M'] = 1000;
+
         int result = 0;
+        
         for (int i = 0; i < s.length(); i ++) {
             if (m[s[i]] < m[s[i + 1]]) {
                 result -= m[s[i]];
@@ -21,6 +22,8 @@ public:
         return result;
     }
 };
+
+
 /*
 MCMXCIV
 
