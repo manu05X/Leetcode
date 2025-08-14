@@ -2,41 +2,86 @@
 class Solution {
 public:
     int findUnsortedSubarray(vector<int>& nums) {
-        int n = nums.size();
-        int start = -1; // Start position of the unsorted subarray
-        int end = -2;   // End position of the unsorted subarray
-        int minValue = nums[n - 1]; // Initialize to the last element to handle the case when the entire array is sorted
-        int maxValue = nums[0]; // Initialize to the first element to handle the case when the entire array is sorted
-
-        // Iterate from left to right to find the end position of the unsorted subarray
-        //For the i-th element nums[i], we compare it with the maximum value seen so far maxValue. If nums[i] is smaller than maxValue, it means nums[i] is out of place as the next element should be greater than the previous in case of left to right in sorted array. That means this can be the end of subarray
-        for (int i = 1; i < n; ++i) {
-            maxValue = max(maxValue, nums[i]);
-            // curr elm at index i is less than max i.e end = i
-            if (nums[i] < maxValue) {
-                end = i;
+        int minVal = INT_MAX, maxVal = INT_MIN, n = nums.size(), left = -1, right = -1;
+        for(int i = 1;i<n;i++) {
+            if(nums[i]<nums[i-1]) {
+                minVal = min(minVal, nums[i]);
             }
         }
 
-        // Iterate from right to left to find the start position of the unsorted subarray
-        //For the i-th element nums[i], we compare it with the min value seen so far mixValue. If nums[i] is greater than mixValue, it means nums[i] is out of place i.e iteranting from right to left in a sorted array we must get the next element smaller than the previous if not, that means it is the starting place in the subarray that need to be sorted. 
-        for (int i = n - 2; i >= 0; --i) {
-            minValue = min(minValue, nums[i]);
-            // curr element is greater than minValue so it is start. = i
-            if (nums[i] > minValue) {
-                start = i;
+        for(int i = n-2;i>=0;i--) {
+            if(nums[i+1]<nums[i]) {
+                maxVal = max(maxVal, nums[i]);
             }
         }
-        /*
-        nums:{2, 6, 4, 8, 10, 9, 15}
-        n:7
-        start:1
-        end:5
-        minValue:2
-        maxValue:15
-        */
+        
+        for(int i = 0;i<n;i++) {
+            if(nums[i]>minVal) {
+                left = i;
+                break;
+            }
+        }
 
-        // Calculate the length of the unsorted subarray
-        return end - start + 1;
+        for(int i = n-1;i>=0;i--) {
+            if(nums[i]<maxVal) {
+                right = i;
+                break;
+            }
+        }
+
+        return (left == -1) ? 0: (right - left +1);
+    
     }
 };
+
+
+/*
+
+i = 1 → nums[1]=6, nums[0]=2 → 6 < 2? No
+i = 2 → nums[2]=4, nums[1]=6 → 4 < 6? Yes
+      minVal = min(INT_MAX, 4) → minVal = 4
+i = 3 → nums[3]=8, nums[2]=4 → 8 < 4? No
+i = 4 → nums[4]=10, nums[3]=8 → No
+i = 5 → nums[5]=9, nums[4]=10 → 9 < 10? Yes
+      minVal = min(4, 9) → minVal = 4
+i = 6 → nums[6]=15, nums[5]=9 → No
+
+minVal = 4
+
+
+
+i = 5 → nums[6]=15, nums[5]=9 → 15 < 9? No
+i = 4 → nums[5]=9, nums[4]=10 → 9 < 10? Yes
+      maxVal = max(INT_MIN, 10) → maxVal = 10
+i = 3 → nums[4]=10, nums[3]=8 → 10 < 8? No
+i = 2 → nums[3]=8, nums[2]=4 → 8 < 4? No
+i = 1 → nums[2]=4, nums[1]=6 → 4 < 6? Yes
+      maxVal = max(10, 6) → maxVal = 10
+i = 0 → nums[1]=6, nums[0]=2 → 6 < 2? No
+
+maxVal = 10
+
+
+i = 0 → nums[0]=2 > 4? No
+i = 1 → nums[1]=6 > 4? Yes
+      left = 1
+      break
+
+
+i = 6 → nums[6]=15 < 10? No
+i = 5 → nums[5]=9 < 10? Yes
+      right = 5
+      break
+
+
+(left == -1)? 0 : (right - left + 1)
+(1 == -1)? No → (5 - 1 + 1) = 5
+
+Final Answer = 5
+
+
+Meaning
+
+The subarray nums[1..5] = [6,4,8,10,9] must be sorted to make the whole array sorted.
+
+*/
