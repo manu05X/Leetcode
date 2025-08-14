@@ -1,23 +1,30 @@
-
-import "unicode"
 func isPalindrome(s string) bool {
-    left, right := 0, len(s)-1
+	runes := []rune(s) // convert string to slice of runes for safe indexing
+	left, right := 0, len(runes)-1
 
-    for left < right {
-        l := rune(s[left])
-        r := rune(s[right])
+	for left < right {
+		l, r := runes[left], runes[right]
 
-        // if char at left is not a letter or digit increment the left pointer
-        if !unicode.IsLetter(l) && !unicode.IsDigit(l){
-            left++
-        } else if !unicode.IsLetter(r) && !unicode.IsDigit(r) {// if char at right is not a letter or digit decrement the right pointer
-            right--
-        } else if unicode.ToLower(l) == unicode.ToLower(r){ // if both are same chars increment left pointer and decrement right pointer
-            left++
-            right--
-        } else { // if none of the above conditions are satisified this is not a palindrome
-            return false
-        }
-    }
-    return true
+		// Skip non-alphanumeric from left
+		if !unicode.IsLetter(l) && !unicode.IsDigit(l) {
+			left++
+			continue
+		}
+
+		// Skip non-alphanumeric from right
+		if !unicode.IsLetter(r) && !unicode.IsDigit(r) {
+			right--
+			continue
+		}
+
+		// Compare lowercase forms
+		if unicode.ToLower(l) != unicode.ToLower(r) {
+			return false
+		}
+
+		left++
+		right--
+	}
+
+	return true
 }
