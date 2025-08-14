@@ -1,23 +1,40 @@
 class Solution {
 public:
-    string processString(string str) 
-    {
-        string processed;
-        for (char c : str) 
-        {
-            if (!processed.empty() && c == '#') 
-            {
-                processed.pop_back();
-            } 
-            else if (c != '#') 
-            {
-                processed.push_back(c);
+
+    string compression(string s){
+        stack<char> st;
+
+        for(int i = 0; i < s.size(); i++){
+            if(s[i] == '#'){
+                st.pop();
+            }
+            else{
+                st.push(s[i]);
             }
         }
-        return processed;
+
+        string res = "";
+
+        while(!st.empty()){
+            res += st.top();
+            st.pop();
+        }
+
+        return res;
     }
-    bool backspaceCompare(string s, string t) 
-    {
-        return processString(s) == processString(t);
+
+    bool backspaceCompare(string s, string t) {
+        int n = s.size();
+        int m = t.size();
+
+        if(m != n){
+            return false;
+        }
+
+        string sc = compression(s);
+        string tc = compression(t); 
+
+        return sc == tc;
+
     }
 };
