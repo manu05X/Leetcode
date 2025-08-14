@@ -1,40 +1,33 @@
 class Solution {
 public:
-
     string compression(string s){
         stack<char> st;
 
-        for(int i = 0; i < s.size(); i++){
-            if(s[i] == '#'){
-                st.pop();
-            }
-            else{
-                st.push(s[i]);
+        for(char c : s){
+            if(c == '#'){
+                if(!st.empty()){
+                    st.pop();
+                }
+            } else {
+                st.push(c);
             }
         }
 
         string res = "";
-
         while(!st.empty()){
             res += st.top();
             st.pop();
         }
 
+        reverse(res.begin(), res.end()); // Because we popped in reverse order
         return res;
     }
 
     bool backspaceCompare(string s, string t) {
-        int n = s.size();
-        int m = t.size();
-
-        if(m != n){
-            return false;
-        }
-
         string sc = compression(s);
         string tc = compression(t); 
-
         return sc == tc;
-
     }
 };
+
+
